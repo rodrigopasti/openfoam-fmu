@@ -1,0 +1,195 @@
+Tag-sim001-
+Periodo 1/1 1/1 - 1:0->2:0
+TotalZonas 13
+RTQSimul 0
+RTQ 0
+Zona 1,Zona 1
+Ocupacao 1
+Amostragens 60 3600 60 3600 3600 3600 
+Monitoracoes 1 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 0 
+Paredes 18
+Parede 1 cobertura#0, 89.88 0 1 0 0 0 0 0 0 1 
+Parede 2 piso#(solo)#1, 2500.00 0 1 0 0 0 0 0 0 1 
+Parede 3 fachada#2, 50.00 0 1 0 0 0 0 0 0 1 
+Parede 4 fachada#3, 50.00 0 1 0 0 0 0 0 0 1 
+Parede 5 fachada#4, 50.00 0 1 0 0 0 0 0 0 1 
+Parede 6 fachada#5, 50.00 0 1 0 0 0 0 0 0 1 
+Parede 7 teto#6, 25.00 0 1 0 0 0 0 0 0 1 
+Parede 8 teto#7, 75.00 0 1 0 0 0 0 0 0 1 
+Parede 9 teto#8, 75.00 0 1 0 0 0 0 0 0 1 
+Parede 10 cobertura#9, 30.00 0 1 0 0 0 0 0 0 1 
+Parede 11 teto#10, 25.00 0 1 0 0 0 0 0 0 1 
+Parede 12 teto#11, 75.19 0 1 0 0 0 0 0 0 1 
+Parede 13 teto#12, 74.79 0 1 0 0 0 0 0 0 1 
+Parede 14 cobertura#13, 374.29 0 1 0 0 0 0 0 0 1 
+Parede 15 cobertura#14, 90.12 0 1 0 0 0 0 0 0 1 
+Parede 16 cobertura#15, 594.85 0 1 0 0 0 0 0 0 1 
+Parede 17 cobertura#16, 595.11 0 1 0 0 0 0 0 0 1 
+Parede 18 cobertura#17, 375.77 0 1 0 0 0 0 0 0 1 
+Zona 2,Zona 2
+Ocupacao 1
+Amostragens 60 3600 60 3600 3600 3600 
+Monitoracoes 1 1 1 0 1 0 0 0 0 1 0 0 0 0 1 0 1 0 0 
+Paredes 7
+Parede 1 fachada#0, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 2 Parede#1, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 3 fachada#2, 14.70 0 1 0 0 0 0 0 0 1 
+Parede 4 Parede#3, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 5 teto#4, 25.00 0 1 0 0 0 0 0 0 1 
+Parede 6 piso#5, 25.00 0 1 0 0 0 0 0 0 1 
+Parede 7 Ar#Condicionado#6, 0.30 0 1 0 0 0 0 0 0 1 
+Zona 3,Zona 3
+Ocupacao 1
+Amostragens 60 3600 60 3600 3600 3600 
+Monitoracoes 1 1 1 0 1 0 0 0 0 1 0 0 0 0 1 0 1 1 0 
+Paredes 7
+Parede 1 fachada#0, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 2 Parede#1, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 3 fachada#2, 14.70 0 1 0 0 0 0 0 0 1 
+Parede 4 Parede#3, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 5 teto#4, 25.00 0 1 0 0 0 0 0 0 1 
+Parede 6 piso#5, 25.00 0 1 0 0 0 0 0 0 1 
+Parede 7 Ar#Condicionado#6, 0.30 0 1 0 0 0 0 0 0 1 
+Zona 4,Zona 4
+Ocupacao 1
+Amostragens 60 3600 60 3600 3600 3600 
+Monitoracoes 1 1 1 0 1 0 0 0 0 1 0 0 0 0 1 0 1 1 0 
+Paredes 7
+Parede 1 fachada#0, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 2 Parede#1, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 3 fachada#2, 14.70 0 1 0 0 0 0 0 0 1 
+Parede 4 Parede#3, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 5 teto#4, 25.00 0 1 0 0 0 0 0 0 1 
+Parede 6 piso#5, 25.00 0 1 0 0 0 0 0 0 1 
+Parede 7 Ar#Condicionado#6, 0.30 0 1 0 0 0 0 0 0 1 
+Zona 5,Zona 5
+Ocupacao 1
+Amostragens 60 3600 60 3600 3600 3600 
+Monitoracoes 1 1 1 0 1 0 0 0 0 1 0 0 0 0 1 0 1 1 0 
+Paredes 7
+Parede 1 fachada#0, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 2 Parede#1, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 3 fachada#2, 14.70 0 1 0 0 0 0 0 0 1 
+Parede 4 Parede#3, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 5 cobertura#4, 25.00 0 1 0 0 0 0 0 0 1 
+Parede 6 piso#5, 25.00 0 1 0 0 0 0 0 0 1 
+Parede 7 Ar#Condicionado#6, 0.30 0 1 0 0 0 0 0 0 1 
+Zona 6,Zona 6
+Ocupacao 1
+Amostragens 60 3600 60 3600 3600 3600 
+Monitoracoes 1 1 1 0 1 0 0 0 0 1 0 0 0 0 1 0 1 1 0 
+Paredes 7
+Parede 1 Parede#0, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 2 fachada#1, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 3 Parede#2, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 4 fachada#3, 14.70 0 1 0 0 0 0 0 0 1 
+Parede 5 teto#4, 25.00 0 1 0 0 0 0 0 0 1 
+Parede 6 piso#5, 25.00 0 1 0 0 0 0 0 0 1 
+Parede 7 Ar#Condicionado#6, 0.30 0 1 0 0 0 0 0 0 1 
+Zona 7,Zona 7
+Ocupacao 1
+Amostragens 60 3600 60 3600 3600 3600 
+Monitoracoes 1 1 1 0 1 0 0 0 0 1 0 0 0 0 1 0 1 1 0 
+Paredes 7
+Parede 1 Parede#0, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 2 fachada#1, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 3 Parede#2, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 4 fachada#3, 14.70 0 1 0 0 0 0 0 0 1 
+Parede 5 teto#4, 25.00 0 1 0 0 0 0 0 0 1 
+Parede 6 piso#5, 25.00 0 1 0 0 0 0 0 0 1 
+Parede 7 Ar#Condicionado#6, 0.30 0 1 0 0 0 0 0 0 1 
+Zona 8,Zona 8
+Ocupacao 1
+Amostragens 60 3600 60 3600 3600 3600 
+Monitoracoes 1 1 1 0 1 0 0 0 0 1 0 0 0 0 1 0 1 1 0 
+Paredes 7
+Parede 1 Parede#0, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 2 fachada#1, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 3 Parede#2, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 4 fachada#3, 14.70 0 1 0 0 0 0 0 0 1 
+Parede 5 teto#4, 25.00 0 1 0 0 0 0 0 0 1 
+Parede 6 piso#5, 25.00 0 1 0 0 0 0 0 0 1 
+Parede 7 Ar#Condicionado#6, 0.30 0 1 0 0 0 0 0 0 1 
+Zona 9,Zona 9
+Ocupacao 1
+Amostragens 60 3600 60 3600 3600 3600 
+Monitoracoes 1 1 1 0 1 0 0 0 0 1 0 0 0 0 1 0 1 1 0 
+Paredes 7
+Parede 1 Parede#0, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 2 fachada#1, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 3 Parede#2, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 4 fachada#3, 14.70 0 1 0 0 0 0 0 0 1 
+Parede 5 cobertura#4, 25.00 0 1 0 0 0 0 0 0 1 
+Parede 6 piso#5, 25.00 0 1 0 0 0 0 0 0 1 
+Parede 7 Ar#Condicionado#6, 0.30 0 1 0 0 0 0 0 0 1 
+Zona 10,Zona 10
+Ocupacao 1
+Amostragens 60 3600 60 3600 3600 3600 
+Monitoracoes 1 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 
+Paredes 9
+Parede 1 fachada#0, 180.00 0 1 0 0 0 0 0 0 1 
+Parede 2 Parede#1, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 3 Parede#2, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 4 Parede#3, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 5 Parede#4, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 6 fachada#5, 180.00 0 1 0 0 0 0 0 0 1 
+Parede 7 fachada#6, 60.00 0 1 0 0 0 0 0 0 1 
+Parede 8 cobertura#7, 75.00 0 1 0 0 0 0 0 0 1 
+Parede 9 piso#8, 75.00 0 1 0 0 0 0 0 0 1 
+Zona 11,Zona 11
+Ocupacao 1
+Amostragens 60 3600 60 3600 3600 3600 
+Monitoracoes 1 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 
+Paredes 9
+Parede 1 fachada#0, 179.51 0 1 0 0 0 0 0 0 1 
+Parede 2 Parede#1, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 3 Parede#2, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 4 Parede#3, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 5 Parede#4, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 6 fachada#5, 179.51 0 1 0 0 0 0 0 0 1 
+Parede 7 fachada#6, 60.00 0 1 0 0 0 0 0 0 1 
+Parede 8 cobertura#7, 74.79 0 1 0 0 0 0 0 0 1 
+Parede 9 piso#8, 74.79 0 1 0 0 0 0 0 0 1 
+Zona 12,Zona 12
+Ocupacao 1
+Amostragens 60 3600 60 3600 3600 3600 
+Monitoracoes 1 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 
+Paredes 9
+Parede 1 fachada#0, 180.00 0 1 0 0 0 0 0 0 1 
+Parede 2 fachada#1, 60.00 0 1 0 0 0 0 0 0 1 
+Parede 3 fachada#2, 180.00 0 1 0 0 0 0 0 0 1 
+Parede 4 Parede#3, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 5 Parede#4, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 6 Parede#5, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 7 Parede#6, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 8 cobertura#7, 75.00 0 1 0 0 0 0 0 0 1 
+Parede 9 piso#8, 75.00 0 1 0 0 0 0 0 0 1 
+Zona 13,Zona 13
+Ocupacao 1
+Amostragens 60 3600 60 3600 3600 3600 
+Monitoracoes 1 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 
+Paredes 9
+Parede 1 fachada#0, 180.46 0 1 0 0 0 0 0 0 1 
+Parede 2 fachada#1, 60.00 0 1 0 0 0 0 0 0 1 
+Parede 3 fachada#2, 180.46 0 1 0 0 0 0 0 0 1 
+Parede 4 Parede#3, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 5 Parede#4, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 6 Parede#5, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 7 Parede#6, 15.00 0 1 0 0 0 0 0 0 1 
+Parede 8 cobertura#7, 75.19 0 1 0 0 0 0 0 0 1 
+Parede 9 piso#8, 75.19 0 1 0 0 0 0 0 0 1 
+[Dados Sistema Primario]
+	{Dados = 0,0,0,0,0,0,1,0,0}
+[Monitorar Sistema HVAC = 0]
+[Passo Tempo Rel HVAC = 3600]
+[Monitorar Consumo HVAC = 0]
+[Nº Fancoils = 0]
+[Nº Chillers Ar = 0]
+[Nº Chillers Agua = 0]
+[Nº Torres Resf. = 0]
+[Nº Boillers = 0]
+[Nº Bombas Aq. = 0]
+[Nº Bombas Ag. = 0]
+[Nº Bombas Cond. = 0]
+[Nº Tanque Agua Gelada = 0]
+[Nº Bombas Ag. Sec = 0]
