@@ -1,0 +1,13 @@
+//----------------------------------------------------------------------------
+// Borland C++ Builder
+// Copyright (c) 1997 by Borland International, All Rights Reserved
+//----------------------------------------------------------------------------
+#ifndef WORKSHOP_INVOKED
+  #include <windows.h>
+#endif
+
+Normal           CURSOR  cursor_1.cur
+SobreVert        CURSOR  cursor_2.cur
+Selec_Corte      CURSOR  cursor_3.cur
+Corte_Sobre      CURSOR  cursor_4.cur
+Zoom             CURSOR  cursor_5.cur

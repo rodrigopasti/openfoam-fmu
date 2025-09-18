@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='utf-8'?>
+<fmiModelDescription fmiVersion="1.0" modelName="PythonModel" modelIdentifier="PythonModel" guid="{8c4e810f-3df3-4a00-8276-176fa3c9f003}" numberOfContinuousStates="0" numberOfEventIndicators="0">
+  <ModelVariables>
+    <ScalarVariable name="PythonPath" valueReference="0" description="PythonPath" causality="input">
+      <String start="C:/Users/franc/AppData/Local/Programs/Python/Python313/" />
+    </ScalarVariable>
+    <ScalarVariable name="STL Files Path" valueReference="1" description="STL Files Path" causality="input">
+      <String start="C:/openfoam-fmu/ValidacaoCoSim/exportSTL" />
+    </ScalarVariable>
+    <ScalarVariable name="Result Folder" valueReference="2" description="Result Folder" causality="input">
+      <String start="C:/cosim_datasets/" />
+    </ScalarVariable>
+    <ScalarVariable name="OpenFoam Container Name" valueReference="3" description="OpenFoam Container Name" causality="input">
+      <String start="rodrigopasti/openfoam-base:latest" />
+    </ScalarVariable>
+    <ScalarVariable name="0 - steady-state / 1 - transient" valueReference="0" description="steadystate_transient" causality="input">
+      <Integer start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Time Interval Co-simulation" valueReference="0" description="time_interval_cosim" causality="input">
+      <Real start="1800" />
+    </ScalarVariable>
+    <ScalarVariable name="domainExpansionXY" valueReference="1" description="domainExpansionXY" causality="input">
+      <Real start="4.5" />
+    </ScalarVariable>
+    <ScalarVariable name="domainExpansionZ" valueReference="2" description="domainExpansionZ" causality="input">
+      <Real start="4.5" />
+    </ScalarVariable>
+    <ScalarVariable name="paddingDomain" valueReference="3" description="paddingDomain" causality="input">
+      <Real start="0.2" />
+    </ScalarVariable>
+    <ScalarVariable name="cells" valueReference="4" description="cells" causality="input">
+      <Real start="30" />
+    </ScalarVariable>
+    <ScalarVariable name="refinementBox" valueReference="5" description="refinementBox" causality="input">
+      <Real start="2" />
+    </ScalarVariable>
+    <ScalarVariable name="refinementSurface1" valueReference="6" description="refinementSurface1" causality="input">
+      <Real start="2" />
+    </ScalarVariable>
+    <ScalarVariable name="refinementSurface2" valueReference="7" description="refinementSurface2" causality="input">
+      <Real start="2" />
+    </ScalarVariable>
+    <ScalarVariable name="surfaceLayers" valueReference="8" description="surfaceLayers" causality="input">
+      <Real start="6" />
+    </ScalarVariable>
+    <ScalarVariable name="eMeshLevel" valueReference="9" description="eMeshLevel" causality="input">
+      <Real start="3" />
+    </ScalarVariable>
+    <ScalarVariable name="floorTemperature" valueReference="10" description="floorTemperature" causality="input">
+      <Real start="290.0" />
+    </ScalarVariable>
+    <ScalarVariable name="Sensors - distance from the wall [m]" valueReference="11" description="projectionDistance" causality="input">
+      <Real start="0.01" />
+    </ScalarVariable>
+    <ScalarVariable name="Simulation: Interval" valueReference="12" description="simulation_interval" causality="input">
+      <Real start="10" />
+    </ScalarVariable>
+    <ScalarVariable name="Simulation: endTime" valueReference="13" description="simulation_endTime" causality="input">
+      <Real start="100" />
+    </ScalarVariable>
+    <ScalarVariable name="Simulation: delta t" valueReference="14" description="simulation_deltat" causality="input">
+      <Real start="1" />
+    </ScalarVariable>
+    <ScalarVariable name="Elapsed Time" valueReference="15" description="{&quot;domusVariable&quot;: &quot;Current Elapsed Time(seconds)&quot;}" causality="input">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Actual Hour" valueReference="16" description="{&quot;domusVariable&quot;: &quot;Actual Hour in Domus Simulation&quot;}" causality="input">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="External temperature" valueReference="17" description="{&quot;domusVariable&quot;: &quot;External temperature(or adjacent zone)(oC)&quot;}" causality="input">
+      <Real start="20" />
+    </ScalarVariable>
+    <ScalarVariable name="Weather wind speed" valueReference="18" description="{&quot;domusVariable&quot;: &quot;Weather wind speed(m/s)&quot;}" causality="input">
+      <Real start="1" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_10-cobertura_7" valueReference="19" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 10&quot;, &quot;object&quot;: &quot;cobertura 7&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_10-fachada_0" valueReference="20" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 10&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_10-fachada_5" valueReference="21" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 10&quot;, &quot;object&quot;: &quot;fachada 5&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_10-fachada_6" valueReference="22" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 10&quot;, &quot;object&quot;: &quot;fachada 6&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_11-cobertura_7" valueReference="23" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 11&quot;, &quot;object&quot;: &quot;cobertura 7&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_11-fachada_0" valueReference="24" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 11&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_11-fachada_5" valueReference="25" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 11&quot;, &quot;object&quot;: &quot;fachada 5&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_11-fachada_6" valueReference="26" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 11&quot;, &quot;object&quot;: &quot;fachada 6&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_12-cobertura_7" valueReference="27" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 12&quot;, &quot;object&quot;: &quot;cobertura 7&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_12-fachada_0" valueReference="28" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 12&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_12-fachada_1" valueReference="29" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 12&quot;, &quot;object&quot;: &quot;fachada 1&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_12-fachada_2" valueReference="30" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 12&quot;, &quot;object&quot;: &quot;fachada 2&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_13-cobertura_7" valueReference="31" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 13&quot;, &quot;object&quot;: &quot;cobertura 7&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_13-fachada_0" valueReference="32" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 13&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_13-fachada_1" valueReference="33" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 13&quot;, &quot;object&quot;: &quot;fachada 1&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_13-fachada_2" valueReference="34" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 13&quot;, &quot;object&quot;: &quot;fachada 2&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_2-fachada_0" valueReference="35" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 2&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_2-fachada_2" valueReference="36" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 2&quot;, &quot;object&quot;: &quot;fachada 2&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_3-fachada_0" valueReference="37" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 3&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_3-fachada_2" valueReference="38" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 3&quot;, &quot;object&quot;: &quot;fachada 2&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_4-fachada_0" valueReference="39" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 4&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_4-fachada_2" valueReference="40" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 4&quot;, &quot;object&quot;: &quot;fachada 2&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_5-cobertura_4" valueReference="41" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 5&quot;, &quot;object&quot;: &quot;cobertura 4&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_5-fachada_0" valueReference="42" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 5&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_5-fachada_2" valueReference="43" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 5&quot;, &quot;object&quot;: &quot;fachada 2&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_6-fachada_1" valueReference="44" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 6&quot;, &quot;object&quot;: &quot;fachada 1&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_6-fachada_3" valueReference="45" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 6&quot;, &quot;object&quot;: &quot;fachada 3&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_7-fachada_1" valueReference="46" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 7&quot;, &quot;object&quot;: &quot;fachada 1&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_7-fachada_3" valueReference="47" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 7&quot;, &quot;object&quot;: &quot;fachada 3&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_8-fachada_1" valueReference="48" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 8&quot;, &quot;object&quot;: &quot;fachada 1&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_8-fachada_3" valueReference="49" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 8&quot;, &quot;object&quot;: &quot;fachada 3&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_9-cobertura_4" valueReference="50" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 9&quot;, &quot;object&quot;: &quot;cobertura 4&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_9-fachada_1" valueReference="51" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 9&quot;, &quot;object&quot;: &quot;fachada 1&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_9-fachada_3" valueReference="52" description="{&quot;domusVariable&quot;: &quot;External surface temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 9&quot;, &quot;object&quot;: &quot;fachada 3&quot;}" causality="input">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_2-Ar_Condicionado_6" valueReference="53" description="{&quot;domusVariable&quot;: &quot;Zone HVAC heat rejection&quot;,&quot;zone&quot;: &quot;Zona 2&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="input">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_3-Ar_Condicionado_6" valueReference="54" description="{&quot;domusVariable&quot;: &quot;Zone HVAC heat rejection&quot;,&quot;zone&quot;: &quot;Zona 3&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="input">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_4-Ar_Condicionado_6" valueReference="55" description="{&quot;domusVariable&quot;: &quot;Zone HVAC heat rejection&quot;,&quot;zone&quot;: &quot;Zona 4&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="input">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_5-Ar_Condicionado_6" valueReference="56" description="{&quot;domusVariable&quot;: &quot;Zone HVAC heat rejection&quot;,&quot;zone&quot;: &quot;Zona 5&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="input">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_6-Ar_Condicionado_6" valueReference="57" description="{&quot;domusVariable&quot;: &quot;Zone HVAC heat rejection&quot;,&quot;zone&quot;: &quot;Zona 6&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="input">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_7-Ar_Condicionado_6" valueReference="58" description="{&quot;domusVariable&quot;: &quot;Zone HVAC heat rejection&quot;,&quot;zone&quot;: &quot;Zona 7&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="input">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_8-Ar_Condicionado_6" valueReference="59" description="{&quot;domusVariable&quot;: &quot;Zone HVAC heat rejection&quot;,&quot;zone&quot;: &quot;Zona 8&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="input">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_9-Ar_Condicionado_6" valueReference="60" description="{&quot;domusVariable&quot;: &quot;Zone HVAC heat rejection&quot;,&quot;zone&quot;: &quot;Zona 9&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="input">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_10-cobertura_7" valueReference="1000" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 10&quot;, &quot;object&quot;: &quot;cobertura 7&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_10-fachada_0" valueReference="1001" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 10&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_10-fachada_5" valueReference="1002" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 10&quot;, &quot;object&quot;: &quot;fachada 5&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_10-fachada_6" valueReference="1003" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 10&quot;, &quot;object&quot;: &quot;fachada 6&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_11-cobertura_7" valueReference="1004" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 11&quot;, &quot;object&quot;: &quot;cobertura 7&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_11-fachada_0" valueReference="1005" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 11&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_11-fachada_5" valueReference="1006" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 11&quot;, &quot;object&quot;: &quot;fachada 5&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_11-fachada_6" valueReference="1007" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 11&quot;, &quot;object&quot;: &quot;fachada 6&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_12-cobertura_7" valueReference="1008" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 12&quot;, &quot;object&quot;: &quot;cobertura 7&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_12-fachada_0" valueReference="1009" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 12&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_12-fachada_1" valueReference="1010" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 12&quot;, &quot;object&quot;: &quot;fachada 1&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_12-fachada_2" valueReference="1011" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 12&quot;, &quot;object&quot;: &quot;fachada 2&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_13-cobertura_7" valueReference="1012" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 13&quot;, &quot;object&quot;: &quot;cobertura 7&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_13-fachada_0" valueReference="1013" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 13&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_13-fachada_1" valueReference="1014" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 13&quot;, &quot;object&quot;: &quot;fachada 1&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_13-fachada_2" valueReference="1015" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 13&quot;, &quot;object&quot;: &quot;fachada 2&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_2-Ar_Condicionado_6" valueReference="1016" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 2&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_2-fachada_0" valueReference="1017" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 2&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_2-fachada_2" valueReference="1018" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 2&quot;, &quot;object&quot;: &quot;fachada 2&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_3-Ar_Condicionado_6" valueReference="1019" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 3&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_3-fachada_0" valueReference="1020" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 3&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_3-fachada_2" valueReference="1021" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 3&quot;, &quot;object&quot;: &quot;fachada 2&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_4-Ar_Condicionado_6" valueReference="1022" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 4&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_4-fachada_0" valueReference="1023" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 4&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_4-fachada_2" valueReference="1024" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 4&quot;, &quot;object&quot;: &quot;fachada 2&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_5-Ar_Condicionado_6" valueReference="1025" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 5&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_5-cobertura_4" valueReference="1026" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 5&quot;, &quot;object&quot;: &quot;cobertura 4&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_5-fachada_0" valueReference="1027" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 5&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_5-fachada_2" valueReference="1028" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 5&quot;, &quot;object&quot;: &quot;fachada 2&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_6-Ar_Condicionado_6" valueReference="1029" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 6&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_6-fachada_1" valueReference="1030" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 6&quot;, &quot;object&quot;: &quot;fachada 1&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_6-fachada_3" valueReference="1031" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 6&quot;, &quot;object&quot;: &quot;fachada 3&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_7-Ar_Condicionado_6" valueReference="1032" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 7&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_7-fachada_1" valueReference="1033" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 7&quot;, &quot;object&quot;: &quot;fachada 1&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_7-fachada_3" valueReference="1034" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 7&quot;, &quot;object&quot;: &quot;fachada 3&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_8-Ar_Condicionado_6" valueReference="1035" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 8&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_8-fachada_1" valueReference="1036" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 8&quot;, &quot;object&quot;: &quot;fachada 1&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_8-fachada_3" valueReference="1037" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 8&quot;, &quot;object&quot;: &quot;fachada 3&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_9-Ar_Condicionado_6" valueReference="1038" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 9&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_9-cobertura_4" valueReference="1039" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 9&quot;, &quot;object&quot;: &quot;cobertura 4&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_9-fachada_1" valueReference="1040" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 9&quot;, &quot;object&quot;: &quot;fachada 1&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_9-fachada_3" valueReference="1041" description="{&quot;domusVariable&quot;: &quot;Boundary condition external temperature(oC)&quot;,&quot;zone&quot;: &quot;Zona 9&quot;, &quot;object&quot;: &quot;fachada 3&quot;}" causality="output">
+      <Real start="25" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_10-cobertura_7" valueReference="1042" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 10&quot;, &quot;object&quot;: &quot;cobertura 7&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_10-fachada_0" valueReference="1043" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 10&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_10-fachada_5" valueReference="1044" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 10&quot;, &quot;object&quot;: &quot;fachada 5&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_10-fachada_6" valueReference="1045" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 10&quot;, &quot;object&quot;: &quot;fachada 6&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_11-cobertura_7" valueReference="1046" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 11&quot;, &quot;object&quot;: &quot;cobertura 7&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_11-fachada_0" valueReference="1047" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 11&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_11-fachada_5" valueReference="1048" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 11&quot;, &quot;object&quot;: &quot;fachada 5&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_11-fachada_6" valueReference="1049" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 11&quot;, &quot;object&quot;: &quot;fachada 6&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_12-cobertura_7" valueReference="1050" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 12&quot;, &quot;object&quot;: &quot;cobertura 7&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_12-fachada_0" valueReference="1051" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 12&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_12-fachada_1" valueReference="1052" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 12&quot;, &quot;object&quot;: &quot;fachada 1&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_12-fachada_2" valueReference="1053" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 12&quot;, &quot;object&quot;: &quot;fachada 2&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_13-cobertura_7" valueReference="1054" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 13&quot;, &quot;object&quot;: &quot;cobertura 7&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_13-fachada_0" valueReference="1055" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 13&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_13-fachada_1" valueReference="1056" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 13&quot;, &quot;object&quot;: &quot;fachada 1&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_13-fachada_2" valueReference="1057" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 13&quot;, &quot;object&quot;: &quot;fachada 2&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_2-Ar_Condicionado_6" valueReference="1058" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 2&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_2-fachada_0" valueReference="1059" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 2&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_2-fachada_2" valueReference="1060" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 2&quot;, &quot;object&quot;: &quot;fachada 2&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_3-Ar_Condicionado_6" valueReference="1061" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 3&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_3-fachada_0" valueReference="1062" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 3&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_3-fachada_2" valueReference="1063" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 3&quot;, &quot;object&quot;: &quot;fachada 2&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_4-Ar_Condicionado_6" valueReference="1064" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 4&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_4-fachada_0" valueReference="1065" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 4&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_4-fachada_2" valueReference="1066" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 4&quot;, &quot;object&quot;: &quot;fachada 2&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_5-Ar_Condicionado_6" valueReference="1067" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 5&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_5-cobertura_4" valueReference="1068" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 5&quot;, &quot;object&quot;: &quot;cobertura 4&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_5-fachada_0" valueReference="1069" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 5&quot;, &quot;object&quot;: &quot;fachada 0&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_5-fachada_2" valueReference="1070" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 5&quot;, &quot;object&quot;: &quot;fachada 2&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_6-Ar_Condicionado_6" valueReference="1071" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 6&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_6-fachada_1" valueReference="1072" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 6&quot;, &quot;object&quot;: &quot;fachada 1&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_6-fachada_3" valueReference="1073" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 6&quot;, &quot;object&quot;: &quot;fachada 3&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_7-Ar_Condicionado_6" valueReference="1074" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 7&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_7-fachada_1" valueReference="1075" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 7&quot;, &quot;object&quot;: &quot;fachada 1&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_7-fachada_3" valueReference="1076" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 7&quot;, &quot;object&quot;: &quot;fachada 3&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_8-Ar_Condicionado_6" valueReference="1077" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 8&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_8-fachada_1" valueReference="1078" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 8&quot;, &quot;object&quot;: &quot;fachada 1&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_8-fachada_3" valueReference="1079" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 8&quot;, &quot;object&quot;: &quot;fachada 3&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_9-Ar_Condicionado_6" valueReference="1080" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 9&quot;, &quot;object&quot;: &quot;Ar Condicionado 6&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_9-cobertura_4" valueReference="1081" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 9&quot;, &quot;object&quot;: &quot;cobertura 4&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_9-fachada_1" valueReference="1082" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 9&quot;, &quot;object&quot;: &quot;fachada 1&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+    <ScalarVariable name="canyonHVAC-Zona_9-fachada_3" valueReference="1083" description="{&quot;domusVariable&quot;: &quot;External convention coefficient(W/m2K)&quot;,&quot;zone&quot;: &quot;Zona 9&quot;, &quot;object&quot;: &quot;fachada 3&quot;}" causality="output">
+      <Real start="15" />
+    </ScalarVariable>
+  </ModelVariables>
+  <Implementation>
+    <CoSimulation_StandAlone>
+      <Capabilities canHandleVariableCommunicationStepSize="true" canHandleEvents="true" />
+    </CoSimulation_StandAlone>
+  </Implementation>
+</fmiModelDescription>

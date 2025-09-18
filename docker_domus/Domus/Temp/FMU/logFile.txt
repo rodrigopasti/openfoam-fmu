@@ -1,0 +1,26 @@
+module = FMILIB, log level = VERBOSE: Allocating FMIL context
+
+module = FMILIB, log level = VERBOSE: Detecting FMI standard version
+
+module = FMIZIP, log level = VERBOSE: Unpacking FMU into E:\Git\Domus\Nova_Interface\..\Domus - Eletrobras\Win32\Release\..\..\Temp\FMU\data
+
+module = FMIXML, log level = VERBOSE: Parsing XML to detect FMI standard version
+
+module = FMIXML, log level = VERBOSE: XML specifies FMI 1.0
+
+module = FMILIB, log level = INFO: XML specifies FMI standard version 1.0
+
+module = FMILIB, log level = VERBOSE: Parsing model description XML
+
+module = FMI1XML, log level = VERBOSE: Parsing XML element fmiModelDescription
+
+module = FMI1XML, log level = VERBOSE: Parsing XML element ModelVariables
+
+module = FMI1XML, log level = VERBOSE: Checking alias information
+
+module = FMI1XML, log level = VERBOSE: Setting up direct dependencies cross-references
+
+module = FMI1XML, log level = INFO: Processing implementation element (co-simulation FMU detected)
+
+module = FMILIB, log level = VERBOSE: Parsing finished successfully
+

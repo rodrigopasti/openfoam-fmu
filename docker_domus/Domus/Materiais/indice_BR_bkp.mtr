@@ -1,0 +1,795 @@
+[Numero de Materiais = 62]
+
+{[1]
+[Tijolo]
+[Dens_MP = 1900.0]
+[Porosidade = 0.29]
+[Calor Especifico = 920.0]
+[Condu. Termica Cte = 0.749]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Tijolo.mat]
+[Arquivo Isotermas = TijoloISO.mat]
+[Funcao Isotermas = 0]}
+
+{[2]
+[Reboco]
+[Dens_MP = 2050.0]
+[Porosidade = 0.18]
+[Calor Especifico = 932.0]
+[Condu. Termica Cte = 0.72]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Reboco.mat]
+[Arquivo Isotermas = RebocoISO.mat]
+[Funcao Isotermas = 0]}
+
+{[3]
+[Tijolo de Fachada]
+[Dens_MP = 2083.0]
+[Porosidade = 0.5]
+[Calor Especifico = 835.0]
+[Condu. Termica Cte = 1.3]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Tijolo.mat]
+[Arquivo Isotermas = TijoloISO.mat]
+[Funcao Isotermas = 0]}
+
+{[4]
+[Madeira de Lei]
+[Dens_MP = 720.0]
+[Porosidade = 0.5]
+[Calor Especifico = 1255.0]
+[Condu. Termica Cte = 0.16]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Mad_Com.mat]
+[Arquivo Isotermas = Mad_ComISO.mat]
+[Funcao Isotermas = 0]}
+
+{[5]
+[Madeira (pinho)]
+[Dens_MP = 510.0]
+[Porosidade = 0.5]
+[Calor Especifico = 1380.0]
+[Condu. Termica Cte = 0.12]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Mad_Com.mat]
+[Arquivo Isotermas = Mad_ComISO.mat]
+[Funcao Isotermas = 0]}
+
+{[6]
+[Madeira (carvalho)]
+[Dens_MP = 545.0]
+[Porosidade = 0.5]
+[Calor Especifico = 1385.0]
+[Condu. Termica Cte = 0.19]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Mad_Com.mat]
+[Arquivo Isotermas = Mad_ComISO.mat]
+[Funcao Isotermas = 0]}
+
+{[7]
+[Camara_Ar_Espessa_Baixa_Emissiv]
+[Dens_MP = 1.2]
+[Porosidade = 0.18]
+[Calor Especifico = 1.0]
+[Condu. Termica Cte = 2.45]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Reboco.mat]
+[Arquivo Isotermas = RebocoISO.mat]
+[Funcao Isotermas = 0]}
+
+{[8]
+[Lamina de Aluminio (e < 0.2)]
+[Dens_MP = 2700.0]
+[Porosidade = 0.9]
+[Calor Especifico = 880.0]
+[Condu. Termica Cte = 230.0]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Alumin.mat]
+[Arquivo Isotermas = AluminISO.mat]
+[Funcao Isotermas = 0]}
+
+{[9]
+[Madeira Compensada]
+[Dens_MP = 504.9]
+[Porosidade = 0.636]
+[Calor Especifico = 1214.0]
+[Condu. Termica Cte = 0.115]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Mad_Com.mat]
+[Arquivo Isotermas = Mad_ComISO.mat]
+[Funcao Isotermas = 0]}
+
+{[10]
+[Concreto]
+[Dens_MP = 2200.0]
+[Porosidade = 0.5]
+[Calor Especifico = 1000.0]
+[Condu. Termica Cte = 1.75]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Bloc_Con.mat]
+[Arquivo Isotermas = Bloc_ConISO.mat]
+[Funcao Isotermas = 0]}
+
+{[11]
+
+[Solo]
+[Dens_MP = 2050.0]
+[Porosidade = 0.5]
+[Calor Especifico = 1840.0]
+[Condu. Termica Cte = 0.52]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Tijolo.mat]
+[Arquivo Isotermas = TijoloISO.mat]
+[Funcao Isotermas = 0]}
+
+{[12]
+[Vidro]
+[Dens_MP = 2500.0]
+[Porosidade = 0.5]
+[Calor Especifico = 750.0]
+[Condu. Termica Cte = 1.4]
+[Tabela Isotermas = 0]
+[Granularidade Isotermas = 0.0]
+[Arquivo Dados = 0]
+[Arquivo Isotermas = 0]
+[Funcao Isotermas = 0]}
+
+{[13]
+
+[Cobertura de Cimento]
+[Dens_MP = 1922.0]
+[Porosidade = 0.5]
+[Calor Especifico = 837.4]
+[Condu. Termica Cte = 1.118]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Cob_Cim.mat]
+[Arquivo Isotermas = Cob_CimISO.mat]
+[Funcao Isotermas = 0]}
+
+{[14]
+
+[Papel]
+[Dens_MP = 839.3]
+[Porosidade = 0.9]
+[Calor Especifico = 1256.0]
+[Condu. Termica Cte = 0.159]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Papel.mat]
+[Arquivo Isotermas = PapelISO.mat]
+[Funcao Isotermas = 0]}
+
+{[15]
+
+[Cascalho]
+[Dens_MP = 1442.0]
+[Porosidade = 0.765]
+[Calor Especifico = 837.4]
+[Condu. Termica Cte = 1.7]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Cascalh.mat]
+[Arquivo Isotermas = CascalhISO.mat]
+[Funcao Isotermas = 0]}
+
+{[16]
+
+[Vinil]
+[Dens_MP = 41.53]
+[Porosidade = 0.9]
+[Calor Especifico = 0.2388]
+[Condu. Termica Cte = 0.015]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Vinil.mat]
+[Arquivo Isotermas = VinilISO.mat]
+[Funcao Isotermas = 0]}
+
+{[17]
+
+[Celulose]
+[Dens_MP = 3.498]
+[Porosidade = 0.947]
+[Calor Especifico = 0.3296]
+[Condu. Termica Cte = 0.023]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Celulos.mat]
+[Arquivo Isotermas = CelulosISO.mat]
+[Funcao Isotermas = 0]}
+
+{[18]
+
+[Gesso]
+[Dens_MP = 750]
+[Porosidade = 0.5]
+[Calor Especifico = 840]
+[Condu. Termica Cte = 0.35]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Gesso.mat]
+[Arquivo Isotermas = GessoISO.mat]
+[Funcao Isotermas = 0]}
+
+{[19]
+
+[Fibra de Vidro]
+[Dens_MP = 0.5993]
+[Porosidade = 0.996]
+[Calor Especifico = 0.1923]
+[Condu. Termica Cte = 0.025]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Fibra_V.mat]
+[Arquivo Isotermas = Fibra_VISO.mat]
+[Funcao Isotermas = 0]}
+
+{[20]
+
+[Telhado]
+[Dens_MP = 1121.0]
+[Porosidade = 0.9]
+[Calor Especifico = 1256.0]
+[Condu. Termica Cte = 0.10]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Telha.mat]
+[Arquivo Isotermas = TelhaISO.mat]
+[Funcao Isotermas = 0]}
+
+{[21]
+
+[Plasterboard]
+[Dens_MP = 950.0]
+[Porosidade = 0.18]
+[Calor Especifico = 840.0]
+[Condu. Termica Cte = 0.16]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Reboco.mat]
+[Arquivo Isotermas = RebocoISO.mat]
+[Funcao Isotermas = 0]}
+
+{[22]
+
+[Fiberglass quilt]
+[Dens_MP = 12.0]
+[Porosidade = 0.996]
+[Calor Especifico = 840.0]
+[Condu. Termica Cte = 0.040]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Fibra_V.mat]
+[Arquivo Isotermas = Fibra_VISO.mat]
+[Funcao Isotermas = 0]}
+
+{[23]
+
+[Wood siding]
+[Dens_MP = 530.0]
+[Porosidade = 0.5]
+[Calor Especifico = 900.0]
+[Condu. Termica Cte = 0.14]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Mad_Com.mat]
+[Arquivo Isotermas = Mad_ComISO.mat]
+[Funcao Isotermas = 0]}
+
+{[24]
+
+[Timber flooring]
+[Dens_MP = 650.0]
+[Porosidade = 0.5]
+[Calor Especifico = 1200.0]
+[Condu. Termica Cte = 0.14]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Mad_Com.mat]
+[Arquivo Isotermas = Mad_ComISO.mat]
+[Funcao Isotermas = 0]}
+
+{[25]
+
+[Concrete block]
+[Dens_MP = 1400.0]
+[Porosidade = 0.5]
+[Calor Especifico = 1000.0]
+[Condu. Termica Cte = 0.510]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Bloc_Con.mat]
+[Arquivo Isotermas = Bloc_ConISO.mat]
+[Funcao Isotermas = 0]}
+
+{[26]
+
+[Concrete slab]
+[Dens_MP = 1400.0]
+[Porosidade = 0.5]
+[Calor Especifico = 1000.0]
+[Condu. Termica Cte = 1.130]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Bloc_Con.mat]
+[Arquivo Isotermas = Bloc_ConISO.mat]
+[Funcao Isotermas = 0]}
+
+{[27]
+
+[Roofdeck]
+[Dens_MP = 530.0]
+[Porosidade = 0.9]
+[Calor Especifico = 900.0]
+[Condu. Termica Cte = 0.14]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Telha.mat]
+[Arquivo Isotermas = TelhaISO.mat]
+[Funcao Isotermas = 0]}
+
+{[28]
+
+[Insulation]
+[Dens_MP = 10.0]
+[Porosidade = 0.29]
+[Calor Especifico = 1400.0]
+[Condu. Termica Cte = 0.040]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Tijolo.mat]
+[Arquivo Isotermas = TijoloISO.mat]
+[Funcao Isotermas = 0]}
+
+{[29]
+
+[Foam Insulation]
+[Dens_MP = 10.0]
+[Porosidade = 0.29]
+[Calor Especifico = 1400.0]
+[Condu. Termica Cte = 0.040]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Tijolo.mat]
+[Arquivo Isotermas = TijoloISO.mat]
+[Funcao Isotermas = 0]}
+
+{[30]
+
+[Argamassa de Emboco (2.5 cm)]
+[Dens_MP = 2000.0]
+[Porosidade = 0.18]
+[Calor Especifico = 1.00]
+[Condu. Termica Cte = 1.15]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Reboco.mat]
+[Arquivo Isotermas = RebocoISO.mat]
+[Funcao Isotermas = 0]}
+
+{[31]
+
+[Camara de Ar (2-5 cm)]
+[Dens_MP = 1.2]
+[Porosidade = 0.9]
+[Calor Especifico = 1.006]
+[Condu. Termica Cte = 0.08] 
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Air_Bar.mat]
+[Arquivo Isotermas = Air_BarISO.mat]
+[Funcao Isotermas = 0]}
+
+{[32]
+
+[Concreto Laje]
+[Dens_MP = 2200]
+[Porosidade = 0.5]
+[Calor Especifico = 1000]
+[Condu. Termica Cte = 1.75]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Bloc_Con.mat]
+[Arquivo Isotermas = Bloc_ConISO.mat]
+[Funcao Isotermas = 0]}
+
+{[33]
+
+[Bloco Concreto (9 cm)]
+[Dens_MP = 1350.6]
+[Porosidade = 0.5]
+[Calor Especifico = 951.3]
+[Condu. Termica Cte = 0.5811]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Bloc_Con.mat]
+[Arquivo Isotermas = Bloc_ConISO.mat]
+[Funcao Isotermas = 0]}
+
+{[34]
+
+[Bloco Concreto (14 cm)]
+[Dens_MP = 1063.1]
+[Porosidade = 0.5]
+[Calor Especifico = 741.5]
+[Condu. Termica Cte = 0.4615]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Bloc_Con.mat]
+[Arquivo Isotermas = Bloc_ConISO.mat]
+[Funcao Isotermas = 0]}
+
+{[35]
+
+[Tijolo Macico (10 cm)]
+[Dens_MP = 1700.5]
+[Porosidade = 0.5]
+[Calor Especifico = 940.0]
+[Condu. Termica Cte = 0.9628]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Tijolo.mat]
+[Arquivo Isotermas = TijoloISO.mat]
+[Funcao Isotermas = 0]}
+
+{[36]
+
+[Tijolo Macico Duplo (10 cm)]
+[Dens_MP = 1721.8]
+[Porosidade = 0.5]
+[Calor Especifico = 976.1]
+[Condu. Termica Cte = 0.9445]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Tijolo.mat]
+[Arquivo Isotermas = TijoloISO.mat]
+[Funcao Isotermas = 0]}
+
+{[37]
+
+[Tijolo 6 Furos Quadrados (9 cm)]
+[Dens_MP = 1077.4]
+[Porosidade = 0.29]
+[Calor Especifico = 609.5]
+[Condu. Termica Cte = 0.5974]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Tijolo.mat]
+[Arquivo Isotermas = TijoloISO.mat]
+[Funcao Isotermas = 0]}
+
+{[38]
+
+[Tijolo 6 Furos Quadrados Deitado (14 cm)]
+[Dens_MP = 1124.7]
+[Porosidade = 0.29]
+[Calor Especifico = 637.2]
+[Condu. Termica Cte = 0.6180]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Tijolo.mat]
+[Arquivo Isotermas = TijoloISO.mat]
+[Funcao Isotermas = 0]}
+
+{[39]
+
+[Tijolo 6 Furos Circular (10 cm)]
+[Dens_MP = 1055.7]
+[Porosidade = 0.29]
+[Calor Especifico = 596.2]
+[Condu. Termica Cte = 0.5913]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Tijolo.mat]
+[Arquivo Isotermas = TijoloISO.mat]
+[Funcao Isotermas = 0]}
+
+{[40]
+
+[Tijolo 4 Furos Quadrado (9 cm)]
+[Dens_MP = 1104.2]
+[Porosidade = 0.29]
+[Calor Especifico = 625.7]
+[Condu. Termica Cte = 0.6062]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Tijolo.mat]
+[Arquivo Isotermas = TijoloISO.mat]
+[Funcao Isotermas = 0]}
+
+{[41]
+
+[Telha de barro (1 cm)]
+[Dens_MP = 2000.0]
+[Porosidade = 0.9]
+[Calor Especifico = 920]
+[Condu. Termica Cte = 1.05] 
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Telha.mat]
+[Arquivo Isotermas = TelhaISO.mat]
+[Funcao Isotermas = 0]}
+
+{[42]
+
+[Telha de fibro-cimento]
+[Dens_MP = 1900.0]
+[Porosidade = 0.9]
+[Calor Especifico = 840]
+[Condu. Termica Cte = 0.95] 
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Telha.mat]
+[Arquivo Isotermas = TelhaISO.mat]
+[Funcao Isotermas = 0]}
+
+{[43]
+
+[Forro de madeira (1 cm)]
+[Dens_MP = 600]
+[Porosidade = 0.5]
+[Calor Especifico = 2300]
+[Condu. Termica Cte = 0.14] 
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Mad_Com.mat]
+[Arquivo Isotermas = Mad_ComISO.mat]
+[Funcao Isotermas = 0]}
+
+{[44]
+
+[Forro de concreto (3 cm)]
+[Dens_MP = 2200]
+[Porosidade = 0.5]
+[Calor Especifico = 1000.0]
+[Condu. Termica Cte = 1.75] 
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Bloc_Con.mat]
+[Arquivo Isotermas = Bloc_ConISO.mat]
+[Funcao Isotermas = 0]}
+
+{[45]
+
+[Laje mista (12 cm => esp equiv 95 mm)]
+[Dens_MP = 1087]
+[Porosidade = 0.5]
+[Calor Especifico = 920.0]
+[Condu. Termica Cte = 1.05] 
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Bloc_Con.mat]
+[Arquivo Isotermas = Bloc_ConISO.mat]
+[Funcao Isotermas = 0]}
+
+{[46]
+
+[Laje de concreto (20 cm)]
+[Dens_MP = 2200]
+[Porosidade = 0.5]
+[Calor Especifico = 920.00]
+[Condu. Termica Cte = 1.75] 
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Bloc_Con.mat]
+[Arquivo Isotermas = Bloc_ConISO.mat]
+[Funcao Isotermas = 0]}
+
+{[47]
+
+[Laje de concreto (25 cm)]
+[Dens_MP = 2200]
+[Porosidade = 0.5]
+[Calor Especifico = 920.00]
+[Condu. Termica Cte = 1.75] 
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Bloc_Con.mat]
+[Arquivo Isotermas = Bloc_ConISO.mat]
+[Funcao Isotermas = 0]}
+
+{[48]
+
+[Ceramica/porcelanato]
+[Dens_MP = 2300.0]
+[Porosidade = 0.18]
+[Calor Especifico = 840.0]
+[Condu. Termica Cte = 1.30]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Reboco.mat]
+[Arquivo Isotermas = RebocoISO.mat]
+[Funcao Isotermas = 0]}
+
+{[49]
+
+[La de vidro]
+[Dens_MP = 50]
+[Porosidade = 0.996]
+[Calor Especifico = 700]
+[Condu. Termica Cte = 0.05] 
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Fibra_V.mat]
+[Arquivo Isotermas = Fibra_VISO.mat]
+[Funcao Isotermas = 0]}
+
+{[50]
+
+[Camara_Ar_Espessa_Alta_Emissiv]
+[Dens_MP = 1.2]
+[Porosidade = 0.18]
+[Calor Especifico = 1.0]
+[Condu. Termica Cte = 7.14]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Reboco.mat]
+[Arquivo Isotermas = RebocoISO.mat]
+[Funcao Isotermas = 0]}
+
+{[51]
+
+[Solo ABNT (45.7 cm)]
+[Dens_MP = 1361.0]
+[Porosidade = 0.5]
+[Calor Especifico = 873.3]
+[Condu. Termica Cte = 0.0116]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Tijolo.mat]
+[Arquivo Isotermas = TijoloISO.mat]
+[Funcao Isotermas = 0]}
+
+{[52]
+
+[Radier concreto (10 cm)]
+[Dens_MP = 2400]
+[Porosidade = 0.5]
+[Calor Especifico = 1000]
+[Condu. Termica Cte = 1.75]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Bloc_Con.mat]
+[Arquivo Isotermas = Bloc_ConISO.mat]
+[Funcao Isotermas = 0]}
+
+{[53]
+
+[Piso ceramico (1 cm)]
+[Dens_MP = 1600]
+[Porosidade = 0.29]
+[Calor Especifico = 920.0]
+[Condu. Termica Cte = 0.9]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Tijolo.mat]
+[Arquivo Isotermas = TijoloISO.mat]
+[Funcao Isotermas = 0]}
+
+{[54]
+
+[Piso de madeira (1 cm)]
+[Dens_MP = 600]
+[Porosidade = 0.5]
+[Calor Especifico = 2300]
+[Condu. Termica Cte = 0.14] 
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Mad_Com.mat]
+[Arquivo Isotermas = Mad_ComISO.mat]
+[Funcao Isotermas = 0]}
+
+{[55]
+
+[Painel de fibra de madeira isolante (3.5 cm)]
+[Dens_MP = 850]
+[Porosidade = 0.5]
+[Calor Especifico = 2300]
+[Condu. Termica Cte = 0.2] 
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Mad_Com.mat]
+[Arquivo Isotermas = Mad_ComISO.mat]
+[Funcao Isotermas = 0]}
+
+{[56]
+
+[PVC]
+[Dens_MP = 1379.0]
+[Porosidade = 0.29]
+[Calor Especifico = 1004.0]
+[Condu. Termica Cte = 0.16]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Tijolo.mat]
+[Arquivo Isotermas = TijoloISO.mat]
+[Funcao Isotermas = 0]}
+
+{[57]
+
+[Gesso ABNT]
+[Dens_MP = 1200]
+[Porosidade = 0.5]
+[Calor Especifico = 840.0]
+[Condu. Termica Cte = 0.0285]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Gesso.mat]
+[Arquivo Isotermas = GessoISO.mat]
+[Funcao Isotermas = 0]}
+
+{[58]
+
+[EPS]
+[Dens_MP = 15.0]
+[Porosidade = 0.29]
+[Calor Especifico = 1300.0]
+[Condu. Termica Cte = 0.040]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Tijolo.mat]
+[Arquivo Isotermas = TijoloISO.mat]
+[Funcao Isotermas = 0]}
+
+{[59]
+
+[OSB]
+[Dens_MP = 650.0]
+[Porosidade = 0.5]
+[Calor Especifico = 1700.0]
+[Condu. Termica Cte = 0.13]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Mad_Com.mat]
+[Arquivo Isotermas = Mad_ComISO.mat]
+[Funcao Isotermas = 0]}
+
+{[60]
+
+[Marmore Branco]
+[Dens_MP = 2600.0]
+[Porosidade = 0.5]
+[Calor Especifico = 802.0]
+[Condu. Termica Cte = 2.770]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Bloc_Con.mat]
+[Arquivo Isotermas = Bloc_ConISO.mat]
+[Funcao Isotermas = 0]}
+
+{[61]
+
+[Granito]
+[Dens_MP = 2600.0]
+[Porosidade = 0.5]
+[Calor Especifico = 1000.0]
+[Condu. Termica Cte = 2.800]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = Bloc_Con.mat]
+[Arquivo Isotermas = Bloc_ConISO.mat]
+[Funcao Isotermas = 0]}
+
+{[62]
+[Concreto Celular Autoclavado]
+[Dens_MP = 385.000000]
+[Porosidade = 0.25]
+[Calor Especifico = 1000.000000]
+[Condu. Termica Cte = 0.085000]
+[Tabela Isotermas = 500]
+[Granularidade Isotermas = 0.002]
+[Arquivo Dados = BCA.mat]
+[Arquivo Isotermas = BCA_ISO.mat]
+[Funcao Isotermas = 0]}

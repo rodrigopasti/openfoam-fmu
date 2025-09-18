@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<fmiModelDescription
+  fmiVersion="1.0"
+  modelName="PythonModel"
+  modelIdentifier="PythonModel"
+  guid="{8c4e810f-3df3-4a00-8276-176fa3c9f003}"
+  numberOfContinuousStates="0"
+  numberOfEventIndicators="1">
+<ModelVariables>
+    <ScalarVariable name="PythonPath" valueReference="0" description="PythonPath" causality = "input">
+     <String start=""/>
+  </ScalarVariable>
+  <ScalarVariable name="TLn" valueReference="0" description="{&quot;domusVariable&quot;: &quot;External temperature(or adjacent zone)(oC)&quot;, &quot;zone&quot;: &quot;Zona 1&quot;, &quot;object&quot;: &quot;fachada 1&quot;, &quot;unit&quot;: &quot;C&#186;&quot;}" causality = "input">
+     <Real start="2"/>
+  </ScalarVariable>
+  <ScalarVariable name="qLn" valueReference="1" description="('zone': 0, 'object': 1}" causality = "input">
+     <Real start="1"/>
+  </ScalarVariable>
+  <ScalarVariable name="hLn" valueReference="2" description="({zone: 0, object: 1})" causality = "input">
+     <Real start="2"/>
+  </ScalarVariable>
+  <ScalarVariable name="TRn" valueReference="3" description="{zone: 0, object: 1}" causality = "input">
+     <Real start="1"/>
+  </ScalarVariable>
+  <ScalarVariable name="qRn" valueReference="4" description="input a" causality = "input">
+     <Real start="2"/>
+  </ScalarVariable>
+  <ScalarVariable name="hRn" valueReference="5" description="input b" causality = "input">
+     <Real start="1"/>
+  </ScalarVariable>
+  <ScalarVariable name="Tnp1" valueReference="1000" description="{&quot;domusVariable&quot;: &quot;Wall temperature(node)(oC)&quot;, &quot;zone&quot;: &quot;Zona 1&quot;, &quot;object&quot;: &quot;fachada 1&quot;, &quot;misc&quot;: 0, &quot;unit&quot;: &quot;C&#186;&quot;}" causality = "output">
+     <Real start="2"/>
+  </ScalarVariable>
+  <ScalarVariable name="TnpNx" valueReference="1001" description="{&quot;domusVariable&quot;: &quot;Wall temperature(node)(oC)&quot;, &quot;zone&quot;: &quot;Zona 1&quot;, &quot;object&quot;: &quot;Fachada 1&quot;, &quot;misc&quot;: 1, &quot;unit&quot;: &quot;C&#186;&quot;}" causality = "output">
+     <Real start="2"/>
+  </ScalarVariable>
+</ModelVariables>
+<Implementation>
+  <CoSimulation_StandAlone>
+    <Capabilities
+      canHandleVariableCommunicationStepSize="true"
+      canHandleEvents="true"/>
+  </CoSimulation_StandAlone>
+</Implementation>
+</fmiModelDescription>

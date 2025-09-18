@@ -1,0 +1,22 @@
+@Inicio Contagem de Pixel 7/12/2023 - 1:29:7
+
+@Inicio Calculo do Fator de Forma 7/12/2023 - 1:29:7
+
+[info]   Fator de Forma calculado com sucesso
+@Fim Calculo do Fator de Forma 7/12/2023 - 1:29:16
+
+[info]   Contagem de pixels realizada com sucesso
+@Fim Contagem de Pixel 7/12/2023 - 1:29:19
+
+================================================================================
+ 			           Domus - 2020                          
+ 			              2.6.19.1                                      
+================================================================================
+@Inicio Simulacao: 7/12/2023 - 1:29:19
+
+[info]   Dados climáticos inicializados com sucesso
+[info]   Climatizadores, ganhos internos, ventilação, infiltraçao e parâmetros gerais inicializados com sucesso
+[info]   Sucesso ao inicializar a simulação (serão executados 744 passos)
+@Fim simulacao 7/12/2023 - 1:29:20
+
+[mens]   Execução terminada com sucesso !

@@ -1,0 +1,37 @@
+
+função principal (Onde está a tela com a tabela)
+
+int N_Ambientes;
+char Nome[51];
+float K;
+float DPI[4];
+
+	Abre_Arquivo( )...
+		Carrega_Cabecalho_Tipo_Ambiente(&N_Ambientes);
+		for(I = 0; I < N_Ambientes; I++)
+		{
+			Carrega_Dados_Tipo_Ambiente(&K, &DPI[0], &Nome[0]);
+			Preenche_Tabela
+
+		}
+	Fecha_Arquivo( )...
+
+
+
+bool Carrega_Cabecalho_Tipo_Ambiente(int *N_Ambientes);
+{ 
+
+	fscanf(Fp_out,"[Tipos de Ambiente = %d]\n\n", &N_Ambientes);
+	fscanf(Fp_out,"[Nome\tK_limite\tDPI_A\tDPI_B\tDPI_C\tDPI_D]\n");
+	return true;
+}
+
+
+bool Carrega_Dados_Tipo_Ambiente(float *K, float *DPI, char *Nome)
+{
+	if(fscanf(Fp_out,"[%[^]]]\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f\n",Nome, &K, &DPI[0], &DPI[1], &DPI[2], &DPI[3]) != 6)
+		return false;
+	else
+		return true;
+}
+

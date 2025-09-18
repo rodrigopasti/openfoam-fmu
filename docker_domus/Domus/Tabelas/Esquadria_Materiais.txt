@@ -1,0 +1,6 @@
+[Numero de Materiais = 4]
+
+[Alumínio] [10.79] [0.092678]
+[Alumínio com ruptura térmica] [5.68] [0.176056]
+[Madeira] [2.27] [0.440529]
+[Vinil] [1.7] [0.588235]

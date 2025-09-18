@@ -1,0 +1,6 @@
+[Num Linhas = 4]
+[{TIPO}	{AGUA NA ENTRADA (ºC)}	{AGUA NA SAIDA (ºC)}	{TBU AR ENTRADA (ºC)}	{DESEMPENHO (l/s·kW)}	{CLASS}	{Proc. Teste}		{Fonte} ]
+0	35			29			24			3.23			ABC	[CTI ATC-105 STD 201]	[ASHRAE Standard 90.1-2007]
+1	35			29			24			1.71			ABC	[CTI ATC-105 STD 201]	[ASHRAE Standard 90.1-2007]
+2	39			32			24			1.18			ABC	[CTI ATC-105S STD 201]	[ASHRAE Standard 90.1-2007]
+3	39			32			24			0.59			ABC	[CTI ATC-105S STD 201]	[ASHRAE Standard 90.1-2007]

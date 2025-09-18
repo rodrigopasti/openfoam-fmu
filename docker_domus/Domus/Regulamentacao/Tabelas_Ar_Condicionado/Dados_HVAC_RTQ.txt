@@ -1,0 +1,13 @@
+[Num Zonas = 2]
+
+[Zona 1]	[Nome = [Zona 1]]	[Area = 25.000000]
+[Num Equips = 3]
+	[Eq = 1]	[Tipo Eq = 3]	[Nome Tipo Eq = [CENTRAL]]	[Potencia = 140.679993]	[COP = 0.000000]	[Atend Pre Req = 1]	[Tipo Aquec = 0]	[Nome Tipo Aquec = [NENHUM]]	[Class= A]	[Regul. Inmetro = 0]
+	[Eq = 2]	[Tipo Eq = 3]	[Nome Tipo Eq = [CENTRAL]]	[Potencia = 140.679993]	[COP = 0.000000]	[Atend Pre Req = 1]	[Tipo Aquec = 0]	[Nome Tipo Aquec = [NENHUM]]	[Class= A]	[Regul. Inmetro = 0]
+	[Eq = 3]	[Tipo Eq = 3]	[Nome Tipo Eq = [CENTRAL]]	[Potencia = 140.679993]	[COP = 0.000000]	[Atend Pre Req = 1]	[Tipo Aquec = 0]	[Nome Tipo Aquec = [NENHUM]]	[Class= A]	[Regul. Inmetro = 0]
+
+[Zona 2]	[Nome = [Zona 3]]	[Area = 25.000000]
+[Num Equips = 3]
+	[Eq = 4]	[Tipo Eq = 3]	[Nome Tipo Eq = [CENTRAL]]	[Potencia = 140.679993]	[COP = 0.000000]	[Atend Pre Req = 1]	[Tipo Aquec = 0]	[Nome Tipo Aquec = [NENHUM]]	[Class= A]	[Regul. Inmetro = 0]
+	[Eq = 5]	[Tipo Eq = 3]	[Nome Tipo Eq = [CENTRAL]]	[Potencia = 140.679993]	[COP = 0.000000]	[Atend Pre Req = 1]	[Tipo Aquec = 0]	[Nome Tipo Aquec = [NENHUM]]	[Class= A]	[Regul. Inmetro = 0]
+	[Eq = 6]	[Tipo Eq = 3]	[Nome Tipo Eq = [CENTRAL]]	[Potencia = 140.679993]	[COP = 0.000000]	[Atend Pre Req = 1]	[Tipo Aquec = 0]	[Nome Tipo Aquec = [NENHUM]]	[Class= A]	[Regul. Inmetro = 0]

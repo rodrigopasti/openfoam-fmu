@@ -1,0 +1,24 @@
+[Num Zonas = 4]
+
+[Zona 1]	[Nome = [Zona 1]]	[Area = 25.000000]
+[Num Equips = 2]
+	[Eq = 1]	[Tipo Eq = 3]	[Nome Tipo Eq = [CENTRAL]]	[Potencia = 140.679993]	[COP = 0.000000]	[Atend Pre Req = 1]	[Tipo Aquec = 0]	[Nome Tipo Aquec = [NENHUM]]	[Class= A]
+	[Eq = 2]	[Tipo Eq = 0]	[Nome Tipo Eq = [ACJ]]	[Potencia = 2.655225]	[COP = 2.051583]	[Atend Pre Req = 1]	[Tipo Aquec = 0]	[Nome Tipo Aquec = [NENHUM]]	[Class= E]
+
+[Zona 2]	[Nome = [Zona 2]]	[Area = 30.000000]
+[Num Equips = 3]
+	[Eq = 3]	[Tipo Eq = 0]	[Nome Tipo Eq = [ACJ]]	[Potencia = 3.516855]	[COP = 2.960141]	[Atend Pre Req = 0]	[Tipo Aquec = 0]	[Nome Tipo Aquec = [NENHUM]]	[Class= B]
+	[Eq = 4]	[Tipo Eq = 1]	[Nome Tipo Eq = [SPLIT]]	[Potencia = 5.275282]	[COP = 3.223916]	[Atend Pre Req = 0]	[Tipo Aquec = 1]	[Nome Tipo Aquec = [OUTROS]]	[Class= C]
+	[Eq = 5]	[Tipo Eq = 3]	[Nome Tipo Eq = [CENTRAL]]	[Potencia = 70.339996]	[COP = 0.000000]	[Atend Pre Req = 1]	[Tipo Aquec = 0]	[Nome Tipo Aquec = [NENHUM]]	[Class= D]
+
+[Zona 3]	[Nome = [Zona 3]]	[Area = 40.000000]
+[Num Equips = 5]
+	[Eq = 6]	[Tipo Eq = 0]	[Nome Tipo Eq = [ACJ]]	[Potencia = 3.516855]	[COP = 2.960141]	[Atend Pre Req = 0]	[Tipo Aquec = 0]	[Nome Tipo Aquec = [NENHUM]]	[Class= B]
+	[Eq = 7]	[Tipo Eq = 1]	[Nome Tipo Eq = [SPLIT]]	[Potencia = 5.275282]	[COP = 3.223916]	[Atend Pre Req = 0]	[Tipo Aquec = 1]	[Nome Tipo Aquec = [OUTROS]]	[Class= C]
+	[Eq = 8]	[Tipo Eq = 3]	[Nome Tipo Eq = [CENTRAL]]	[Potencia = 70.339996]	[COP = 0.000000]	[Atend Pre Req = 1]	[Tipo Aquec = 0]	[Nome Tipo Aquec = [NENHUM]]	[Class= D]
+	[Eq = 9]	[Tipo Eq = 0]	[Nome Tipo Eq = [ACJ]]	[Potencia = 3.516855]	[COP = 2.960141]	[Atend Pre Req = 0]	[Tipo Aquec = 0]	[Nome Tipo Aquec = [NENHUM]]	[Class= B]
+	[Eq = 10]	[Tipo Eq = 1]	[Nome Tipo Eq = [SPLIT]]	[Potencia = 5.275282]	[COP = 3.223916]	[Atend Pre Req = 0]	[Tipo Aquec = 1]	[Nome Tipo Aquec = [OUTROS]]	[Class= C]
+
+[Zona 4]	[Nome = [Zona 4]]	[Area = 10.000000]
+[Num Equips = 1]
+	[Eq = 11]	[Tipo Eq = 0]	[Nome Tipo Eq = [ACJ]]	[Potencia = 3.516855]	[COP = 2.960141]	[Atend Pre Req = 0]	[Tipo Aquec = 0]	[Nome Tipo Aquec = [NENHUM]]	[Class= A]

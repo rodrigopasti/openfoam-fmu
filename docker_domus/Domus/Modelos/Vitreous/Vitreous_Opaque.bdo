@@ -1,0 +1,10 @@
+DOE2-ID,MaterialName,Roughness,Thickness (mm),Conductivity (W/m-K),Density (kg/m3),Specific Heat (J/kg-K),Thermal Emittance,Solar Absorptance
+HF-C2,  ! CONCRETE BLOCK LW 4IN, MediumRough,101.5,0.3805,609,837,0.9,0.65
+HF-C3,  ! CONCRETE BLOCK HW 4IN, MediumRough,101.6,0.8129,977,837,0.9,0.65
+HF-C4,  ! COMMON BRICK 4IN, Rough,101.6,0.7264,1922,837,0.9,0.76
+HF-C10,  ! CONCRETE HW 8IN, MediumRough,203.3,1.7296,2243,837,0.9,0.65
+HF-C11,  ! CONCRETE HW 12IN, MediumRough,304.8,1.7296,2243,837,0.9,0.65
+CT01,  ! Clay Tile hol. 3 in 1 Cell, MediumSmooth,76.200001,0.5405,1121,837,0.9,0.2
+CT05,  ! Clay Tile Hol.10 in 2 Cell, MediumSmooth,254,0.648,1121,837,0.9,0.2
+GP04,  ! Gyps Plast 3/4 in LW=MAT, Smooth,19.099999,0.23,721,837,0.9,0.78
+GP05,  ! Gyps Plast 1 in LW=MAT, Smooth,25.4,0.23,721,837,0.9,0.78

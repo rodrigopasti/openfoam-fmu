@@ -1,0 +1,85 @@
+Tag-sim001-
+Periodo 1/1 1/31 - 0:0->23:0
+TotalZonas 5
+RTQSimul 0
+RTQ 0
+Zona 1,1andar
+Ocupacao 1
+Amostragens 3600 3600 3600 3600 3600 3600 
+Monitoracoes 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+Paredes 8
+Parede 1 1A-P, 202.50 0 0 0 0 0 0 0 0 0 
+Parede 2 1A-N, 41.95 0 0 0 0 0 0 0 0 0 
+Parede 3 1A-O, 22.13 0 0 0 0 0 0 0 0 0 
+Parede 4 1A-S, 41.95 0 0 0 0 0 0 0 0 0 
+Parede 5 1A-L, 22.13 0 0 0 0 0 0 0 0 0 
+Parede 6 1A-T, 202.50 0 0 0 0 0 0 0 0 0 
+Parede 1 1A-JN, 37.70 0 0 0 0 0 0 0 0 0 
+Parede 2 1A-JS, 37.70 0 0 0 0 0 0 0 0 0 
+Zona 2,2andar
+Ocupacao 1
+Amostragens 3600 3600 3600 3600 3600 3600 
+Monitoracoes 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+Paredes 8
+Parede 1 2A-P, 202.50 0 0 0 0 0 0 0 0 0 
+Parede 2 2A-T, 202.50 0 0 0 0 0 0 0 0 0 
+Parede 3 2A-L, 22.13 0 0 0 0 0 0 0 0 0 
+Parede 4 2A-S, 41.95 0 0 0 0 0 0 0 0 0 
+Parede 5 2A-O, 22.13 0 0 0 0 0 0 0 0 0 
+Parede 6 2A-N, 41.95 0 0 0 0 0 0 0 0 0 
+Parede 1 2A-JS, 37.70 0 0 0 0 0 0 0 0 0 
+Parede 2 2A-JN, 37.70 0 0 0 0 0 0 0 0 0 
+Zona 3,3andar
+Ocupacao 1
+Amostragens 3600 3600 3600 3600 3600 3600 
+Monitoracoes 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+Paredes 8
+Parede 1 3A-P, 202.50 0 0 0 0 0 0 0 0 0 
+Parede 2 3A-T, 202.50 0 0 0 0 0 0 0 0 0 
+Parede 3 3A-L, 22.12 0 0 0 0 0 0 0 0 0 
+Parede 4 3A-S, 41.95 0 0 0 0 0 0 0 0 0 
+Parede 5 3A-O, 22.12 0 0 0 0 0 0 0 0 0 
+Parede 6 3A-N, 41.95 0 0 0 0 0 0 0 0 0 
+Parede 1 3A-JS, 37.70 0 0 0 0 0 0 0 0 0 
+Parede 2 3A-JN, 37.70 0 0 0 0 0 0 0 0 0 
+Zona 4,4andar
+Ocupacao 1
+Amostragens 3600 3600 3600 3600 3600 3600 
+Monitoracoes 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+Paredes 8
+Parede 1 4A-P, 202.50 0 0 0 0 0 0 0 0 0 
+Parede 2 4A-T, 202.50 0 0 0 0 0 0 0 0 0 
+Parede 3 4A-L, 22.13 0 0 0 0 0 0 0 0 0 
+Parede 4 4A-S, 41.95 0 0 0 0 0 0 0 0 0 
+Parede 5 4A-O, 22.13 0 0 0 0 0 0 0 0 0 
+Parede 6 4A-N, 41.95 0 0 0 0 0 0 0 0 0 
+Parede 1 4A-JS, 37.70 0 0 0 0 0 0 0 0 0 
+Parede 2 4A-J, 37.70 0 0 0 0 0 0 0 0 0 
+Zona 5,5andar
+Ocupacao 1
+Amostragens 3600 3600 3600 3600 3600 3600 
+Monitoracoes 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+Paredes 8
+Parede 1 5A -P, 202.50 0 0 0 0 0 0 0 0 0 
+Parede 2 5A -T, 202.50 0 0 0 0 0 0 0 0 0 
+Parede 3 5A -L, 22.12 0 0 0 0 0 0 0 0 0 
+Parede 4 5A -S, 41.95 0 0 0 0 0 0 0 0 0 
+Parede 5 5A -O, 22.12 0 0 0 0 0 0 0 0 0 
+Parede 6 5A - N, 41.95 0 0 0 0 0 0 0 0 0 
+Parede 1 5A -JS, 37.70 0 0 0 0 0 0 0 0 0 
+Parede 2 5A -JN, 37.70 0 0 0 0 0 0 0 0 0 
+[Dados Sistema Primario]
+	{Dados = 0,0,0,0,0,0,1,0,0}
+[Monitorar Sistema HVAC = 0]
+[Passo Tempo Rel HVAC = 3600]
+[Monitorar Consumo HVAC = 0]
+[Nº Fancoils = 0]
+[Nº Chillers Ar = 0]
+[Nº Chillers Agua = 0]
+[Nº Torres Resf. = 0]
+[Nº Boillers = 0]
+[Nº Bombas Aq. = 0]
+[Nº Bombas Ag. = 0]
+[Nº Bombas Cond. = 0]
+[Nº Tanque Agua Gelada = 0]
+[Nº Bombas Ag. Sec = 0]

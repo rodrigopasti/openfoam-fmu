@@ -1,0 +1,7 @@
+NFRC_ID,ProductName,Manufacturer,MaterialName,Appearance,ef,eb,Precalc_Tsol,Precalc_Rfsol,Density,Cp,Conductivity,Thickness,Database_Version,Time_LastEdited
+100,Generic Bronze Glass,Generic,Glass,Bronze,0.84,0.84,0.6459054,0.061815184,2200,750,1,3.1242,11.4,12/10/2002 14:26
+101,Generic Bronze Glass,Generic,Glass,Bronze,0.84,0.84,0.4856042,0.052619454,2200,750,1,5.7404,11.4,12/10/2002 14:26
+102,Generic Clear Glass,Generic,Glass,Clear,0.84,0.84,0.8338478,0.07476376,2200,750,1,3.048,11.4,12/10/2002 14:26
+103,Generic Clear Glass,Generic,Glass,Clear,0.84,0.84,0.7706752,0.069975622,2200,750,1,5.715,11.4,12/10/2002 14:26
+402,Tintex®,Vitro,Glass,Green,0.84,0.84,0.3665152,0.051282365,2200,750,1,7.988,14.0,18/10/2004 11:00
+420,Filtraplus®,Vitro,Glass,Dark Gray,0.84,0.84,0.07459225,0.042643644,2200,750,1,5.675,14.1,28/1/2005 12:53

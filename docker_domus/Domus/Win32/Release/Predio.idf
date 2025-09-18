@@ -1,0 +1,2044 @@
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:VERSAO ===========
+
+  Domus:Versao,
+    2.6.19.1;                 !- Identificador da versao
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:PROJETO ===========
+
+  Domus:Projeto,
+    Sem nome,                 !- Autor do projeto
+    Sem endereço,             !- Endereco do projeto
+    Breve descrição do projeto, !- Descricao do projeto
+    TempIDF,                  !- Nome da edificacao
+    1978,                     !- Ano da edificacao
+    2011;                     !- Ano do projeto
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:PARAMETROSGERAIS ===========
+
+  Domus:ParametrosGerais,
+    1,                        !- Tempo de simulacao - mes inicial
+    1,                        !- Tempo de simulacao - dia inicial
+    0,                        !- Tempo de simulacao - Hora inicial
+    0,                        !- Tempo de simulacao - Segundo inicial
+    1,                        !- Tempo de simulacao - mes final
+    31,                       !- Tempo de simulacao - dia final
+    23,                       !- Tempo de simulacao - Hora final
+    0,                        !- Tempo de simulacao - Segundo final
+    1,                        !- Tempo de relatorio - mes inicial
+    1,                        !- Tempo de relatorio - dia inicial
+    0,                        !- Tempo de relatorio - Hora inicial
+    0,                        !- Tempo de relatorio - Segundo inicial
+    1,                        !- Tempo de relatorio - mes final
+    31,                       !- Tempo de relatorio - dia final
+    23,                       !- Tempo de relatorio - Hora final
+    0,                        !- Tempo de relatorio - Segundo final
+    1,                        !- Ferias 1 - Ativada
+    0,                        !- Ferias 2 - Ativada
+    0,                        !- Ferias 3 - Ativada
+    1,                        !- Ferias 1 Inicio - Dia
+    1,                        !- Ferias 1 Inicio - Mes
+    1,                        !- Ferias 2 Inicio - Dia
+    7,                        !- Ferias 2 Inicio - Mes
+    1,                        !- Ferias 3 Inicio - Dia
+    10,                       !- Ferias 3 Inicio - Mes
+    31,                       !- Ferias 1 Fim - Dia
+    1,                        !- Ferias 1 Fim - Mes
+    15,                       !- Ferias 2 Fim - Dia
+    7,                        !- Ferias 2 Fim - Mes
+    15,                       !- Ferias 3 Fim - Dia
+    10,                       !- Ferias 3 Fim - Mes
+    3600,                     !- Warmup - passo de tempo normal
+    600,                      !- Warmup - passo de tempo fino
+    7,                        !- Warmup - dias - normal
+    1,                        !- Warmup - dias - fino
+    0,                        !- Warmup - com ajuste fino
+    0.01,                     !- Coeficiente convecao do solo
+    3600,                     !- Passo de tempo
+    2003,                     !- Ano da simulacao
+    0.02,                     !- Criterio de convergencia - temperatura
+    0.02,                     !- Criterio de convergencia - umidade
+    15,                       !- Numero maximo de iteracoes
+    0.2,                      !- Refletividade do solo
+    0,                        !- Constante do solo
+    20,                       !- Temperatura do solo
+    0.75,                     !- Umidade do solo
+    1,                        !- Solo adiabatico 
+    0,                        !- Habilita infiltracao
+    0,                        !- Habilita ventilacao natural
+    1.1614,                   !- Massa especifica do ar
+    Curitiba_b.dwf,           !- Arquivo climatico padrao
+    teste.sol,                !- Arquivo climatico do solo
+    0,                        !- Configuracao do Bestest
+    0,                        !- Repeticao de anos
+    0,                        !- Usar clima senoidal
+    20,                       !- Clima senoidal externo - temperatura media
+    5,                        !- Clima senoidal externo - amplitude pico anual temperatura
+    5,                        !- Clima senoidal externo - amplitude pico diaria temperatura
+    60,                       !- Clima senoidal externo - umidade media
+    10,                       !- Clima senoidal externo - amplitude pico diaria temperatura
+    1000,                     !- Clima senoidal externo - amplitude maxima anual radiacao
+    500,                      !- Clima senoidal externo - variacao amplitude pico radiacao
+    3,                        !- Ventilacao natural - modelo
+    0,                        !- Ventilacao natural - Tipo calculo do CP
+    2,                        !- Ventilacao natural - Indice do coeficiente A
+    2.5,                      !- Ventilacao natural - Altura das edificacoes ao redor
+    0,                        !- Ventilacao natural - Densidade de edificacoes ao redor
+    100,                      !- Grid 2D (interface velha)
+    0,                        !- Simular RTQ
+    0,                        !- RTQ
+    1,                        !- Zona bioclimatica
+    1,                        !- Utilizar contagem de pixels
+    2147483647,               !- Numero maximo de zonas simulaveis
+    1,                        !- Salvar estado da simulacao ao terminar
+    1,                        !- Carregar o estado da simulacao ao comecar (se disponivel)
+    6,                        !- Numero de feriados
+    0,                        !- Dia do ano do feriado 1
+    120,                      !- Dia do ano do feriado 2
+    249,                      !- Dia do ano do feriado 3
+    284,                      !- Dia do ano do feriado 4
+    305,                      !- Dia do ano do feriado 5
+    358;                      !- Dia do ano do feriado 6
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:NORTE ===========
+
+  Domus:Norte,
+    1,                        !- Coordenada x
+    0,                        !- Coordenada y
+    0;                        !- Coordenada z
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:ELEMENTODESENHO ===========
+
+  Domus:ElementoDesenho,
+    ElemDes_1A-P,             !- Nome do objeto
+    1,                        !- Se a cor eh padrao
+    0,                        !- Valor do canal vermelho
+    0,                        !- Valor do canal verde
+    0,                        !- Valor do canal azul
+    1,                        !- Valor do canal alpha
+    ,                         !- Nome da cor
+    1;                        !- Se eh visivel 
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:FACE:PTF:VIDRO:R ===========
+
+  Domus:Face:PTF:Vidro:R,
+    PTF_1A-JN,                !- Nome do objeto
+    0,                        !- Opcao de vidro (simples, duplo ou triplo)
+    1,                        !- Modelo do vidro (de acordo com base de dados)
+    0.84,                     !- Emissividade
+    0,                        !- Tela contra mosquito
+    1,                        !- Coeficientes de protecao solar
+    0.5,                      !- Espessura
+    2,                        !- Opcao de entrada dados vidro (Optico,Glazing,SimpleGlazing)
+    SingleGlazing_PTF_1A-JN,  !- Propriedades por Single Glazing
+    Glazing_PTF_1A-JN,        !- Propriedades por Glazing
+    1,                        !- Numero de camadas
+    Bloco Concreto (14 cm),   !- Material da camada 1
+    1,                        !- Numero de nos da camada 1
+    10;                       !- Espessura da camada 1
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:FACE:PTF:VIDRO:R:SIMPLEGLAZING ===========
+
+  Domus:Face:PTF:Vidro:R:SimpleGlazing,
+    SingleGlazing_PTF_1A-JN,  !- Nome do objeto
+    5.942,                    !- U-Factor {W/m2-K}
+    0.76,                     !- Solar Heat Gain Coefficient
+    0.74;                     !- Visible Transmittance
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:FACE:PTF:VIDRO:R:GLAZING ===========
+
+  Domus:Face:PTF:Vidro:R:Glazing,
+    Glazing_PTF_1A-JN,        !- Nome do objeto
+    0.686,                    !- Solar Transmittance at Normal Incidence
+    0.0551,                   !- Front Side Solar Reflectance at Normal Incidence
+    0.0551,                   !- Back Side Solar Reflectance at Normal Incidence
+    0.74,                     !- Visible Transmittance at Normal Incidence
+    0.1403,                   !- Front Side Visible Reflectance at Normal Incidence
+    0.1493,                   !- Back Side Visible Reflectance at Normal Incidence
+    0.84,                     !- Front and Back Side Infrared Hemispherical Emissivity
+    0.4042;                   !- Conductivity {W/m-K} effective
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:FACE:PTF ===========
+
+  Domus:Face:PTF,
+    PTF_1A-P,                 !- Nome do objeto
+    0,                        !- Padrao de composicao
+    ModelSimul_PTF_1A-P,      !- Metodo simulacao
+    0.5,                      !- Absortividade interna
+    0.5,                      !- Absortividade externa
+    0.5,                      !- Emissividade interna
+    0.5,                      !- Emissividade externa
+    5e-07,                    !- Permeancia interna
+    5e-07,                    !- Permeancia externa
+    ParamCoefConv_PTF_1A-P,   !- Paramentros coef de conveccao	
+    1,                        !- Numero de camadas
+    Laje mista,               !- Material da camada 1
+    10,                       !- Numero de nos da camada 1
+    100;                      !- Espessura da camada 1
+
+  Domus:Face:PTF,
+    PTF_1A-N,                 !- Nome do objeto
+    0,                        !- Padrao de composicao
+    ModelSimul_PTF_1A-P,      !- Metodo simulacao
+    0.5,                      !- Absortividade interna
+    0.5,                      !- Absortividade externa
+    0.5,                      !- Emissividade interna
+    0.5,                      !- Emissividade externa
+    5e-07,                    !- Permeancia interna
+    5e-07,                    !- Permeancia externa
+    ParamCoefConv_PTF_1A-P,   !- Paramentros coef de conveccao	
+    1,                        !- Numero de camadas
+    tijolo,                   !- Material da camada 1
+    10,                       !- Numero de nos da camada 1
+    100;                      !- Espessura da camada 1
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:FACE:RELATORIO ===========
+
+  Domus:Face:Relatorio,
+    Rel_1A-P,                 !- Nome do objeto
+    0,                        !- Esta sendo monitorada
+    0,                        !- Monitora temperatura
+    0,                        !- Monitora umidade
+    0,                        !- Monitora pressao parcial vapor
+    0,                        !- Monitora fluxo calor
+    0,                        !- Monitora fluxo vapor
+    0,                        !- Monitora radiacoes
+    0,                        !- Monitora mofo
+    0;                        !- Monitora condicoes de contorno
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:INTERVALOS:TEMPO ===========
+
+  Domus:Intervalos:Tempo,
+    Interv_Res_CT_Rel_1andar, !- Nome do objeto
+    1,                        !- Numero de intervalos
+    4,                        !- Periodo anual
+    7,                        !- Periodo semanal
+    0,                        !- Hora inicial
+    0,                        !- Segundo inicial
+    23,                       !- Hora final
+    59,                       !- Segundo final
+    366,                      !- Dia inicial
+    366;                      !- Dia final
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:REGIAO:PARAM ===========
+
+  Domus:Regiao:Param,
+    Param_1andar,             !- Nome do objeto
+    0,                        !- Habilita a pre-simulacao
+    20,                       !- Temperatura inicial interna
+    50,                       !- Umidade inicial interna
+    0,                        !- Fixar temperatura inicial
+    0,                        !- Fixar umidade inicial
+    0,                        !- Controle da temp. e umidade da zona (livre=0)
+    0,                        !- Copiar temp. e umidade da zona
+    teste.ti,                 !- Arquivo climatico interno
+    35,                       !- Grau de saturacao
+    1,                        !- Atualizacao das sombras (quantos passos de tempo)
+    20,                       !- Clima senoidal - temperatura media
+    5,                        !- Clima senoidal - amplitude pico anual
+    5,                        !- Clima senoidal - amplitude pico diaria
+    50,                       !- Clima senoidal - umidade media
+    10;                       !- Clima senoidal - amplitude pico diaria
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:REGIAO:RELATORIO:PMV_PPD ===========
+
+  Domus:Regiao:Relatorio:PMV_PPD,
+    PMVPPD_Rel_1andar,        !- Nome do objeto
+    0,                        !- Tipo de atividade
+    0.66,                     !- Parametro - valor do clo
+    0.79,                     !- Parametro - tipo de atividade (met)
+    0.01,                     !- Parametro - velocidade do ar (m/s)
+    0,                        !- Vestimenta 1
+    0,                        !- Vestimenta 2
+    0,                        !- Vestimenta 3
+    0,                        !- Vestimenta 4
+    0,                        !- Vestimenta 5
+    0,                        !- Vestimenta 6
+    0,                        !- Vestimenta 7
+    0,                        !- Vestimenta 8
+    0,                        !- Vestimenta 9
+    0,                        !- Vestimenta 10
+    0,                        !- Vestimenta 11
+    0,                        !- Vestimenta 12
+    0,                        !- Vestimenta 13
+    0,                        !- Vestimenta 14
+    0,                        !- Vestimenta 15
+    0,                        !- Vestimenta 16
+    0,                        !- Vestimenta 17
+    0,                        !- Vestimenta 18
+    0,                        !- Vestimenta 19
+    0,                        !- Vestimenta 20
+    0;                        !- Vestimenta 21
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:REGIAO:RELATORIO:CT ===========
+
+  Domus:Regiao:Relatorio:CT,
+    CT_Rel_1andar,            !- Nome do objeto
+    1,                        !- Ativar carga termica resfriamento
+    24,                       !- Temperatura desligamento resfriamento
+    50,                       !- Umidade desligamento resfriamento
+    1,                        !- Ativar carga termica aquecimento
+    22,                       !- Temperatura desligamento aquecimento
+    60,                       !- Umidade desligamento aquecimento
+    Interv_Res_CT_Rel_1andar, !- Intervalos de resfriamento
+    Interv_Res_CT_Rel_1andar; !- Intervalos de aquecimento
+
+  Domus:Regiao:Relatorio:CT,
+    CT_Rel_2andar,            !- Nome do objeto
+    1,                        !- Ativar carga termica resfriamento
+    24,                       !- Temperatura desligamento resfriamento
+    50,                       !- Umidade desligamento resfriamento
+    1,                        !- Ativar carga termica aquecimento
+    22,                       !- Temperatura desligamento aquecimento
+    60,                       !- Umidade desligamento aquecimento
+    Interv_Res_CT_Rel_1andar, !- Intervalos de resfriamento
+    Interv_Res_CT_Rel_1andar; !- Intervalos de aquecimento
+
+  Domus:Regiao:Relatorio:CT,
+    CT_Rel_3andar,            !- Nome do objeto
+    1,                        !- Ativar carga termica resfriamento
+    24,                       !- Temperatura desligamento resfriamento
+    50,                       !- Umidade desligamento resfriamento
+    1,                        !- Ativar carga termica aquecimento
+    22,                       !- Temperatura desligamento aquecimento
+    60,                       !- Umidade desligamento aquecimento
+    Interv_Res_CT_Rel_1andar, !- Intervalos de resfriamento
+    Interv_Res_CT_Rel_1andar; !- Intervalos de aquecimento
+
+  Domus:Regiao:Relatorio:CT,
+    CT_Rel_4andar,            !- Nome do objeto
+    1,                        !- Ativar carga termica resfriamento
+    24,                       !- Temperatura desligamento resfriamento
+    50,                       !- Umidade desligamento resfriamento
+    1,                        !- Ativar carga termica aquecimento
+    22,                       !- Temperatura desligamento aquecimento
+    60,                       !- Umidade desligamento aquecimento
+    Interv_Res_CT_Rel_1andar, !- Intervalos de resfriamento
+    Interv_Res_CT_Rel_1andar; !- Intervalos de aquecimento
+
+  Domus:Regiao:Relatorio:CT,
+    CT_Rel_5andar,            !- Nome do objeto
+    1,                        !- Ativar carga termica resfriamento
+    24,                       !- Temperatura desligamento resfriamento
+    50,                       !- Umidade desligamento resfriamento
+    1,                        !- Ativar carga termica aquecimento
+    22,                       !- Temperatura desligamento aquecimento
+    60,                       !- Umidade desligamento aquecimento
+    Interv_Res_CT_Rel_1andar, !- Intervalos de resfriamento
+    Interv_Res_CT_Rel_1andar; !- Intervalos de aquecimento
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:REGIAO:RELATORIO ===========
+
+  Domus:Regiao:Relatorio,
+    Rel_1andar,               !- Nome do objeto
+    0,                        !- Monitorar  zona
+    0,                        !- Monitorar temperatura
+    0,                        !- Monitorar umidade
+    0,                        !- Monitorar pmv e ppd
+    0,                        !- Monitorar consumo energia
+    0,                        !- Monitorar carga termica
+    0,                        !- Monitorar estatisticas
+    0,                        !- Monitorar mofo
+    0,                        !- Monitorar perfil paredes
+    0,                        !- Monitorar ganho termico
+    0,                        !- Monitorar ats
+    0,                        !- Monitorar ace
+    0,                        !- Monitorar sistemas primario/secundario
+    0,                        !- Monitorar fotovoltaico
+    0,                        !- Monitorar controlador
+    0,                        !- Monitorar acs
+    1,                        !- Monitorar propriedades edificacao
+    0,                        !- Monitorar temperatura interna paredes
+    0,                        !- Monitorar calor rejeitado atuador
+    3600,                     !- Amostragem - temperatura
+    3600,                     !- Amostragem - controlador
+    3600,                     !- Amostragem - perfil paredes
+    3600,                     !- Amostragem - periodo mofo
+    3600,                     !- Amostragem - fotovoltaico
+    3600,                     !- Amostragem - sistema primario/secundario
+    CT_Rel_1andar,            !- Dados de carga termica	   
+    PMVPPD_Rel_1andar;        !- Dados de de pmv e ppd
+
+  Domus:Regiao:Relatorio,
+    Rel_2andar,               !- Nome do objeto
+    0,                        !- Monitorar  zona
+    0,                        !- Monitorar temperatura
+    0,                        !- Monitorar umidade
+    0,                        !- Monitorar pmv e ppd
+    0,                        !- Monitorar consumo energia
+    0,                        !- Monitorar carga termica
+    0,                        !- Monitorar estatisticas
+    0,                        !- Monitorar mofo
+    0,                        !- Monitorar perfil paredes
+    0,                        !- Monitorar ganho termico
+    0,                        !- Monitorar ats
+    0,                        !- Monitorar ace
+    0,                        !- Monitorar sistemas primario/secundario
+    0,                        !- Monitorar fotovoltaico
+    0,                        !- Monitorar controlador
+    0,                        !- Monitorar acs
+    1,                        !- Monitorar propriedades edificacao
+    0,                        !- Monitorar temperatura interna paredes
+    0,                        !- Monitorar calor rejeitado atuador
+    3600,                     !- Amostragem - temperatura
+    3600,                     !- Amostragem - controlador
+    3600,                     !- Amostragem - perfil paredes
+    3600,                     !- Amostragem - periodo mofo
+    3600,                     !- Amostragem - fotovoltaico
+    3600,                     !- Amostragem - sistema primario/secundario
+    CT_Rel_2andar,            !- Dados de carga termica	   
+    PMVPPD_Rel_1andar;        !- Dados de de pmv e ppd
+
+  Domus:Regiao:Relatorio,
+    Rel_3andar,               !- Nome do objeto
+    0,                        !- Monitorar  zona
+    0,                        !- Monitorar temperatura
+    0,                        !- Monitorar umidade
+    0,                        !- Monitorar pmv e ppd
+    0,                        !- Monitorar consumo energia
+    0,                        !- Monitorar carga termica
+    0,                        !- Monitorar estatisticas
+    0,                        !- Monitorar mofo
+    0,                        !- Monitorar perfil paredes
+    0,                        !- Monitorar ganho termico
+    0,                        !- Monitorar ats
+    0,                        !- Monitorar ace
+    0,                        !- Monitorar sistemas primario/secundario
+    0,                        !- Monitorar fotovoltaico
+    0,                        !- Monitorar controlador
+    0,                        !- Monitorar acs
+    1,                        !- Monitorar propriedades edificacao
+    0,                        !- Monitorar temperatura interna paredes
+    0,                        !- Monitorar calor rejeitado atuador
+    3600,                     !- Amostragem - temperatura
+    3600,                     !- Amostragem - controlador
+    3600,                     !- Amostragem - perfil paredes
+    3600,                     !- Amostragem - periodo mofo
+    3600,                     !- Amostragem - fotovoltaico
+    3600,                     !- Amostragem - sistema primario/secundario
+    CT_Rel_3andar,            !- Dados de carga termica	   
+    PMVPPD_Rel_1andar;        !- Dados de de pmv e ppd
+
+  Domus:Regiao:Relatorio,
+    Rel_4andar,               !- Nome do objeto
+    0,                        !- Monitorar  zona
+    0,                        !- Monitorar temperatura
+    0,                        !- Monitorar umidade
+    0,                        !- Monitorar pmv e ppd
+    0,                        !- Monitorar consumo energia
+    0,                        !- Monitorar carga termica
+    0,                        !- Monitorar estatisticas
+    0,                        !- Monitorar mofo
+    0,                        !- Monitorar perfil paredes
+    0,                        !- Monitorar ganho termico
+    0,                        !- Monitorar ats
+    0,                        !- Monitorar ace
+    0,                        !- Monitorar sistemas primario/secundario
+    0,                        !- Monitorar fotovoltaico
+    0,                        !- Monitorar controlador
+    0,                        !- Monitorar acs
+    1,                        !- Monitorar propriedades edificacao
+    0,                        !- Monitorar temperatura interna paredes
+    0,                        !- Monitorar calor rejeitado atuador
+    3600,                     !- Amostragem - temperatura
+    3600,                     !- Amostragem - controlador
+    3600,                     !- Amostragem - perfil paredes
+    3600,                     !- Amostragem - periodo mofo
+    3600,                     !- Amostragem - fotovoltaico
+    3600,                     !- Amostragem - sistema primario/secundario
+    CT_Rel_4andar,            !- Dados de carga termica	   
+    PMVPPD_Rel_1andar;        !- Dados de de pmv e ppd
+
+  Domus:Regiao:Relatorio,
+    Rel_5andar,               !- Nome do objeto
+    0,                        !- Monitorar  zona
+    0,                        !- Monitorar temperatura
+    0,                        !- Monitorar umidade
+    0,                        !- Monitorar pmv e ppd
+    0,                        !- Monitorar consumo energia
+    0,                        !- Monitorar carga termica
+    0,                        !- Monitorar estatisticas
+    0,                        !- Monitorar mofo
+    0,                        !- Monitorar perfil paredes
+    0,                        !- Monitorar ganho termico
+    0,                        !- Monitorar ats
+    0,                        !- Monitorar ace
+    0,                        !- Monitorar sistemas primario/secundario
+    0,                        !- Monitorar fotovoltaico
+    0,                        !- Monitorar controlador
+    0,                        !- Monitorar acs
+    1,                        !- Monitorar propriedades edificacao
+    0,                        !- Monitorar temperatura interna paredes
+    0,                        !- Monitorar calor rejeitado atuador
+    3600,                     !- Amostragem - temperatura
+    3600,                     !- Amostragem - controlador
+    3600,                     !- Amostragem - perfil paredes
+    3600,                     !- Amostragem - periodo mofo
+    3600,                     !- Amostragem - fotovoltaico
+    3600,                     !- Amostragem - sistema primario/secundario
+    CT_Rel_5andar,            !- Dados de carga termica	   
+    PMVPPD_Rel_1andar;        !- Dados de de pmv e ppd
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:REGIAO:VENTILACAO ===========
+
+  Domus:Regiao:Ventilacao,
+    Vent_Regiao1andar,        !- Nome do objeto
+    0,                        !- Habilita ventilacao natural
+    0,                        !- Modelo de ventilacao natural
+    0,                        !- Tipo de calculo do CP (0=CP medio parede, 1=pos. abertura)
+    0,                        !- Wind velocity profile exponent
+    0.0,                      !- Surrounding Building Height (m)
+    0.0,                      !- Plan Area Density (%)
+    0,                        !- Habilita ventilacao forcada
+    0,                        !- Tipo de calculo (1=por pessoas, 0=por trocas de ar)
+    0.0,                      !- Racao de ar ou trocas de ar
+    0,                        !- Quantidade de pessoas
+    0,                        !- Air Source Index (0=external air, 1=fixed values)
+    20.0,                     !- Fixed Air Temperature (C)
+    50.0,                     !- Fixed Air Humidity (%)
+    ;                         !- Intervalos de tempo
+
+  Domus:Regiao:Ventilacao,
+    Vent_Regiao2andar,        !- Nome do objeto
+    0,                        !- Habilita ventilacao natural
+    0,                        !- Modelo de ventilacao natural
+    0,                        !- Tipo de calculo do CP (0=CP medio parede, 1=pos. abertura)
+    0,                        !- Wind velocity profile exponent
+    0.0,                      !- Surrounding Building Height (m)
+    0.0,                      !- Plan Area Density (%)
+    0,                        !- Habilita ventilacao forcada
+    0,                        !- Tipo de calculo (1=por pessoas, 0=por trocas de ar)
+    0.0,                      !- Racao de ar ou trocas de ar
+    0,                        !- Quantidade de pessoas
+    0,                        !- Air Source Index (0=external air, 1=fixed values)
+    20.0,                     !- Fixed Air Temperature (C)
+    50.0,                     !- Fixed Air Humidity (%)
+    ;                         !- Intervalos de tempo
+
+  Domus:Regiao:Ventilacao,
+    Vent_Regiao3andar,        !- Nome do objeto
+    0,                        !- Habilita ventilacao natural
+    0,                        !- Modelo de ventilacao natural
+    0,                        !- Tipo de calculo do CP (0=CP medio parede, 1=pos. abertura)
+    0,                        !- Wind velocity profile exponent
+    0.0,                      !- Surrounding Building Height (m)
+    0.0,                      !- Plan Area Density (%)
+    0,                        !- Habilita ventilacao forcada
+    0,                        !- Tipo de calculo (1=por pessoas, 0=por trocas de ar)
+    0.0,                      !- Racao de ar ou trocas de ar
+    0,                        !- Quantidade de pessoas
+    0,                        !- Air Source Index (0=external air, 1=fixed values)
+    20.0,                     !- Fixed Air Temperature (C)
+    50.0,                     !- Fixed Air Humidity (%)
+    ;                         !- Intervalos de tempo
+
+  Domus:Regiao:Ventilacao,
+    Vent_Regiao4andar,        !- Nome do objeto
+    0,                        !- Habilita ventilacao natural
+    0,                        !- Modelo de ventilacao natural
+    0,                        !- Tipo de calculo do CP (0=CP medio parede, 1=pos. abertura)
+    0,                        !- Wind velocity profile exponent
+    0.0,                      !- Surrounding Building Height (m)
+    0.0,                      !- Plan Area Density (%)
+    0,                        !- Habilita ventilacao forcada
+    0,                        !- Tipo de calculo (1=por pessoas, 0=por trocas de ar)
+    0.0,                      !- Racao de ar ou trocas de ar
+    0,                        !- Quantidade de pessoas
+    0,                        !- Air Source Index (0=external air, 1=fixed values)
+    20.0,                     !- Fixed Air Temperature (C)
+    50.0,                     !- Fixed Air Humidity (%)
+    ;                         !- Intervalos de tempo
+
+  Domus:Regiao:Ventilacao,
+    Vent_Regiao5andar,        !- Nome do objeto
+    0,                        !- Habilita ventilacao natural
+    0,                        !- Modelo de ventilacao natural
+    0,                        !- Tipo de calculo do CP (0=CP medio parede, 1=pos. abertura)
+    0,                        !- Wind velocity profile exponent
+    0.0,                      !- Surrounding Building Height (m)
+    0.0,                      !- Plan Area Density (%)
+    0,                        !- Habilita ventilacao forcada
+    0,                        !- Tipo de calculo (1=por pessoas, 0=por trocas de ar)
+    0.0,                      !- Racao de ar ou trocas de ar
+    0,                        !- Quantidade de pessoas
+    0,                        !- Air Source Index (0=external air, 1=fixed values)
+    20.0,                     !- Fixed Air Temperature (C)
+    50.0,                     !- Fixed Air Humidity (%)
+    ;                         !- Intervalos de tempo
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:DADOSRTQ ===========
+
+  Domus:DadosRTQ,
+    Sem Proprietario,         !- Proprietario
+    Sem nome,                 !- Nome
+    Sem endereço,             !- Endereco
+    Sem complemento,          !- Complemento
+    Sem cidade,               !- Cidade
+    Sem Zona Bioclimática,    !- Zona bioclimatica
+    Sem Bairro,               !- Bairro
+    Sem UF,                   !- Unidade da Federacao
+    Sem CEP,                  !- CEP
+    Sem data,                 !- Data
+    0,                        !- POC
+    0,                        !- Bonificacao 1
+    0,                        !- Bonificacao 2
+    0,                        !- Bonificacao 3
+    0,                        !- Bonificacao 4
+    0,                        !- Bonificacao 5
+    0;                        !- Bonificacao 6
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:REGIAO:ATIVIDADE ===========
+
+  Domus:Regiao:Atividade,
+    Ativ_1andar,              !- Nome do objeto
+    0,                        !- Atividade principal
+    0,                        !- Transitoria
+    Zona padrão,              !- Nome da atividade
+    0.8,                      !- K limite
+    10.2,                     !- DPI A
+    12.24,                    !- DPI B
+    14.28,                    !- DPI C
+    16.32,                    !- DPI D
+    6;                        !- RCR
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:HVAC:MONIT:CONSUMO ===========
+
+  Domus:HVAC:Monit:Consumo,
+    0,                        !- Monitorar o sistema HVAC
+    3600,                     !- Passo tempo relatorios HVAC
+    0,                        !- Monitorar consumo sistema HVAC
+    0,                        !- Sistema primario - dado 1
+    0,                        !- Sistema primario - dado 2
+    0,                        !- Sistema primario - dado 3
+    0,                        !- Sistema primario - dado 4
+    0,                        !- Sistema primario - dado 5
+    0,                        !- Sistema primario - dado 6
+    1,                        !- Sistema primario - dado 7
+    0,                        !- Sistema primario - dado 8
+    0,                        !- Sistema primario - dado 9
+    Interv_Res_CT_Rel_1andar, !- Intervalos de resfriamento
+    Interv_Res_CT_Rel_1andar; !- Intervalos de aquecimento
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:MATERIAL ===========
+
+  Domus:Material,
+    Bloco Concreto (14 cm),   !- Nome do material
+    1063.1,                   !- Densidade de matriz solida
+    0.5,                      !- Porosidade
+    741.5,                    !- Calor especifico
+    0.4615,                   !- Condutibilidade termica
+    500,                      !- Tamanho do arquivo de isotermas
+    0.0020000000949949,       !- Granularidade das isotermas
+    Bloc_Con.mat,             !- Nome do arquivo de dados
+    Bloc_ConISO.mat,          !- Nome do arquivo de isotermas
+    0,                        !- Funcao isotermas
+    0;                        !- Origem do material
+
+  Domus:Material,
+    Laje mista,               !- Nome do material
+    2200,                     !- Densidade de matriz solida
+    0,                        !- Porosidade
+    1000,                     !- Calor especifico
+    1.75,                     !- Condutibilidade termica
+    0,                        !- Tamanho do arquivo de isotermas
+    0,                        !- Granularidade das isotermas
+    null,                     !- Nome do arquivo de dados
+    null,                     !- Nome do arquivo de isotermas
+    0,                        !- Funcao isotermas
+    1;                        !- Origem do material
+
+  Domus:Material,
+    tijolo,                   !- Nome do material
+    1900,                     !- Densidade de matriz solida
+    0,                        !- Porosidade
+    920,                      !- Calor especifico
+    0.749,                    !- Condutibilidade termica
+    0,                        !- Tamanho do arquivo de isotermas
+    0,                        !- Granularidade das isotermas
+    null,                     !- Nome do arquivo de dados
+    null,                     !- Nome do arquivo de isotermas
+    0,                        !- Funcao isotermas
+    1;                        !- Origem do material
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:MATERIAIS ===========
+
+  Domus:Materiais,
+    3,                        !- Numero de materiais
+    Bloco Concreto (14 cm),   !- Nome do material
+    Laje mista,               !- Nome do material	  
+    tijolo;                   !- Nome do material	  
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:FACEIDF ===========
+
+  Domus:FaceIDF,
+    1A-P,                     !- Nome da face
+    Floor,                    !- Tipo de superficie
+    Exterior Floor,           !- Elemento construtivo
+    1andar,                   !- Nome da zona
+    Ground,                   !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    NoSun,                    !- Exposicao ao sol
+    NoWind,                   !- Exposicao ao vento
+    0.0,                      !- Fator de forma para o solo
+    PTF_1A-P,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    1,                        !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    1,                        !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    1,                        !- Coordenada y
+    0,                        !- Coordenada z
+    7.5,                      !- Coordenada x
+    1,                        !- Coordenada y
+    0;                        !- Coordenada z
+
+  Domus:FaceIDF,
+    1A-N,                     !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    1andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    3.95,                     !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    1,                        !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    1,                        !- Coordenada y
+    0,                        !- Coordenada z
+    7.5,                      !- Coordenada x
+    3.95,                     !- Coordenada y
+    0;                        !- Coordenada z
+
+  Domus:FaceIDF,
+    1A-O,                     !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    1andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    3.95,                     !- Coordenada y
+    0,                        !- Coordenada z
+    7.5,                      !- Coordenada x
+    1,                        !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    1,                        !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    3.95,                     !- Coordenada y
+    0;                        !- Coordenada z
+
+  Domus:FaceIDF,
+    1A-S,                     !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    1andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    0,                        !- Coordenada x
+    3.95,                     !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    1,                        !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    1,                        !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    3.95,                     !- Coordenada y
+    27;                       !- Coordenada z
+
+  Domus:FaceIDF,
+    1A-L,                     !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    1andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    0,                        !- Coordenada x
+    3.95,                     !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    1,                        !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    1,                        !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    3.95,                     !- Coordenada y
+    27;                       !- Coordenada z
+
+  Domus:FaceIDF,
+    1A-T,                     !- Nome da face
+    Roof,                     !- Tipo de superficie
+    Interior Ceiling,         !- Elemento construtivo
+    1andar,                   !- Nome da zona
+    Surface,                  !- Condicao de contorno externa
+    2A-P,                     !- Objeto da condicacao de contorno externa
+    NoSun,                    !- Exposicao ao sol
+    NoWind,                   !- Exposicao ao vento
+    0.0,                      !- Fator de forma para o solo
+    PTF_1A-P,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    3.95,                     !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    3.95,                     !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    3.95,                     !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    3.95,                     !- Coordenada y
+    27;                       !- Coordenada z
+
+  Domus:FaceIDF,
+    2A-P,                     !- Nome da face
+    Floor,                    !- Tipo de superficie
+    Interior Floor,           !- Elemento construtivo
+    2andar,                   !- Nome da zona
+    Surface,                  !- Condicao de contorno externa
+    1A-T,                     !- Objeto da condicacao de contorno externa
+    NoSun,                    !- Exposicao ao sol
+    NoWind,                   !- Exposicao ao vento
+    0.0,                      !- Fator de forma para o solo
+    PTF_1A-P,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    3.95,                     !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    3.95,                     !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    3.95,                     !- Coordenada y
+    0,                        !- Coordenada z
+    7.5,                      !- Coordenada x
+    3.95,                     !- Coordenada y
+    0;                        !- Coordenada z
+
+  Domus:FaceIDF,
+    2A-T,                     !- Nome da face
+    Roof,                     !- Tipo de superficie
+    Interior Ceiling,         !- Elemento construtivo
+    2andar,                   !- Nome da zona
+    Surface,                  !- Condicao de contorno externa
+    3A-P,                     !- Objeto da condicacao de contorno externa
+    NoSun,                    !- Exposicao ao sol
+    NoWind,                   !- Exposicao ao vento
+    0.0,                      !- Fator de forma para o solo
+    PTF_1A-P,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    6.9,                      !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    6.9,                      !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    6.9,                      !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    6.9,                      !- Coordenada y
+    27;                       !- Coordenada z
+
+  Domus:FaceIDF,
+    2A-L,                     !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    2andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    0,                        !- Coordenada x
+    6.9,                      !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    3.95,                     !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    3.95,                     !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    6.9,                      !- Coordenada y
+    27;                       !- Coordenada z
+
+  Domus:FaceIDF,
+    2A-S,                     !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    2andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    0,                        !- Coordenada x
+    6.9,                      !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    3.95,                     !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    3.95,                     !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    6.9,                      !- Coordenada y
+    27;                       !- Coordenada z
+
+  Domus:FaceIDF,
+    2A-O,                     !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    2andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    6.9,                      !- Coordenada y
+    0,                        !- Coordenada z
+    7.5,                      !- Coordenada x
+    3.95,                     !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    3.95,                     !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    6.9,                      !- Coordenada y
+    0;                        !- Coordenada z
+
+  Domus:FaceIDF,
+    2A-N,                     !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    2andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    6.9,                      !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    3.95,                     !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    3.95,                     !- Coordenada y
+    0,                        !- Coordenada z
+    7.5,                      !- Coordenada x
+    6.9,                      !- Coordenada y
+    0;                        !- Coordenada z
+
+  Domus:FaceIDF,
+    3A-P,                     !- Nome da face
+    Floor,                    !- Tipo de superficie
+    Interior Floor,           !- Elemento construtivo
+    3andar,                   !- Nome da zona
+    Surface,                  !- Condicao de contorno externa
+    2A-T,                     !- Objeto da condicacao de contorno externa
+    NoSun,                    !- Exposicao ao sol
+    NoWind,                   !- Exposicao ao vento
+    0.0,                      !- Fator de forma para o solo
+    PTF_1A-P,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    6.9,                      !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    6.9,                      !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    6.9,                      !- Coordenada y
+    0,                        !- Coordenada z
+    7.5,                      !- Coordenada x
+    6.9,                      !- Coordenada y
+    0;                        !- Coordenada z
+
+  Domus:FaceIDF,
+    3A-T,                     !- Nome da face
+    Roof,                     !- Tipo de superficie
+    Interior Ceiling,         !- Elemento construtivo
+    3andar,                   !- Nome da zona
+    Surface,                  !- Condicao de contorno externa
+    4A-P,                     !- Objeto da condicacao de contorno externa
+    NoSun,                    !- Exposicao ao sol
+    NoWind,                   !- Exposicao ao vento
+    0.0,                      !- Fator de forma para o solo
+    PTF_1A-P,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    9.85,                     !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    9.85,                     !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    9.85,                     !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    9.85,                     !- Coordenada y
+    27;                       !- Coordenada z
+
+  Domus:FaceIDF,
+    3A-L,                     !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    3andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    0,                        !- Coordenada x
+    9.85,                     !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    6.9,                      !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    6.9,                      !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    9.85,                     !- Coordenada y
+    27;                       !- Coordenada z
+
+  Domus:FaceIDF,
+    3A-S,                     !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    3andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    0,                        !- Coordenada x
+    9.85,                     !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    6.9,                      !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    6.9,                      !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    9.85,                     !- Coordenada y
+    27;                       !- Coordenada z
+
+  Domus:FaceIDF,
+    3A-O,                     !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    3andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    9.85,                     !- Coordenada y
+    0,                        !- Coordenada z
+    7.5,                      !- Coordenada x
+    6.9,                      !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    6.9,                      !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    9.85,                     !- Coordenada y
+    0;                        !- Coordenada z
+
+  Domus:FaceIDF,
+    3A-N,                     !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    3andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    9.85,                     !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    6.9,                      !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    6.9,                      !- Coordenada y
+    0,                        !- Coordenada z
+    7.5,                      !- Coordenada x
+    9.85,                     !- Coordenada y
+    0;                        !- Coordenada z
+
+  Domus:FaceIDF,
+    4A-P,                     !- Nome da face
+    Floor,                    !- Tipo de superficie
+    Interior Floor,           !- Elemento construtivo
+    4andar,                   !- Nome da zona
+    Surface,                  !- Condicao de contorno externa
+    3A-T,                     !- Objeto da condicacao de contorno externa
+    NoSun,                    !- Exposicao ao sol
+    NoWind,                   !- Exposicao ao vento
+    0.0,                      !- Fator de forma para o solo
+    PTF_1A-P,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    9.85,                     !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    9.85,                     !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    9.85,                     !- Coordenada y
+    0,                        !- Coordenada z
+    7.5,                      !- Coordenada x
+    9.85,                     !- Coordenada y
+    0;                        !- Coordenada z
+
+  Domus:FaceIDF,
+    4A-T,                     !- Nome da face
+    Roof,                     !- Tipo de superficie
+    Interior Ceiling,         !- Elemento construtivo
+    4andar,                   !- Nome da zona
+    Surface,                  !- Condicao de contorno externa
+    5A -P,                    !- Objeto da condicacao de contorno externa
+    NoSun,                    !- Exposicao ao sol
+    NoWind,                   !- Exposicao ao vento
+    0.0,                      !- Fator de forma para o solo
+    PTF_1A-P,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    12.8,                     !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    12.8,                     !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    12.8,                     !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    12.8,                     !- Coordenada y
+    27;                       !- Coordenada z
+
+  Domus:FaceIDF,
+    4A-L,                     !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    4andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    0,                        !- Coordenada x
+    12.8,                     !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    9.85,                     !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    9.85,                     !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    12.8,                     !- Coordenada y
+    27;                       !- Coordenada z
+
+  Domus:FaceIDF,
+    4A-S,                     !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    4andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    0,                        !- Coordenada x
+    12.8,                     !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    9.85,                     !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    9.85,                     !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    12.8,                     !- Coordenada y
+    27;                       !- Coordenada z
+
+  Domus:FaceIDF,
+    4A-O,                     !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    4andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    12.8,                     !- Coordenada y
+    0,                        !- Coordenada z
+    7.5,                      !- Coordenada x
+    9.85,                     !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    9.85,                     !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    12.8,                     !- Coordenada y
+    0;                        !- Coordenada z
+
+  Domus:FaceIDF,
+    4A-N,                     !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    4andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    12.8,                     !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    9.85,                     !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    9.85,                     !- Coordenada y
+    0,                        !- Coordenada z
+    7.5,                      !- Coordenada x
+    12.8,                     !- Coordenada y
+    0;                        !- Coordenada z
+
+  Domus:FaceIDF,
+    5A -P,                    !- Nome da face
+    Floor,                    !- Tipo de superficie
+    Interior Floor,           !- Elemento construtivo
+    5andar,                   !- Nome da zona
+    Surface,                  !- Condicao de contorno externa
+    4A-T,                     !- Objeto da condicacao de contorno externa
+    NoSun,                    !- Exposicao ao sol
+    NoWind,                   !- Exposicao ao vento
+    0.0,                      !- Fator de forma para o solo
+    PTF_1A-P,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    12.8,                     !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    12.8,                     !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    12.8,                     !- Coordenada y
+    0,                        !- Coordenada z
+    7.5,                      !- Coordenada x
+    12.8,                     !- Coordenada y
+    0;                        !- Coordenada z
+
+  Domus:FaceIDF,
+    5A -T,                    !- Nome da face
+    Roof,                     !- Tipo de superficie
+    Exterior Roof,            !- Elemento construtivo
+    5andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    0.0,                      !- Fator de forma para o solo
+    PTF_1A-P,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    15.75,                    !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    15.75,                    !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    15.75,                    !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    15.75,                    !- Coordenada y
+    27;                       !- Coordenada z
+
+  Domus:FaceIDF,
+    5A -L,                    !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    5andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    0,                        !- Coordenada x
+    15.75,                    !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    12.8,                     !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    12.8,                     !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    15.75,                    !- Coordenada y
+    27;                       !- Coordenada z
+
+  Domus:FaceIDF,
+    5A -S,                    !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    5andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    0,                        !- Coordenada x
+    15.75,                    !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    12.8,                     !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    12.8,                     !- Coordenada y
+    27,                       !- Coordenada z
+    0,                        !- Coordenada x
+    15.75,                    !- Coordenada y
+    27;                       !- Coordenada z
+
+  Domus:FaceIDF,
+    5A -O,                    !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    5andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    15.75,                    !- Coordenada y
+    0,                        !- Coordenada z
+    7.5,                      !- Coordenada x
+    12.8,                     !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    12.8,                     !- Coordenada y
+    0,                        !- Coordenada z
+    0,                        !- Coordenada x
+    15.75,                    !- Coordenada y
+    0;                        !- Coordenada z
+
+  Domus:FaceIDF,
+    5A - N,                   !- Nome da face
+    Wall,                     !- Tipo de superficie
+    Exterior Wall,            !- Elemento construtivo
+    5andar,                   !- Nome da zona
+    Outdoors,                 !- Condicao de contorno externa
+    ,                         !- Objeto da condicacao de contorno externa
+    SunExposed,               !- Exposicao ao sol
+    WindExposed,              !- Exposicao ao vento
+    ,                         !- Fator de forma para o solo
+    PTF_1A-N,                 !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    Rel_1A-P,                 !- Opcoes de relatorios
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    15.75,                    !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    12.8,                     !- Coordenada y
+    27,                       !- Coordenada z
+    7.5,                      !- Coordenada x
+    12.8,                     !- Coordenada y
+    0,                        !- Coordenada z
+    7.5,                      !- Coordenada x
+    15.75,                    !- Coordenada y
+    0;                        !- Coordenada z
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:ZONEIDF ===========
+
+  Domus:ZoneIDF,
+    1andar,                   !- Nome da zona
+    0,                        !- Direcao relativa do norte
+    0,                        !- Coordenada X da origem {m}
+    0,                        !- Coordenada Y da origem {m}
+    0,                        !- Coordenada Z da origem {m}
+    0,                        !- Tipo
+    1,                        !- Multiplicador
+    0,                        !- Altura do teto {m}
+    597.375,                  !- Volume {m3}
+    0,                        !- Area do piso {m2}
+    ,                         !- Algoritmo de conveccao para interior da zona
+    ,                         !- Algoritmo de conveccao para exterior da zona
+    ,                         !- Parte da area total do piso
+    Param_1andar,             !-  Referencia para os parametros da zona
+    Rel_1andar,               !-  Referencia para as configuracoes de relatorio
+    ,                         !-  Referencia para a mobilia
+    ,                         !-  Referencia para os ganhos internos
+    ,                         !-  Referencia para os equipamentos photo-voltaicos
+    ,                         !-  Referencia para os atuadores da zona
+    Vent_Regiao1andar,        !-  Referencia para a ventilacao da zona
+    Ativ_1andar;              !-  Referencia para as atividades da zona
+
+  Domus:ZoneIDF,
+    2andar,                   !- Nome da zona
+    0,                        !- Direcao relativa do norte
+    0,                        !- Coordenada X da origem {m}
+    0,                        !- Coordenada Y da origem {m}
+    0,                        !- Coordenada Z da origem {m}
+    0,                        !- Tipo
+    1,                        !- Multiplicador
+    0,                        !- Altura do teto {m}
+    597.375,                  !- Volume {m3}
+    0,                        !- Area do piso {m2}
+    ,                         !- Algoritmo de conveccao para interior da zona
+    ,                         !- Algoritmo de conveccao para exterior da zona
+    ,                         !- Parte da area total do piso
+    Param_1andar,             !-  Referencia para os parametros da zona
+    Rel_2andar,               !-  Referencia para as configuracoes de relatorio
+    ,                         !-  Referencia para a mobilia
+    ,                         !-  Referencia para os ganhos internos
+    ,                         !-  Referencia para os equipamentos photo-voltaicos
+    ,                         !-  Referencia para os atuadores da zona
+    Vent_Regiao2andar,        !-  Referencia para a ventilacao da zona
+    Ativ_1andar;              !-  Referencia para as atividades da zona
+
+  Domus:ZoneIDF,
+    3andar,                   !- Nome da zona
+    0,                        !- Direcao relativa do norte
+    0,                        !- Coordenada X da origem {m}
+    0,                        !- Coordenada Y da origem {m}
+    0,                        !- Coordenada Z da origem {m}
+    0,                        !- Tipo
+    1,                        !- Multiplicador
+    0,                        !- Altura do teto {m}
+    597.375,                  !- Volume {m3}
+    0,                        !- Area do piso {m2}
+    ,                         !- Algoritmo de conveccao para interior da zona
+    ,                         !- Algoritmo de conveccao para exterior da zona
+    ,                         !- Parte da area total do piso
+    Param_1andar,             !-  Referencia para os parametros da zona
+    Rel_3andar,               !-  Referencia para as configuracoes de relatorio
+    ,                         !-  Referencia para a mobilia
+    ,                         !-  Referencia para os ganhos internos
+    ,                         !-  Referencia para os equipamentos photo-voltaicos
+    ,                         !-  Referencia para os atuadores da zona
+    Vent_Regiao3andar,        !-  Referencia para a ventilacao da zona
+    Ativ_1andar;              !-  Referencia para as atividades da zona
+
+  Domus:ZoneIDF,
+    4andar,                   !- Nome da zona
+    0,                        !- Direcao relativa do norte
+    0,                        !- Coordenada X da origem {m}
+    0,                        !- Coordenada Y da origem {m}
+    0,                        !- Coordenada Z da origem {m}
+    0,                        !- Tipo
+    1,                        !- Multiplicador
+    0,                        !- Altura do teto {m}
+    597.375,                  !- Volume {m3}
+    0,                        !- Area do piso {m2}
+    ,                         !- Algoritmo de conveccao para interior da zona
+    ,                         !- Algoritmo de conveccao para exterior da zona
+    ,                         !- Parte da area total do piso
+    Param_1andar,             !-  Referencia para os parametros da zona
+    Rel_4andar,               !-  Referencia para as configuracoes de relatorio
+    ,                         !-  Referencia para a mobilia
+    ,                         !-  Referencia para os ganhos internos
+    ,                         !-  Referencia para os equipamentos photo-voltaicos
+    ,                         !-  Referencia para os atuadores da zona
+    Vent_Regiao4andar,        !-  Referencia para a ventilacao da zona
+    Ativ_1andar;              !-  Referencia para as atividades da zona
+
+  Domus:ZoneIDF,
+    5andar,                   !- Nome da zona
+    0,                        !- Direcao relativa do norte
+    0,                        !- Coordenada X da origem {m}
+    0,                        !- Coordenada Y da origem {m}
+    0,                        !- Coordenada Z da origem {m}
+    0,                        !- Tipo
+    1,                        !- Multiplicador
+    0,                        !- Altura do teto {m}
+    597.375,                  !- Volume {m3}
+    0,                        !- Area do piso {m2}
+    ,                         !- Algoritmo de conveccao para interior da zona
+    ,                         !- Algoritmo de conveccao para exterior da zona
+    ,                         !- Parte da area total do piso
+    Param_1andar,             !-  Referencia para os parametros da zona
+    Rel_5andar,               !-  Referencia para as configuracoes de relatorio
+    ,                         !-  Referencia para a mobilia
+    ,                         !-  Referencia para os ganhos internos
+    ,                         !-  Referencia para os equipamentos photo-voltaicos
+    ,                         !-  Referencia para os atuadores da zona
+    Vent_Regiao5andar,        !-  Referencia para a ventilacao da zona
+    Ativ_1andar;              !-  Referencia para as atividades da zona
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:FENESTRAIDF ===========
+
+  Domus:FenestraIDF,
+    1A-JN,                    !- Nome da fenestra
+    Window,                   !- Tipo da superficie
+    janela,                   !- Nome do elemento construtivo
+    1A-N,                     !- Nome da parede mae
+    ,                         !- Objeto da condicacao de contorno externa
+    0,                        !- Fator de forma para o solo
+    ,                         !- Nome do controle de sombreamento       
+    ,                         !- Nome do quadro e divisor
+    0,                        !- Multiplicador
+    PTF_1A-JN,                !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    0,                        !- Esquadria codigo cor
+    0,                        !- Esquadria codigo material
+    0.15,                     !- Area de esquadria
+    10.79,                    !- Transmitancia da esquadria
+    0.4,                      !- Absortividade da esquadria
+    0.092678,                 !- Resistividade da esquadria
+    0.9,                      !- Emissividade da esquadria
+    100,                      !- Percentual de abertura
+    ,                         !- Intervalos de abertura
+    Rel_1A-P,                 !- Opcoes de relatorios	   
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    3.45,                     !- Coordenada y
+    26.5,                     !- Coordenada z
+    7.5,                      !- Coordenada x
+    2,                        !- Coordenada y
+    26.5,                     !- Coordenada z
+    7.5,                      !- Coordenada x
+    2,                        !- Coordenada y
+    0.5,                      !- Coordenada z
+    7.5,                      !- Coordenada x
+    3.45,                     !- Coordenada y
+    0.5;                      !- Coordenada z
+
+  Domus:FenestraIDF,
+    1A-JS,                    !- Nome da fenestra
+    Window,                   !- Tipo da superficie
+    janela,                   !- Nome do elemento construtivo
+    1A-S,                     !- Nome da parede mae
+    ,                         !- Objeto da condicacao de contorno externa
+    0,                        !- Fator de forma para o solo
+    ,                         !- Nome do controle de sombreamento       
+    ,                         !- Nome do quadro e divisor
+    0,                        !- Multiplicador
+    PTF_1A-JN,                !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    0,                        !- Esquadria codigo cor
+    0,                        !- Esquadria codigo material
+    0.15,                     !- Area de esquadria
+    10.79,                    !- Transmitancia da esquadria
+    0.4,                      !- Absortividade da esquadria
+    0.092678,                 !- Resistividade da esquadria
+    0.9,                      !- Emissividade da esquadria
+    100,                      !- Percentual de abertura
+    ,                         !- Intervalos de abertura
+    Rel_1A-P,                 !- Opcoes de relatorios	   
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    0,                        !- Coordenada x
+    3.45,                     !- Coordenada y
+    0.5,                      !- Coordenada z
+    0,                        !- Coordenada x
+    2,                        !- Coordenada y
+    0.5,                      !- Coordenada z
+    0,                        !- Coordenada x
+    2,                        !- Coordenada y
+    26.5,                     !- Coordenada z
+    0,                        !- Coordenada x
+    3.45,                     !- Coordenada y
+    26.5;                     !- Coordenada z
+
+  Domus:FenestraIDF,
+    2A-JS,                    !- Nome da fenestra
+    Window,                   !- Tipo da superficie
+    janela,                   !- Nome do elemento construtivo
+    2A-S,                     !- Nome da parede mae
+    ,                         !- Objeto da condicacao de contorno externa
+    0,                        !- Fator de forma para o solo
+    ,                         !- Nome do controle de sombreamento       
+    ,                         !- Nome do quadro e divisor
+    0,                        !- Multiplicador
+    PTF_1A-JN,                !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    0,                        !- Esquadria codigo cor
+    0,                        !- Esquadria codigo material
+    0.15,                     !- Area de esquadria
+    10.79,                    !- Transmitancia da esquadria
+    0.4,                      !- Absortividade da esquadria
+    0.092678,                 !- Resistividade da esquadria
+    0.9,                      !- Emissividade da esquadria
+    100,                      !- Percentual de abertura
+    ,                         !- Intervalos de abertura
+    Rel_1A-P,                 !- Opcoes de relatorios	   
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    0,                        !- Coordenada x
+    6.4,                      !- Coordenada y
+    0.5,                      !- Coordenada z
+    0,                        !- Coordenada x
+    4.95,                     !- Coordenada y
+    0.5,                      !- Coordenada z
+    0,                        !- Coordenada x
+    4.95,                     !- Coordenada y
+    26.5,                     !- Coordenada z
+    0,                        !- Coordenada x
+    6.4,                      !- Coordenada y
+    26.5;                     !- Coordenada z
+
+  Domus:FenestraIDF,
+    2A-JN,                    !- Nome da fenestra
+    Window,                   !- Tipo da superficie
+    janela,                   !- Nome do elemento construtivo
+    2A-N,                     !- Nome da parede mae
+    ,                         !- Objeto da condicacao de contorno externa
+    0,                        !- Fator de forma para o solo
+    ,                         !- Nome do controle de sombreamento       
+    ,                         !- Nome do quadro e divisor
+    0,                        !- Multiplicador
+    PTF_1A-JN,                !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    0,                        !- Esquadria codigo cor
+    0,                        !- Esquadria codigo material
+    0.15,                     !- Area de esquadria
+    10.79,                    !- Transmitancia da esquadria
+    0.4,                      !- Absortividade da esquadria
+    0.092678,                 !- Resistividade da esquadria
+    0.9,                      !- Emissividade da esquadria
+    100,                      !- Percentual de abertura
+    ,                         !- Intervalos de abertura
+    Rel_1A-P,                 !- Opcoes de relatorios	   
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    6.4,                      !- Coordenada y
+    26.5,                     !- Coordenada z
+    7.5,                      !- Coordenada x
+    4.95,                     !- Coordenada y
+    26.5,                     !- Coordenada z
+    7.5,                      !- Coordenada x
+    4.95,                     !- Coordenada y
+    0.5,                      !- Coordenada z
+    7.5,                      !- Coordenada x
+    6.4,                      !- Coordenada y
+    0.5;                      !- Coordenada z
+
+  Domus:FenestraIDF,
+    3A-JS,                    !- Nome da fenestra
+    Window,                   !- Tipo da superficie
+    janela,                   !- Nome do elemento construtivo
+    3A-S,                     !- Nome da parede mae
+    ,                         !- Objeto da condicacao de contorno externa
+    0,                        !- Fator de forma para o solo
+    ,                         !- Nome do controle de sombreamento       
+    ,                         !- Nome do quadro e divisor
+    0,                        !- Multiplicador
+    PTF_1A-JN,                !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    0,                        !- Esquadria codigo cor
+    0,                        !- Esquadria codigo material
+    0.15,                     !- Area de esquadria
+    10.79,                    !- Transmitancia da esquadria
+    0.4,                      !- Absortividade da esquadria
+    0.092678,                 !- Resistividade da esquadria
+    0.9,                      !- Emissividade da esquadria
+    100,                      !- Percentual de abertura
+    ,                         !- Intervalos de abertura
+    Rel_1A-P,                 !- Opcoes de relatorios	   
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    0,                        !- Coordenada x
+    9.35,                     !- Coordenada y
+    0.5,                      !- Coordenada z
+    0,                        !- Coordenada x
+    7.9,                      !- Coordenada y
+    0.5,                      !- Coordenada z
+    0,                        !- Coordenada x
+    7.9,                      !- Coordenada y
+    26.5,                     !- Coordenada z
+    0,                        !- Coordenada x
+    9.35,                     !- Coordenada y
+    26.5;                     !- Coordenada z
+
+  Domus:FenestraIDF,
+    3A-JN,                    !- Nome da fenestra
+    Window,                   !- Tipo da superficie
+    janela,                   !- Nome do elemento construtivo
+    3A-N,                     !- Nome da parede mae
+    ,                         !- Objeto da condicacao de contorno externa
+    0,                        !- Fator de forma para o solo
+    ,                         !- Nome do controle de sombreamento       
+    ,                         !- Nome do quadro e divisor
+    0,                        !- Multiplicador
+    PTF_1A-JN,                !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    0,                        !- Esquadria codigo cor
+    0,                        !- Esquadria codigo material
+    0.15,                     !- Area de esquadria
+    10.79,                    !- Transmitancia da esquadria
+    0.4,                      !- Absortividade da esquadria
+    0.092678,                 !- Resistividade da esquadria
+    0.9,                      !- Emissividade da esquadria
+    100,                      !- Percentual de abertura
+    ,                         !- Intervalos de abertura
+    Rel_1A-P,                 !- Opcoes de relatorios	   
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    9.35,                     !- Coordenada y
+    26.5,                     !- Coordenada z
+    7.5,                      !- Coordenada x
+    7.9,                      !- Coordenada y
+    26.5,                     !- Coordenada z
+    7.5,                      !- Coordenada x
+    7.9,                      !- Coordenada y
+    0.5,                      !- Coordenada z
+    7.5,                      !- Coordenada x
+    9.35,                     !- Coordenada y
+    0.5;                      !- Coordenada z
+
+  Domus:FenestraIDF,
+    4A-JS,                    !- Nome da fenestra
+    Window,                   !- Tipo da superficie
+    janela,                   !- Nome do elemento construtivo
+    4A-S,                     !- Nome da parede mae
+    ,                         !- Objeto da condicacao de contorno externa
+    0,                        !- Fator de forma para o solo
+    ,                         !- Nome do controle de sombreamento       
+    ,                         !- Nome do quadro e divisor
+    0,                        !- Multiplicador
+    PTF_1A-JN,                !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    0,                        !- Esquadria codigo cor
+    0,                        !- Esquadria codigo material
+    0.15,                     !- Area de esquadria
+    10.79,                    !- Transmitancia da esquadria
+    0.4,                      !- Absortividade da esquadria
+    0.092678,                 !- Resistividade da esquadria
+    0.9,                      !- Emissividade da esquadria
+    100,                      !- Percentual de abertura
+    ,                         !- Intervalos de abertura
+    Rel_1A-P,                 !- Opcoes de relatorios	   
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    0,                        !- Coordenada x
+    12.3,                     !- Coordenada y
+    0.5,                      !- Coordenada z
+    0,                        !- Coordenada x
+    10.85,                    !- Coordenada y
+    0.5,                      !- Coordenada z
+    0,                        !- Coordenada x
+    10.85,                    !- Coordenada y
+    26.5,                     !- Coordenada z
+    0,                        !- Coordenada x
+    12.3,                     !- Coordenada y
+    26.5;                     !- Coordenada z
+
+  Domus:FenestraIDF,
+    4A-J,                     !- Nome da fenestra
+    Window,                   !- Tipo da superficie
+    janela,                   !- Nome do elemento construtivo
+    4A-N,                     !- Nome da parede mae
+    ,                         !- Objeto da condicacao de contorno externa
+    0,                        !- Fator de forma para o solo
+    ,                         !- Nome do controle de sombreamento       
+    ,                         !- Nome do quadro e divisor
+    0,                        !- Multiplicador
+    PTF_1A-JN,                !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    0,                        !- Esquadria codigo cor
+    0,                        !- Esquadria codigo material
+    0.15,                     !- Area de esquadria
+    10.79,                    !- Transmitancia da esquadria
+    0.4,                      !- Absortividade da esquadria
+    0.092678,                 !- Resistividade da esquadria
+    0.9,                      !- Emissividade da esquadria
+    100,                      !- Percentual de abertura
+    ,                         !- Intervalos de abertura
+    Rel_1A-P,                 !- Opcoes de relatorios	   
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    12.3,                     !- Coordenada y
+    26.5,                     !- Coordenada z
+    7.5,                      !- Coordenada x
+    10.85,                    !- Coordenada y
+    26.5,                     !- Coordenada z
+    7.5,                      !- Coordenada x
+    10.85,                    !- Coordenada y
+    0.5,                      !- Coordenada z
+    7.5,                      !- Coordenada x
+    12.3,                     !- Coordenada y
+    0.5;                      !- Coordenada z
+
+  Domus:FenestraIDF,
+    5A -JS,                   !- Nome da fenestra
+    Window,                   !- Tipo da superficie
+    janela,                   !- Nome do elemento construtivo
+    5A -S,                    !- Nome da parede mae
+    ,                         !- Objeto da condicacao de contorno externa
+    0,                        !- Fator de forma para o solo
+    ,                         !- Nome do controle de sombreamento       
+    ,                         !- Nome do quadro e divisor
+    0,                        !- Multiplicador
+    PTF_1A-JN,                !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    0,                        !- Esquadria codigo cor
+    0,                        !- Esquadria codigo material
+    0.15,                     !- Area de esquadria
+    10.79,                    !- Transmitancia da esquadria
+    0.4,                      !- Absortividade da esquadria
+    0.092678,                 !- Resistividade da esquadria
+    0.9,                      !- Emissividade da esquadria
+    100,                      !- Percentual de abertura
+    ,                         !- Intervalos de abertura
+    Rel_1A-P,                 !- Opcoes de relatorios	   
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    0,                        !- Coordenada x
+    15.25,                    !- Coordenada y
+    0.5,                      !- Coordenada z
+    0,                        !- Coordenada x
+    13.8,                     !- Coordenada y
+    0.5,                      !- Coordenada z
+    0,                        !- Coordenada x
+    13.8,                     !- Coordenada y
+    26.5,                     !- Coordenada z
+    0,                        !- Coordenada x
+    15.25,                    !- Coordenada y
+    26.5;                     !- Coordenada z
+
+  Domus:FenestraIDF,
+    5A -JN,                   !- Nome da fenestra
+    Window,                   !- Tipo da superficie
+    janela,                   !- Nome do elemento construtivo
+    5A - N,                   !- Nome da parede mae
+    ,                         !- Objeto da condicacao de contorno externa
+    0,                        !- Fator de forma para o solo
+    ,                         !- Nome do controle de sombreamento       
+    ,                         !- Nome do quadro e divisor
+    0,                        !- Multiplicador
+    PTF_1A-JN,                !- Referencia para as prop. termo-fisicas
+    ElemDes_1A-P,             !- Referencia para as prop. de desenho
+    0,                        !- Esquadria codigo cor
+    0,                        !- Esquadria codigo material
+    0.15,                     !- Area de esquadria
+    10.79,                    !- Transmitancia da esquadria
+    0.4,                      !- Absortividade da esquadria
+    0.092678,                 !- Resistividade da esquadria
+    0.9,                      !- Emissividade da esquadria
+    100,                      !- Percentual de abertura
+    ,                         !- Intervalos de abertura
+    Rel_1A-P,                 !- Opcoes de relatorios	   
+    ,                         !- Referencia para o fator de forma da zona
+    4,                        !- Numero de vertices
+    7.5,                      !- Coordenada x
+    15.25,                    !- Coordenada y
+    26.5,                     !- Coordenada z
+    7.5,                      !- Coordenada x
+    13.8,                     !- Coordenada y
+    26.5,                     !- Coordenada z
+    7.5,                      !- Coordenada x
+    13.8,                     !- Coordenada y
+    0.5,                      !- Coordenada z
+    7.5,                      !- Coordenada x
+    15.25,                    !- Coordenada y
+    0.5;                      !- Coordenada z
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:PIXELCOUNTCONFIG ===========
+
+  Domus:PixelCountConfig,
+    7,                        !- Intervalo de dias
+    20,                       !- Intervalo de horas (em min)
+    512,                      !- Dimensao na horizontal
+    512,                      !- Dimensao na vertical
+    0,                        !- Metodo (1 (flag 0) ou 2 fases (flag 1))
+    -1,                       !- Passo de tempo do relatorio (-1 -> igual sim.)
+    2;                        !- Lados a calcular (externo (0), interno (1) ou ambos (2))
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:FACE:PTF:MODELOSIMULACAO ===========
+
+  Domus:Face:PTF:ModeloSimulacao,
+    ModelSimul_PTF_1A-P,      !- Nome do objeto
+    0,                        !- Modelo Simulacao
+    1,                        !- Nivel de Simplificacao
+    ;                         !- Referencia para o objeto de Modelo com Interface Externa (EMI)
+
+!-   ===========  ALL OBJECTS IN CLASS: DOMUS:FACE:PTF:PARAMCOEFCONV ===========
+
+  Domus:Face:PTF:ParamCoefConv,
+    ParamCoefConv_PTF_1A-P,   !- Nome do objeto
+    0,                        !- Calcular coeficiente conveccao interno
+    0,                        !- Calcular coeficiente conveccao externo
+    1,                        !- Calcular coeficiente conveccao interno massa
+    1,                        !- Calcular coeficiente conveccao externo massa
+    3,                        !- Valor coeficiente conveccao interno
+    12,                       !- Valor coeficiente conveccao externo
+    0.00275,                  !- Valor coeficiente conveccao interno massa
+    0.00275,                  !- Valor coeficiente conveccao externo massa
+    0,                        !- Tipo de coeficiente (natural = 0, forcado = 1)
+    0,                        !- Velocidade do ar
+    0,                        !- Coeficiente de convec. interno A (Yazdanian e Klems)
+    0,                        !- Coeficiente de convec. interno C (Yazdanian e Klems)
+    0,                        !- Coeficiente de convec. interno n (Yazdanian e Klems)
+    0,                        !- Coeficiente de convec. externo A (Yazdanian e Klems)
+    0,                        !- Coeficiente de convec. externo C (Yazdanian e Klems)
+    0,                        !- Coeficiente de convec. externo n (Yazdanian e Klems)
+    0,                        !- Calcular coeficiente convec. interno YK
+    0,                        !- Calcular coeficiente convec. externo YK
+    0,                        !- Residuo conveccao massa interna
+    0;                        !- Residuo conveccao massa externo

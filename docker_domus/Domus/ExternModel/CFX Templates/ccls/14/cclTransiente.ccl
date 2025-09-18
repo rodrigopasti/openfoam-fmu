@@ -1,0 +1,146 @@
+# State file created:  2015/10/01 20:41:57
+# Build 16.2 2015.06.30-00.06-134402
+
+FLOW: Flow Analysis 1
+  ANALYSIS TYPE:
+    Option = Transient
+    EXTERNAL SOLVER COUPLING:
+      Option = None
+    END
+    INITIAL TIME:
+      Option = Automatic with Value
+      Time = Tempo Inicial do Transiente
+    END
+    TIME DURATION: 
+      Option = Time per run
+      Time per run = Tempo do Transiente do CFX
+    END	
+    TIME STEPS:
+      Option = Timesteps
+      Timesteps = Passo de Tempo para CFX
+    END
+  END
+  EXPERT PARAMETERS:
+    solve energy = t
+    solve fluids = f
+    solve radiation = t
+  END
+  &replace SOLVER CONTROL:
+    Turbulence Numerics = First Order
+    ADVECTION SCHEME: 
+      Option = High Resolution
+    END # ADVECTION SCHEME:
+    CONVERGENCE CONTROL: 
+      Maximum Number of Coefficient Loops = 50
+      Minimum Number of Coefficient Loops = 1
+      Timescale Control = Coefficient Loops
+    END # CONVERGENCE CONTROL:
+    CONVERGENCE CRITERIA: 
+      Residual Target = Residual Target Parameter
+      Residual Type = RMS
+    END # CONVERGENCE CRITERIA:
+    THERMAL RADIATION CONTROL: 
+      Iteration Interval = 1
+    END # THERMAL RADIATION CONTROL:	
+    TRANSIENT SCHEME: 
+      Option = Second Order Backward Euler
+      TIMESTEP INITIALISATION: 
+        Option = Automatic
+      END # TIMESTEP INITIALISATION:
+    END # TRANSIENT SCHEME:
+  END # SOLVER CONTROL:
+  &replace OUTPUT CONTROL: 
+	TRANSIENT RESULTS: Transient Results 1
+      File Compression Level = Default
+      Include Mesh = No
+      Option = Selected Variables
+      Output Variables List = Absolute Pressure,Density,Incident \
+        Radiation,Temperature,Velocity,Wall Heat Flux,Wall Irradiation Flux
+      OUTPUT FREQUENCY:
+        Option = Timestep Interval
+        Timestep Interval = 3
+      END # OUTPUT FREQUENCY:
+	END # TRANSIENT RESULTS: Transient Results 1
+    MONITOR OBJECTS:
+      MONITOR BALANCES:
+        Option = Full
+      END #MONITOR BALANCES:
+      MONITOR FORCES:
+        Option = Full
+      END # MONITOR FORCES:
+      MONITOR PARTICLES:
+        Option = Full
+      END # MONITOR PARTICLES:
+      MONITOR POINT: Fluxo Reboco Externo
+        Coord Frame = Coord 0
+        Expression Value = areaInt(Wall Heat Flux )@REGION:Face Externa \
+          Reboco Externo
+        Option = Expression
+      END # MONITOR POINT: Fluxo Reboco Externo
+      MONITOR POINT: Fluxo Reboco Interno
+        Coord Frame = Coord 0
+        Expression Value = areaInt(Wall Heat Flux)@REGION:Face Interna Reboco \
+          Interno
+        Option = Expression
+      END # MONITOR POINT: Fluxo Reboco Interno
+      MONITOR POINT: Temperatura Maxima Face Externa
+        Coord Frame = Coord 0
+        Expression Value = maxVal(T)@REGION:Face Externa Reboco Externo
+        Option = Expression
+      END
+      MONITOR POINT: Temperatura Maxima Face Interna
+        Coord Frame = Coord 0
+        Expression Value = maxVal(T)@REGION:Face Interna Reboco Interno
+        Option = Expression
+      END
+      MONITOR POINT: Temperatura Media Face Externa
+        Coord Frame = Coord 0
+        Expression Value = areaAve(T)@REGION:Face Externa Reboco Externo
+        Option = Expression
+      END
+      MONITOR POINT: Temperatura Media Face Interna
+        Coord Frame = Coord 0
+        Expression Value = areaAve(T)@REGION:Face Interna Reboco Interno
+        Option = Expression
+      END # MONITOR POINT: Temperatura Media Face Interna
+      MONITOR POINT: Temperatura Minima Face Externa
+        Coord Frame = Coord 0
+        Expression Value = minVal(T)@REGION:Face Externa Reboco Externo
+        Option = Expression
+      END
+      MONITOR POINT: Temperatura Minima Face Interna
+        Coord Frame = Coord 0
+        Expression Value = minVal(T)@REGION:Face Interna Reboco Interno
+        Option = Expression
+      END
+      MONITOR RESIDUALS:
+        Option = Full
+      END # MONITOR RESIDUALS:
+      MONITOR TOTALS:
+        Option = Full
+      END # MONITOR TOTALS:
+    END # MONITOR OBJECTS:
+    RESULTS: 
+      File Compression Level = Default
+      Option = Standard
+    END	# RESULTS:
+  END # OUTPUT CONTROL:  
+END # FLOW:Flow Analysis 1
+COMMAND FILE:
+  Version = 17.0
+END
+#LIBRARY:
+#  OUTPUT CONTROL:
+#	TRANSIENT RESULTS: Transient Results 1
+#      File Compression Level = Default
+#      Include Mesh = No
+#      Option = Selected Variables
+#      Output Variables List = Absolute Pressure,Density,Incident \
+#        Radiation,Temperature,Velocity,Wall Heat Flux,Wall Irradiation Flux
+#      OUTPUT FREQUENCY:
+#        Option = Timestep Interval
+#        Timestep Interval = 3
+#      END
+#    END
+#  END
+#END

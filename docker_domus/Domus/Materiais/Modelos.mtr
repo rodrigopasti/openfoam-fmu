@@ -1,0 +1,173 @@
+[Numero de Modelos = 43]
+
+{[Parede de tijolos de 2 furos circulares]
+[Num. Materiais = 3 = {(2,25,5)(1,125,12)(2,25,5)}]
+[Dimensoes(1) = 12.5 x 6.3 x 22.5 cm]}
+
+{[Parede de tijolos de 4 furos circulares]
+[Num. Materiais = 3 = {(2,25,5)(1,95,9)(2,25,5)}]
+[Dimensoes(1) = 9.5 x 9.5 x 20.0 cm]}
+
+{[Parede de tijolos de 6 furos circulares]
+[Num. Materiais = 3 = {(2,25,5)(1,100,10)(2,25,5)}]
+[Dimensoes(1) = 10.0 x 15.0 x 20.0 cm]}
+
+{[Parede de tijolos de 6 furos quadrados]
+[Num. Materiais = 3 = {(2,25,5)(1,90,9)(2,25,5)}]
+[Dimensoes(1) = 9.0 x 14.0 x 49.0 cm]}
+
+{[Parede de tijolos de 6 furos circulares]
+[Num. Materiais = 3 = {(2,25,5)(1,150,15)(2,25,5)}]
+[Dimensoes(1) = 10.0 x 15.0 x 20.0 cm]}
+
+{[Parede de tijolos de 6 furos quadrados]
+[Num. Materiais = 3 = {(2,25,5)(1,140,14)(2,25,5)}]
+[Dimensoes(1) = 9.0 x 14.0 x 19.0 cm]}
+
+{[Parede de tijolos de 8 furos circulares]
+[Num. Materiais = 3 = {(2,25,5)(1,100,10)(2,25,5)}]
+[Dimensoes(1) = 10.0 x 20.0 x 20.0 cm]}
+
+{[Parede de tijolos de 8 furos quadrados]
+[Num. Materiais = 3 = {(2,25,5)(1,90,9)(2,25,5)}]
+[Dimensoes(1) = 9.0 x 19.0 x 19.0 cm]}
+
+{[Parede de tijolos de 21 furos redondos]
+[Num. Materiais = 3 = {(2,25,5)(1,120,12)(2,25,5)}]
+[Dimensoes(1) = 12.0 x 25.0 x 11.0 cm]}
+
+{[Parede de bloc. cerâmicos de 2 furos]
+[Num. Materiais = 3 = {(2,25,5)(1,140,14)(2,25,5)}]
+[Dimensoes(2) = 14.0 x 29.5 x 19.0 cm]}
+
+{[Parede de bloc. cerâmicos de 3 furos]
+[Num. Materiais = 3 = {(2,25,5)(1,140,14)(2,25,5)}]
+[Dimensoes(2) = 13.0 x 28.0 x 18.5 cm]}
+
+{[Parede de tijolos maciços assentados na menor dimensão]
+[Num. Materiais = 3 = {(2,25,5)(1,60,6)(2,25,5)}]
+[Dimensoes(1) = 10.0 x 6.0 x 22.0 cm]}
+
+{[Parede de tijolos maciços assentados na maior dimensão]
+[Num. Materiais = 3 = {(2,25,5)(1,220,22)(2,25,5)}]
+[Dimensoes(1) = 10.0 x 6.0 x 22.0 cm]}
+
+{[Parede de tijolos maciços aparentes]
+[Num. Materiais = 3 = {(2,25,5)(1,100,10)(2,25,5)}]
+[Dimensoes(1) = 10.0 x 6.0 x 22.0 cm]}
+
+{[Parede de concreto maciço]
+[Num. Materiais = 1 = {(10,100,10)}]
+[Dimensoes(3) = 0.0 x 0.0 x 0.0 cm]}
+
+{[Parede de concreto maciço]
+[Num. Materiais = 1 = {(10,50,5)}]
+[Dimensoes(3) = 0.0 x 0.0 x 0.0 cm]}
+
+{[Parede bloc. concreto com argamassa em ambos os lados]
+[Num. Materiais = 3 = {(30,25,5)(33,190,19)(30,25,5)}]
+[Dimensoes(2) = 9.0 x 19.0 x 39.0 cm]}
+
+{[Parede bloc. de concreto com argamassa externa e gesso interno]
+[Num. Materiais = 3 = {(30,25,5)(33,190,19)(57,20,5)}]
+[Dimensoes(2) = 9.0 x 19.0 x 39.0 cm]}
+
+{[Parede bloc. de concreto com argamassa externa e sem interno]
+[Num. Materiais = 2 = {(33,20,2)(30,25,5)}]
+[Dimensoes(2) = 9.0 x 19.0 x 39.0 cm]}
+
+{[Parede bloc. de concreto (2) com argamassa em ambos os lados]
+[Num. Materiais = 3 = {(30,25,5)(34,190,19)(30,25,5)}]
+[Dimensoes(2) = 14.0 x 19.0 x 39.0 cm]}
+
+{[Parede bloc. de concreto com argamassa externa e gesso interno]
+[Num. Materiais = 3 = {(30,25,5)(34,190,19)(57,20,5)}]
+[Dimensoes(2) = 14.0 x 19.0 x 39.0 cm]}
+
+{[Parede bloc. de concreto com argamassa externa e sem interno]
+[Num. Materiais = 2 = {(34,20,5)(30,25,5)}]
+[Dimensoes(2) = 14.0 x 19.0 x 39.0 cm]}
+
+{[Parede bloc. ceramicos com argamassa interna e externa]
+[Num. Materiais = 3 = {(30,25,5)(37,90,9)(30,25,5)}]
+[Dimensoes(2) = 9.0 x 14.0 x 24.0 cm]}
+
+{[Parede bloc. ceramicos com argamassa externa e gesso interno]
+[Num. Materiais = 3 = {(30,25,5)(37,90,9)(57,20,5)}]
+[Dimensoes(2) = 9.0 x 14.0 x 24.0 cm]}
+
+{[Parede bloc. ceramicos com argamassa externa e sem interno]
+[Num. Materiais = 2 = {(37,90,9)(30,25,5)}]
+[Dimensoes(2) = 9.0 x 14.0 x 24.0 cm]}
+
+{[Parede bloc. ceramicos (2) sem revestimentos]
+[Num. Materiais = 1 = {(40,90,9)}]
+[Dimensoes(2) = 9.0 x 9.0 x 24.0 cm]}
+
+{[Parede bloc. ceramicos (3) com argamassa externa e interna]
+[Num. Materiais = 3 = {(30,25,5)(38,140,14)(30,25,5)}]
+[Dimensoes(2) = 14.0 x 19.0 x 29.0 cm]}
+
+{[Parede bloc. ceramicos (3) com argamassa externa e gesso interno]
+[Num. Materiais = 3 = {(30,25,5)(38,140,14)(57,20,5)}]
+[Dimensoes(2) = 14.0 x 19.0 x 29.0 cm]}
+
+{[Parede bloc. ceramicos (3) com argamassa externa e sem interno]
+[Num. Materiais = 2 = {(38,140,14)(30,25,5)}]
+[Dimensoes(2) = 14.0 x 16.5 x 29.0 cm]}
+
+{[Parede bloc. ceramicos (3) sem revestimento]
+[Num. Materiais = 1 = {(38,140,14)}]
+[Dimensoes(2) = 14.0 x 14.0 x 29.0 cm]}
+
+{[Tijolos maciços sem revestimento]
+[Num. Materiais = 1 = {(1,100,10)}]
+[Dimensoes(1) = 10.0 x 6.0 x 22.0 cm]}
+
+{[Cobertura laje maciça, camara de ar e telha ceramica]
+[Num. Materiais = 3 = {(41,10,5)(50,50,5)(32,100,10)}]
+[Dimensoes(3) = 0.0 x 0.0 x 0.0 cm]}
+
+{[Cobertura laje mista, camara de ar e telha ceramica]
+[Num. Materiais = 3 = {(41,10,5)(50,50,5)(45,120,12)}]
+[Dimensoes(3) = 0.0 x 0.0 x 0.0 cm]}
+
+{[Cobertura PVC, camara de ar e telha ceramica]
+[Num. Materiais = 3 = {(41,10,5)(50,50,5)(56,10,5)}]
+[Dimensoes(3) = 0.0 x 0.0 x 0.0 cm]}
+
+{[Cobertura Madeira, camara de ar e telha ceramica]
+[Num. Materiais = 3 = {(41,10,5)(50,50,5)(43,10,5)}]
+[Dimensoes(3) = 0.0 x 0.0 x 0.0 cm]}
+
+{[Cobertura Gesso, camara de ar e telha ceramica ]
+[Num. Materiais = 3 = {(41,10,5)(50,50,5)(57,30,5)}]
+[Dimensoes(3) = 0.0 x 0.0 x 0.0 cm]}
+
+{[Cobertura laje maciça, camara de ar e telha fibrocimento]
+[Num. Materiais = 3 = {(42,10,5)(50,50,5)(32,100,10)}]
+[Dimensoes(3) = 0.0 x 0.0 x 0.0 cm]}
+
+{[Cobertura laje mista, camara de ar e telha fibrocimento]
+[Num. Materiais = 3 = {(42,10,5)(50,50,5)(45,120,12)}]
+[Dimensoes(3) = 0.0 x 0.0 x 0.0 cm]}
+
+{[Cobertura PVC, camara de ar e telha fibrocimento]
+[Num. Materiais = 3 = {(42,10,5)(50,50,5)(56,10,5)}]
+[Dimensoes(3) = 0.0 x 0.0 x 0.0 cm]}
+
+{[Cobertura Madeira, camara de ar e telha fibrocimento]
+[Num. Materiais = 3 = {(42,10,5)(50,50,5)(43,10,5)}]
+[Dimensoes(3) = 0.0 x 0.0 x 0.0 cm]}
+
+{[Cobertura Gesso, camara de ar e telha fibrocimento]
+[Num. Materiais = 3 = {(42,10,5)(50,50,5)(57,30,5)}]
+[Dimensoes(3) = 0.0 x 0.0 x 0.0 cm]}
+
+{[Laje de Concreto, 20cm]
+[Num. Materiais = 1 = {(32,200,20)}]
+[Dimensoes(3) = 0.0 x 0.0 x 0.0 cm]}
+
+{[Cobertura laje mista, 12cm]
+[Num. Materiais = 1 = {(45,120,12)}]
+[Dimensoes(3) = 0.0 x 0.0 x 0.0 cm]}

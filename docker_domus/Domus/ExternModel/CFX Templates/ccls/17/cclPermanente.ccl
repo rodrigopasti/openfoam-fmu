@@ -1,0 +1,44 @@
+# State file created:  2015/10/01 20:44:03
+# Build 16.2 2015.06.30-00.06-134402
+
+FLOW: Flow Analysis 1
+  ANALYSIS TYPE:
+    Option = Steady State
+    EXTERNAL SOLVER COUPLING:
+      Option = None
+    END # EXTERNAL SOLVER COUPLING:	  
+  END # ANALYSIS TYPE:
+  EXPERT PARAMETERS:
+    solve energy = f
+    solve fluids = t
+    solve radiation = f
+  END # EXPERT PARAMETERS:
+  &replace   SOLVER CONTROL: 
+    Turbulence Numerics = First Order
+    ADVECTION SCHEME: 
+      Option = High Resolution
+    END # ADVECTION SCHEME:  
+    CONVERGENCE CONTROL:
+      Length Scale Option = Conservative
+      Maximum Number of Iterations = 100
+      Minimum Number of Iterations = 1
+      Solid Timescale Control = Auto Timescale
+      Timescale Control = Auto Timescale
+      Timescale Factor = 1.0
+    END # CONVERGENCE CONTROL:
+    CONVERGENCE CRITERIA: 
+	  Conservation Target = 0.01
+      Residual Target = Residual Target Parameter
+      Residual Type = RMS
+    END # CONVERGENCE CRITERIA:	
+    DYNAMIC MODEL CONTROL:
+      Global Dynamic Model Control = Yes
+    END	
+    THERMAL RADIATION CONTROL: 
+      Iteration Interval = 1
+    END # THERMAL RADIATION CONTROL:	
+  END  # SOLVER CONTROL:
+END # FLOW:Flow Analysis 1
+COMMAND FILE:
+  Version = 16.2
+END

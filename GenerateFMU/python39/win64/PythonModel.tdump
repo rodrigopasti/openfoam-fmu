@@ -1,0 +1,1452 @@
+Turbo Dump  Version 6.6.0.0 Copyright (c) 1988-2019 Embarcadero Technologies, Inc.
+                 Display of File c:\users\walte\documents\github\generatorfmu\.\release\python39\win64\pythonmodel.dll
+
+Old Executable Header
+
+DOS File Size                                      4A504h  (304388. )
+Load Image Size                                      210h  (   528. )
+Relocation Table entry count                          0000h  (     0. )
+Relocation Table address                              0040h  (    64. )
+Size of header record      (in paragraphs)            0004h  (     4. )
+Minimum Memory Requirement (in paragraphs)            000Fh  (    15. )
+Maximum Memory Requirement (in paragraphs)            FFFFh  ( 65535. )
+File load checksum                                    0000h  (     0. )
+Overlay Number                                        001Ah  (    26. )
+
+Initial Stack Segment  (SS:SP)			  0000:00B8
+Program Entry Point    (CS:IP)			  0000:0000
+
+
+Portable Executable (PE) File
+
+Header base: 00000200
+
+CPU type                 AMD64
+Flags                    222E [ executable largeaddr backwards nodebug library ]
+DLL flags                0000 [ ]
+Linker Version           8.0
+Time stamp               5F877C2D : Thu Oct 15 00:31:09 2020
+O/S Version              5.2
+User Version             0.0
+Subsystem Version        4.0
+Subsystem                0003 [ Windows character ]
+Object count             0000000A
+Symbols offset           0003E200
+Symbols count            0000047C
+Optional header size     00F0
+Magic #                  20B
+Code size                00029000
+Init Data size           00004000
+Uninit Data size         00000000
+Entry RVA                000011C0
+Image base               0000000000400000
+Code base                00001000
+Object/File align        00001000/00000200
+Reserved                 00000000
+Image size               0004D000
+Header size              00000600
+Checksum                 00000000
+Stack reserve/commit     0000000000000000/0000000000000000
+Heap reserve/commit      0000000000100000/0000000000001000
+Number interesting RVAs  00000010
+Name                   RVA       Size  
+------------------  --------  --------
+Exports             0004A000  00000418
+Imports             00049000  00000F4B
+Resources           0004B000  00000400
+Exceptions          00044000  000018D8
+Security            00000000  00000000
+Fixups              0004C000  00000C68
+Debug               00000000  00000000
+Description         00000000  00000000
+Global Ptr          00000000  00000000
+TLS                 00000000  00000000
+Callbacks           00000000  00000000
+Bound Imports       00000000  00000000
+Import Addr Table   00000000  00000000
+Delayed Imports     00000000  00000000
+COM Runtime         00000000  00000000
+reserved            00000000  00000000
+
+Object table:
+#   Name              VirtSize    RVA     PhysSize  Phys off  Flags   
+--  --------          --------  --------  --------  --------  --------
+01  .text             00028AA8  00001000  00028C00  00000800  60000020 [CER]
+02  .rodata           000033D0  0002A000  00003400  00029400  C0000040 [IRW]
+03  .data             00014720  0002E000  0000A200  0002C800  C0000040 [IRW]
+04  .tls              00000590  00043000  00000600  00036A00  C0000040 [IRW]
+05  .pdata            000018D8  00044000  00001A00  00037000  40000040 [IR]
+06  .xdata            00002E70  00046000  00003000  00038A00  40000040 [IR]
+07  .idata            00000F4B  00049000  00001000  0003BA00  40000040 [IR]
+08  .edata            00000418  0004A000  00000600  0003CA00  40000040 [IR]
+09  .rsrc             00000400  0004B000  00000400  0003D000  40000040 [IR]
+0a  .reloc            00000C68  0004C000  00000E00  0003D400  50000040 [IRS]
+
+Key to section flags:
+  C - contains code
+  E - executable
+  I - contains initialized data
+  R - readable
+  S - shareable
+  W - writeable
+
+******************************************************************************
+Section:             Import
+File Offset:         0003BA00 (244224)
+  ImportLookUpTblRVA:00049050
+  Time Stamp:        00000000
+  Forwarder Chain:   00000000 (index of first forwarder reference)
+
+Imports from PYTHON39.DLL
+                  PyBool_FromLong
+                  PyErr_Print
+                  PyFloat_AsDouble
+                  PyFloat_FromDouble
+                  PyImport_AddModule
+                  PyImport_Import
+                  PyList_Append
+                  PyLong_AsLong
+                  PyLong_FromLong
+                  PyObject_CallObject
+                  PyObject_GetAttrString
+                  PyObject_SetAttrString
+                  PyRun_SimpleStringFlags
+                  PySys_GetObject
+                  PyTuple_GetItem
+                  PyTuple_New
+                  PyTuple_SetItem
+                  PyTuple_Size
+                  PyUnicode_AsUTF8
+                  PyUnicode_FromString
+                  PyUnicode_FromStringAndSize
+                  Py_GetBuildInfo
+                  Py_GetCompiler
+                  Py_GetExecPrefix
+                  Py_GetPath
+                  Py_GetPlatform
+                  Py_GetPrefix
+                  Py_GetProgramFullPath
+                  Py_GetProgramName
+                  Py_GetPythonHome
+                  Py_GetVersion
+                  Py_Initialize
+                  Py_IsInitialized
+                  Py_SetProgramName
+                  Py_SetPythonHome
+                  _Py_Dealloc
+
+Imports from KERNEL32
+                  AddVectoredExceptionHandler
+                  CloseHandle
+                  CreateDirectoryA
+                  CreateFileA
+                  CreateFileW
+                  DeleteFileA
+                  EnterCriticalSection
+                  ExitProcess
+                  FreeEnvironmentStringsW
+                  GetACP
+                  GetCPInfo
+                  GetCurrentProcessId
+                  GetCurrentThreadId
+                  GetEnvironmentStrings
+                  GetEnvironmentStringsW
+                  GetFileAttributesA
+                  GetFileAttributesW
+                  GetFileSize
+                  GetFileType
+                  GetLastError
+                  GetLocalTime
+                  GetLocaleInfoA
+                  GetModuleFileNameA
+                  GetModuleHandleA
+                  GetOEMCP
+                  GetProcAddress
+                  GetProcessHeap
+                  GetStartupInfoA
+                  GetStdHandle
+                  GetStringTypeA
+                  GetStringTypeW
+                  GetSystemDefaultLangID
+                  GetSystemInfo
+                  GetTickCount
+                  GetTimeZoneInformation
+                  GetUserDefaultLCID
+                  GetVersion
+                  HeapAlloc
+                  HeapFree
+                  IsDBCSLeadByteEx
+                  IsDebuggerPresent
+                  IsValidLocale
+                  LCMapStringA
+                  LeaveCriticalSection
+                  LocalFileTimeToFileTime
+                  MultiByteToWideChar
+                  RaiseException
+                  ReadFile
+                  RemoveDirectoryA
+                  RemoveVectoredExceptionHandler
+                  RtlCaptureContext
+                  SetConsoleCtrlHandler
+                  SetEndOfFile
+                  SetFilePointer
+                  SetFileTime
+                  SetHandleCount
+                  SetLastError
+                  SetThreadLocale
+                  SystemTimeToFileTime
+                  TlsAlloc
+                  TlsFree
+                  TlsGetValue
+                  TlsSetValue
+                  VirtualAlloc
+                  VirtualFree
+                  VirtualQuery
+                  WideCharToMultiByte
+                  WriteFile
+                  RtlRestoreContext
+                  RtlUnwindEx
+
+Imports from USER32
+                  EnumThreadWindows
+                  MessageBoxA
+                  wsprintfA
+
+******************************************************************************
+Section:             Exports
+File Offset:         0003CA00 (248320)
+  Flags:             00000000
+  Time Stamp:        00000000
+  Major Version:     0000
+  Minor Version:     0000
+
+Exports from PythonModel.dll
+  26 exported name(s), 26 export addresse(s).  Ordinal base is 1.
+  Sorted by Name:
+    RVA      Ord. Hint Name
+    -------- ---- ---- ----
+    000072C0   19 0000 PythonModel_fmiCancelStep
+    00007370   20 0001 PythonModel_fmiDoStep
+    00007080   16 0002 PythonModel_fmiFreeSlaveInstance
+    00006810    9 0003 PythonModel_fmiGetBoolean
+    000075E0   24 0004 PythonModel_fmiGetBooleanStatus
+    00006650    8 0005 PythonModel_fmiGetInteger
+    000075B0   23 0006 PythonModel_fmiGetIntegerStatus
+    00006480    7 0007 PythonModel_fmiGetReal
+    000071C0   18 0008 PythonModel_fmiGetRealOutputDerivatives
+    00007580   22 0009 PythonModel_fmiGetRealStatus
+    00007550   21 000A PythonModel_fmiGetStatus
+    000069F0   10 000B PythonModel_fmiGetString
+    00007610   25 000C PythonModel_fmiGetStringStatus
+    00006BE0   11 000D PythonModel_fmiGetTypesPlatform
+    00005E20    2 000E PythonModel_fmiGetVersion
+    00006E10   13 000F PythonModel_fmiInitializeSlave
+    00006BF0   12 0010 PythonModel_fmiInstantiateSlave
+    00006FD0   15 0011 PythonModel_fmiResetSlave
+    000062A0    6 0012 PythonModel_fmiSetBoolean
+    00005E30    3 0013 PythonModel_fmiSetDebugLogging
+    000060C0    5 0014 PythonModel_fmiSetInteger
+    00005EE0    4 0015 PythonModel_fmiSetReal
+    000070F0   17 0016 PythonModel_fmiSetRealInputDerivatives
+    00005C20    1 0017 PythonModel_fmiSetString
+    00006F20   14 0018 PythonModel_fmiTerminateSlave
+    000423D0   26 0019 __CPPdebugHook
+
+******************************************************************************
+Section:             Resources
+File Offset:         0003D000 (249856)
+  Flags:             00000000
+  Time Stamp:        514F03E5 : Sun Mar 24 15:47:17 2013
+  Major Version:     0000
+  Minor Version:     0000
+
+Resources:
+Type          Name                   Lang Id
+--------------------------------------------
+[0 named entries, 2 ID entries]
+type: RCData (10)  (next directory @00000020)
+
+              [2 named entries, 0 ID entries]
+              DVCLAL  (next directory @00000058)
+
+                                     [0 named entries, 1 ID entries]
+                                     type: Unknown (0)  (data @000000A0)
+                                         Offset:    0004B100
+                                         Size:      00000010
+                                         Code Page: 00000000
+                                         Reserved:  00000000
+
+              PLATFORMTARGETS  (next directory @00000070)
+
+                                     [0 named entries, 1 ID entries]
+                                     type: Unknown (1033)  (data @000000B0)
+                                         Offset:    0004B110
+                                         Size:      00000002
+                                         Code Page: 00000000
+                                         Reserved:  00000000
+
+type: Version (16)  (next directory @00000040)
+
+              [0 named entries, 1 ID entries]
+              type: Cursor (1)  (next directory @00000088)
+
+                                     [0 named entries, 1 ID entries]
+                                     type: Unknown (1033)  (data @000000C0)
+                                         Offset:    0004B114
+                                         Size:      0000020C
+                                         Code Page: 00000000
+                                         Reserved:  00000000
+
+
+COFF Symbol Table
+Sym   Address   Name
+0000  000001C0  __dllstartup
+0001  000001C0  __acrtused
+0002  000002A7  ___System__GetTls
+0003  000002A7  _ZN7Sysinit7_GetTlsEv
+0004  000002F0  DllEntryPoint
+0005  00000300  _Z14setStartValuesP13ModelInstance
+0006  00000310  _Z13PrintPyOutErrPvP13ModelInstanceP7_object
+0007  000003C0  _Z33InitializePythonStdoutErrRedirectP7_object
+0008  000003F0  _Z10BuildTuplePvP13ModelInstancej
+0009  000006F0  _Z17RecoverFromTuplesPvP13ModelInstanceP7_objectS3_j
+000A  00000BB0  _Z20UpdateInputVariablesPvP13ModelInstanceP7_object
+000B  00000F20  _Z21UpdateOutputVariablesPvP13ModelInstanceP7_objectS3_
+000C  00001180  _Z5widenRKSs
+000D  00001420  _Z6narrowRKSbIwSt11char_traitsIwESaIwEE
+000E  00001770  _Z10initializePvP13ModelInstanceP12fmiEventInfo
+000F  00003110  _Z17getEventIndicatorP13ModelInstancei
+0010  00003120  _Z11eventUpdatePvP13ModelInstanceP12fmiEventInfo
+0011  000034A0  _Z8FinalizePvP13ModelInstance
+0012  00003780  setString
+0013  000037B0  freeInstance
+0014  00003AD0  _ZNKSt14error_category23default_error_conditionEi
+0015  00003AE0  _ZNSt6vectorI12ValueDefRealSaIS0_EE9push_backERKS0_
+0016  00003BC0  _ZNSt6vectorI11ValueDefIntSaIS0_EE9push_backERKS0_
+0017  00003C90  _ZNSt6vectorI12ValueDefBoolSaIS0_EE9push_backERKS0_
+0018  00003D60  _ZNSt6vectorI14ValueDefStringSaIS0_EE9push_backERKS0_
+0019  00003E40  _ZSt9use_facetISt5ctypeIwEERKT_RKSt6locale
+001A  00003F50  _ZStlsIwSt11char_traitsIwEERSt13basic_ostreamIT_T0_ES6_S3_
+001B  00004260  _ZNSt19basic_ostringstreamIwSt11char_traitsIwESaIwEED1Ev
+001C  000042A0  _ZSt9use_facetISt5ctypeIcEERKT_RKSt6locale
+001D  000043B0  _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c
+001E  000046A0  _ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev
+001F  000046E0  _ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_ERKS6_PKS3_
+0020  00004840  _ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_EOS6_S7_
+0021  00004A10  _ZNSt14basic_ifstreamIcSt11char_traitsIcEEC1EPKcNSt5_IosbIiE9_OpenmodeEi
+0022  00004BD0  __clang_call_terminate
+0023  00004BE0  _ZNSt14basic_ifstreamIcSt11char_traitsIcEED1Ev
+0024  00004C20  PythonModel_fmiSetString
+0025  00004E20  PythonModel_fmiGetVersion
+0026  00004E30  PythonModel_fmiSetDebugLogging
+0027  00004EE0  PythonModel_fmiSetReal
+0028  000050C0  PythonModel_fmiSetInteger
+0029  000052A0  PythonModel_fmiSetBoolean
+002A  00005480  PythonModel_fmiGetReal
+002B  00005650  PythonModel_fmiGetInteger
+002C  00005810  PythonModel_fmiGetBoolean
+002D  000059F0  PythonModel_fmiGetString
+002E  00005BE0  PythonModel_fmiGetTypesPlatform
+002F  00005BF0  PythonModel_fmiInstantiateSlave
+0030  00005E10  PythonModel_fmiInitializeSlave
+0031  00005F20  PythonModel_fmiTerminateSlave
+0032  00005FD0  PythonModel_fmiResetSlave
+0033  00006080  PythonModel_fmiFreeSlaveInstance
+0034  000060F0  PythonModel_fmiSetRealInputDerivatives
+0035  000061C0  PythonModel_fmiGetRealOutputDerivatives
+0036  000062C0  PythonModel_fmiCancelStep
+0037  00006370  PythonModel_fmiDoStep
+0038  00006550  PythonModel_fmiGetStatus
+0039  00006580  PythonModel_fmiGetRealStatus
+003A  000065B0  PythonModel_fmiGetIntegerStatus
+003B  000065E0  PythonModel_fmiGetBooleanStatus
+003C  00006610  PythonModel_fmiGetStringStatus
+003D  00006640  _ZNKSt14error_category10equivalentEiRKSt15error_condition
+003E  00006680  _ZNKSt14error_category10equivalentERKSt10error_codei
+003F  000066A0  _ZNSt3pmr17_New_del_resourceD1Ev
+0040  000066B0  _ZNSt3pmr17_New_del_resourceD0Ev
+0041  000066C0  _ZNSt3pmr17_New_del_resource11do_allocateEyy
+0042  000066D0  _ZNSt3pmr17_New_del_resource13do_deallocateEPvyy
+0043  000066E0  _ZNKSt3pmr17_New_del_resource11do_is_equalERKNS_15memory_resourceE
+0044  000066F0  _ZNSs6assignEPKcy
+0045  00006870  _ZNSs6assignERKSsyy
+0046  000069D0  _ZNSs5_GrowEyb
+0047  00006AA0  _ZNSs5_CopyEyy
+0048  00006CB0  _ZNSt5ctypeIcE7_GetcatEPPKNSt6locale5facetEPKS1_
+0049  00006D90  _ZNSt5ctypeIcED1Ev
+004A  00006DD0  _ZNSt5ctypeIcED0Ev
+004B  00006E20  _ZNSt6locale5facet7_IncrefEv
+004C  00006E30  _ZNSt6locale5facet7_DecrefEv
+004D  00006E40  _ZNKSt5ctypeIcE10do_tolowerEc
+004E  00006E50  _ZNKSt5ctypeIcE10do_tolowerEPcPKc
+004F  00006EA0  _ZNKSt5ctypeIcE10do_toupperEc
+0050  00006EB0  _ZNKSt5ctypeIcE10do_toupperEPcPKc
+0051  00006F00  _ZNKSt5ctypeIcE8do_widenEc
+0052  00006F10  _ZNKSt5ctypeIcE8do_widenEPKcS2_Pc
+0053  00006F30  _ZNKSt5ctypeIcE9do_narrowEcc
+0054  00006F40  _ZNKSt5ctypeIcE9do_narrowEPKcS2_cPc
+0055  00006F60  _ZNSo6sentryC1ERSo
+0056  00007000  _ZNSo5flushEv
+0057  00007090  _ZNSo12_Sentry_baseD2Ev
+0058  000070D0  _ZNSt8ios_base5clearENSt5_IosbIiE8_IostateEb
+0059  00007320  _ZNSt8ios_base7failureD1Ev
+005A  00007380  _ZNSt24_Iostream_error_categoryD1Ev
+005B  00007390  _ZNSt24_Iostream_error_categoryD0Ev
+005C  000073A0  _ZNKSt24_Iostream_error_category4nameEv
+005D  000073B0  _ZNKSt24_Iostream_error_category7messageEi
+005E  00007440  _ZNSt12system_errorC2ESt10error_codePKc
+005F  00007520  _ZNSt8ios_base7failureD0Ev
+0060  00007590  _ZNKSt13runtime_error4whatEv
+0061  000075B0  _ZNSt13_System_errorC2ESt10error_codeRKSs
+0062  00007760  _ZNSt12system_errorD1Ev
+0063  000077C0  _ZNSt12system_errorD0Ev
+0064  00007830  _ZNSt13_System_error8_MakestrESt10error_codeSs
+0065  000079D0  _ZNSt13_System_errorD1Ev
+0066  00007A30  _ZNSt13_System_errorD0Ev
+0067  00007AA0  _ZNSs6appendEPKcy
+0068  00007C10  _ZNSt13runtime_errorD1Ev
+0069  00007C70  _ZNSt13runtime_errorD0Ev
+006A  00007CE0  _ZNSo6sentryD2Ev
+006B  00007D90  _ZNSt6vectorI14ValueDefStringSaIS0_EE11_ReallocateEy
+006C  00007E90  _ZNSt6vectorI12ValueDefRealSaIS0_EE11_ReallocateEy
+006D  00007F90  _ZNSt6vectorI11ValueDefIntSaIS0_EE11_ReallocateEy
+006E  00008080  _ZNSt6vectorI12ValueDefBoolSaIS0_EE11_ReallocateEy
+006F  00008170  _ZNSt15basic_stringbufIwSt11char_traitsIwESaIwEEC1ENSt5_IosbIiE9_OpenmodeE
+0070  00008290  _ZNSt13basic_ostreamIwSt11char_traitsIwEED1Ev
+0071  000082A0  _ZNSt13basic_ostreamIwSt11char_traitsIwEED0Ev
+0072  000082C0  _ZTv0_n24_NSt13basic_ostreamIwSt11char_traitsIwEED1Ev
+0073  000082E0  _ZTv0_n24_NSt13basic_ostreamIwSt11char_traitsIwEED0Ev
+0074  00008310  _ZNSt19basic_ostringstreamIwSt11char_traitsIwESaIwEED0Ev
+0075  00008360  _ZTv0_n24_NSt19basic_ostringstreamIwSt11char_traitsIwESaIwEED1Ev
+0076  000083B0  _ZTv0_n24_NSt19basic_ostringstreamIwSt11char_traitsIwESaIwEED0Ev
+0077  00008410  _ZNSt9basic_iosIwSt11char_traitsIwEE4initEPSt15basic_streambufIwS1_Eb
+0078  00008500  _ZNKSt9basic_iosIwSt11char_traitsIwEE5widenEc
+0079  000085A0  _ZNSt15basic_stringbufIwSt11char_traitsIwESaIwEE5_InitEPKwyi
+007A  000086C0  _ZNSt15basic_stringbufIwSt11char_traitsIwESaIwEED1Ev
+007B  000087C0  _ZNSt15basic_stringbufIwSt11char_traitsIwESaIwEED0Ev
+007C  000087E0  _ZNSt15basic_streambufIwSt11char_traitsIwEE5_LockEv
+007D  000087F0  _ZNSt15basic_streambufIwSt11char_traitsIwEE7_UnlockEv
+007E  00008800  _ZNSt15basic_stringbufIwSt11char_traitsIwESaIwEE8overflowEw
+007F  00008A60  _ZNSt15basic_stringbufIwSt11char_traitsIwESaIwEE9pbackfailEw
+0080  00008AD0  _ZNSt15basic_streambufIwSt11char_traitsIwEE9showmanycEv
+0081  00008AE0  _ZNSt15basic_stringbufIwSt11char_traitsIwESaIwEE9underflowEv
+0082  00008B40  _ZNSt15basic_streambufIwSt11char_traitsIwEE5uflowEv
+0083  00008B80  _ZNSt15basic_streambufIwSt11char_traitsIwEE6xsgetnEPwx
+0084  00008C60  _ZNSt15basic_streambufIwSt11char_traitsIwEE6xsputnEPKwx
+0085  00008D40  _ZNSt15basic_stringbufIwSt11char_traitsIwESaIwEE7seekoffExNSt5_IosbIiE8_SeekdirENS5_9_OpenmodeE
+0086  00008ED0  _ZNSt15basic_stringbufIwSt11char_traitsIwESaIwEE7seekposESt4fposIiENSt5_IosbIiE9_OpenmodeE
+0087  00008FF0  _ZNSt15basic_streambufIwSt11char_traitsIwEE6setbufEPwx
+0088  00009000  _ZNSt15basic_streambufIwSt11char_traitsIwEE4syncEv
+0089  00009010  _ZNSt15basic_streambufIwSt11char_traitsIwEE5imbueERKSt6locale
+008A  00009020  _ZNSt15basic_streambufIwSt11char_traitsIwEED1Ev
+008B  00009080  _ZNSt15basic_streambufIwSt11char_traitsIwEED0Ev
+008C  000090E0  _ZNSt15basic_streambufIwSt11char_traitsIwEE8overflowEw
+008D  000090F0  _ZNSt15basic_streambufIwSt11char_traitsIwEE9pbackfailEw
+008E  00009100  _ZNSt15basic_streambufIwSt11char_traitsIwEE9underflowEv
+008F  00009110  _ZNSt15basic_streambufIwSt11char_traitsIwEE7seekoffExNSt5_IosbIiE8_SeekdirENS4_9_OpenmodeE
+0090  00009130  _ZNSt15basic_streambufIwSt11char_traitsIwEE7seekposESt4fposIiENSt5_IosbIiE9_OpenmodeE
+0091  00009150  _ZNSt5ctypeIwE7_GetcatEPPKNSt6locale5facetEPKS1_
+0092  00009230  _ZNSt5ctypeIwED1Ev
+0093  00009260  _ZNSt5ctypeIwED0Ev
+0094  000092A0  _ZNKSt5ctypeIwE5do_isEsw
+0095  000092D0  _ZNKSt5ctypeIwE5do_isEPKwS2_Ps
+0096  00009330  _ZNKSt5ctypeIwE10do_scan_isEsPKwS2_
+0097  00009380  _ZNKSt5ctypeIwE11do_scan_notEsPKwS2_
+0098  000093D0  _ZNKSt5ctypeIwE10do_tolowerEw
+0099  00009420  _ZNKSt5ctypeIwE10do_tolowerEPwPKw
+009A  00009490  _ZNKSt5ctypeIwE10do_toupperEw
+009B  000094E0  _ZNKSt5ctypeIwE10do_toupperEPwPKw
+009C  00009550  _ZNKSt5ctypeIwE8do_widenEc
+009D  00009590  _ZNKSt5ctypeIwE8do_widenEPKcS2_Pw
+009E  00009630  _ZNKSt5ctypeIwE9do_narrowEwc
+009F  00009660  _ZNKSt5ctypeIwE9do_narrowEPKwS2_cPc
+00A0  000096F0  _ZNSt13basic_ostreamIwSt11char_traitsIwEE6sentryC1ERS2_
+00A1  00009790  _ZNSt13basic_ostreamIwSt11char_traitsIwEE5flushEv
+00A2  00009820  _ZNSt13basic_ostreamIwSt11char_traitsIwEE12_Sentry_baseD2Ev
+00A3  00009860  _ZNSt13basic_ostreamIwSt11char_traitsIwEE6sentryD2Ev
+00A4  00009910  _ZNSbIwSt11char_traitsIwESaIwEE6assignEPKwy
+00A5  00009AA0  _ZNSbIwSt11char_traitsIwESaIwEE5_GrowEyb
+00A6  00009B80  _ZNSbIwSt11char_traitsIwESaIwEE5_CopyEyy
+00A7  00009DD0  _ZNSoD1Ev
+00A8  00009DE0  _ZNSoD0Ev
+00A9  00009E00  _ZTv0_n24_NSoD1Ev
+00AA  00009E20  _ZTv0_n24_NSoD0Ev
+00AB  00009E50  _ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEED0Ev
+00AC  00009EA0  _ZTv0_n24_NSt19basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev
+00AD  00009EF0  _ZTv0_n24_NSt19basic_ostringstreamIcSt11char_traitsIcESaIcEED0Ev
+00AE  00009F50  _ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_Eb
+00AF  0000A030  _ZNKSt9basic_iosIcSt11char_traitsIcEE5widenEc
+00B0  0000A0D0  _ZNSt15basic_streambufIcSt11char_traitsIcEED2Ev
+00B1  0000A130  _ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED1Ev
+00B2  0000A230  _ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED0Ev
+00B3  0000A250  _ZNSt15basic_streambufIcSt11char_traitsIcEE5_LockEv
+00B4  0000A260  _ZNSt15basic_streambufIcSt11char_traitsIcEE7_UnlockEv
+00B5  0000A270  _ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEE8overflowEi
+00B6  0000A4C0  _ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEE9pbackfailEi
+00B7  0000A520  _ZNSt15basic_streambufIcSt11char_traitsIcEE9showmanycEv
+00B8  0000A530  _ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEE9underflowEv
+00B9  0000A590  _ZNSt15basic_streambufIcSt11char_traitsIcEE5uflowEv
+00BA  0000A5D0  _ZNSt15basic_streambufIcSt11char_traitsIcEE6xsgetnEPcx
+00BB  0000A6B0  _ZNSt15basic_streambufIcSt11char_traitsIcEE6xsputnEPKcx
+00BC  0000A780  _ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEE7seekoffExNSt5_IosbIiE8_SeekdirENS5_9_OpenmodeE
+00BD  0000A8F0  _ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEE7seekposESt4fposIiENSt5_IosbIiE9_OpenmodeE
+00BE  0000A9F0  _ZNSt15basic_streambufIcSt11char_traitsIcEE6setbufEPcx
+00BF  0000AA00  _ZNSt15basic_streambufIcSt11char_traitsIcEE4syncEv
+00C0  0000AA10  _ZNSt15basic_streambufIcSt11char_traitsIcEE5imbueERKSt6locale
+00C1  0000AA20  _ZNSt15basic_streambufIcSt11char_traitsIcEED1Ev
+00C2  0000AA80  _ZNSt15basic_streambufIcSt11char_traitsIcEED0Ev
+00C3  0000AAE0  _ZNSt15basic_streambufIcSt11char_traitsIcEE8overflowEi
+00C4  0000AAF0  _ZNSt15basic_streambufIcSt11char_traitsIcEE9pbackfailEi
+00C5  0000AB00  _ZNSt15basic_streambufIcSt11char_traitsIcEE9underflowEv
+00C6  0000AB10  _ZNSt15basic_streambufIcSt11char_traitsIcEE7seekoffExNSt5_IosbIiE8_SeekdirENS4_9_OpenmodeE
+00C7  0000AB30  _ZNSt15basic_streambufIcSt11char_traitsIcEE7seekposESt4fposIiENSt5_IosbIiE9_OpenmodeE
+00C8  0000AB50  _ZNSs6insertEyRKSsyy
+00C9  0000ACA0  _ZNSt13basic_filebufIcSt11char_traitsIcEE4openEPKcNSt5_IosbIiE9_OpenmodeEi
+00CA  0000AE40  _ZNSt13basic_filebufIcSt11char_traitsIcEED1Ev
+00CB  0000AE50  _ZNSiD1Ev
+00CC  0000AE60  _ZNSiD0Ev
+00CD  0000AE80  _ZTv0_n24_NSiD1Ev
+00CE  0000AEA0  _ZTv0_n24_NSiD0Ev
+00CF  0000AED0  _ZNSt14basic_ifstreamIcSt11char_traitsIcEED0Ev
+00D0  0000AF20  _ZTv0_n24_NSt14basic_ifstreamIcSt11char_traitsIcEED1Ev
+00D1  0000AF70  _ZTv0_n24_NSt14basic_ifstreamIcSt11char_traitsIcEED0Ev
+00D2  0000AFD0  _ZNSt13basic_filebufIcSt11char_traitsIcEED0Ev
+00D3  0000AFF0  _ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi
+00D4  0000B2A0  _ZNSt13basic_filebufIcSt11char_traitsIcEE9pbackfailEi
+00D5  0000B370  _ZNSt13basic_filebufIcSt11char_traitsIcEE9underflowEv
+00D6  0000B3C0  _ZNSt13basic_filebufIcSt11char_traitsIcEE5uflowEv
+00D7  0000B730  _ZNSt13basic_filebufIcSt11char_traitsIcEE7seekoffExNSt5_IosbIiE8_SeekdirENS4_9_OpenmodeE
+00D8  0000B810  _ZNSt13basic_filebufIcSt11char_traitsIcEE7seekposESt4fposIiENSt5_IosbIiE9_OpenmodeE
+00D9  0000B900  _ZNSt13basic_filebufIcSt11char_traitsIcEE6setbufEPcx
+00DA  0000B9E0  _ZNSt13basic_filebufIcSt11char_traitsIcEE4syncEv
+00DB  0000BA30  _ZNSt13basic_filebufIcSt11char_traitsIcEE5imbueERKSt6locale
+00DC  0000BAC0  _ZNSt13basic_filebufIcSt11char_traitsIcEE9_EndwriteEv
+00DD  0000BD00  _ZSt9use_facetISt7codecvtIcciEERKT_RKSt6locale
+00DE  0000BE10  _ZNSt7codecvtIcciED1Ev
+00DF  0000BE20  _ZNSt7codecvtIcciED0Ev
+00E0  0000BE30  _ZNKSt7codecvtIcciE16do_always_noconvEv
+00E1  0000BE40  _ZNKSt12codecvt_base13do_max_lengthEv
+00E2  0000BE50  _ZNKSt12codecvt_base11do_encodingEv
+00E3  0000BE60  _ZNKSt7codecvtIcciE5do_inERiPKcS3_RS3_PcS5_RS5_
+00E4  0000BE80  _ZNKSt7codecvtIcciE6do_outERiPKcS3_RS3_PcS5_RS5_
+00E5  0000BEA0  _ZNKSt7codecvtIcciE10do_unshiftERiPcS2_RS2_
+00E6  0000BEB0  _ZNKSt7codecvtIcciE9do_lengthERiPKcS3_y
+00E7  0000BEC0  _ZNSt13basic_filebufIcSt11char_traitsIcEED2Ev
+00E8  0000C030  _ZdaPv
+00E9  0000C050  _ZdlPv
+00EA  0000C070  _ZSt13set_terminatePFvvE
+00EB  0000C090  _ZSt9terminatev
+00EC  0000C0C0  _ZSt14set_unexpectedPFvvE
+00ED  0000C0E0  _ZSt10unexpectedv
+00EE  0000C110  _ZSt7_FiopenPKcNSt5_IosbIiE9_OpenmodeEi
+00EF  0000C3C0  _ZNSt9exception18_Set_raise_handlerEPFvRKS_E
+00F0  0000C3D0  _ZNSt9exceptionD2Ev
+00F1  0000C3E0  _ZNSt9exceptionD1Ev
+00F2  0000C3F0  _ZNSt9exceptionD0Ev
+00F3  0000C400  _ZNKSt9exception4whatEv
+00F4  0000C410  _ZNSt8ios_baseD2Ev
+00F5  0000C510  _ZNSt8ios_baseD1Ev
+00F6  0000C520  _ZNSt8ios_baseD0Ev
+00F7  0000C540  _ZNSt8ios_base7_AddstdEPS_
+00F8  0000C730  _ZNSt8ios_base4InitC2Ev
+00F9  0000CB30  _ZNSt8ios_base4InitC1Ev
+00FA  0000CF30  _ZNSt8ios_base4InitD2Ev
+00FB  0000CF90  _ZNSt8ios_base4InitD1Ev
+00FC  0000D1D0  _Fac_tidy
+00FD  0000D230  _Deletegloballocale
+00FE  0000D260  _Getgloballocale
+00FF  0000D270  _Setgloballocale
+0100  0000D340  _ZNSt6locale7classicEv
+0101  0000D360  _ZNSt6locale5_InitEb
+0102  0000D480  _ZNSt6locale5emptyEv
+0103  0000D500  _ZNSt6locale16_GetgloballocaleEv
+0104  0000D510  _ZNSt6locale16_SetgloballocaleEPv
+0105  0000D550  _ZNSt6locale5facet9_RegisterEv
+0106  0000D5A0  _ZNSt6locale7_LocimpC2Eb
+0107  0000D600  _ZNSt6locale7_LocimpC1Eb
+0108  0000D660  _ZNSt6locale7_LocimpD2Ev
+0109  0000D6F0  _ZNSt6locale7_LocimpD1Ev
+010A  0000D700  _ZNSt6locale7_LocimpD0Ev
+010B  0000D720  _ZNSt8_LocinfoC2EPKc
+010C  0000D890  _ZNSt8_LocinfoC1EPKc
+010D  0000DA00  _ZNSt8_LocinfoC2ERKSs
+010E  0000DB80  _ZNSt8_LocinfoC1ERKSs
+010F  0000DD00  _ZNSt8_LocinfoD2Ev
+0110  0000DD80  _ZNSt8_LocinfoD1Ev
+0111  0000DE50  _ZNSt5_YarnIcED1Ev
+0112  0000DE80  _ZSt15get_new_handlerv
+0113  0000DE90  _ZSt15set_new_handlerPFvvE
+0114  0000DEB0  _Znwy
+0115  0000DF10  _ZNSt6_WinitC1Ev
+0116  0000E390  _ZNSt6_WinitD1Ev
+0117  0000E4A0  _ZNSt6_WinitC2Ev
+0118  0000E920  _ZNSt6_WinitD2Ev
+0119  0000EB60  _ZNSt13basic_filebufIwSt11char_traitsIwEED1Ev
+011A  0000EB70  _ZNSt13basic_istreamIwSt11char_traitsIwEED1Ev
+011B  0000EB80  _ZNSt13basic_filebufIwSt11char_traitsIwEED0Ev
+011C  0000EBA0  _ZNSt13basic_filebufIwSt11char_traitsIwEE8overflowEw
+011D  0000EE70  _ZNSt13basic_filebufIwSt11char_traitsIwEE9pbackfailEw
+011E  0000EF50  _ZNSt13basic_filebufIwSt11char_traitsIwEE9underflowEv
+011F  0000EFB0  _ZNSt13basic_filebufIwSt11char_traitsIwEE5uflowEv
+0120  0000F330  _ZNSt13basic_filebufIwSt11char_traitsIwEE7seekoffExNSt5_IosbIiE8_SeekdirENS4_9_OpenmodeE
+0121  0000F420  _ZNSt13basic_filebufIwSt11char_traitsIwEE7seekposESt4fposIiENSt5_IosbIiE9_OpenmodeE
+0122  0000F510  _ZNSt13basic_filebufIwSt11char_traitsIwEE6setbufEPwx
+0123  0000F5B0  _ZNSt13basic_filebufIwSt11char_traitsIwEE4syncEv
+0124  0000F600  _ZNSt13basic_filebufIwSt11char_traitsIwEE5imbueERKSt6locale
+0125  0000F680  _ZNSt15basic_streambufIwSt11char_traitsIwEED2Ev
+0126  0000F6E0  _ZNSt13basic_filebufIwSt11char_traitsIwEE9_EndwriteEv
+0127  0000F8F0  _ZSt9use_facetISt7codecvtIwciEERKT_RKSt6locale
+0128  0000FA10  _ZNSt7codecvtIwciED1Ev
+0129  0000FA20  _ZNSt7codecvtIwciED0Ev
+012A  0000FA30  _ZNKSt7codecvtIwciE16do_always_noconvEv
+012B  0000FA40  _ZNKSt7codecvtIwciE13do_max_lengthEv
+012C  0000FA50  _ZNKSt7codecvtIwciE11do_encodingEv
+012D  0000FA60  _ZNKSt7codecvtIwciE5do_inERiPKcS3_RS3_PwS5_RS5_
+012E  0000FB40  _ZNKSt7codecvtIwciE6do_outERiPKwS3_RS3_PcS5_RS5_
+012F  0000FC70  _ZNKSt7codecvtIwciE10do_unshiftERiPcS2_RS2_
+0130  0000FD00  _ZNKSt7codecvtIwciE9do_lengthERiPKcS3_y
+0131  0000FDC0  _ZNSt13basic_filebufIwSt11char_traitsIwEED2Ev
+0132  0000FF20  _ZNSt13basic_istreamIwSt11char_traitsIwEED0Ev
+0133  0000FF40  _ZTv0_n24_NSt13basic_istreamIwSt11char_traitsIwEED1Ev
+0134  0000FF60  _ZTv0_n24_NSt13basic_istreamIwSt11char_traitsIwEED0Ev
+0135  0000FF90  _Getctyptab
+0136  00010090  _Atexit
+0137  00010200  _ZSt11_Xbad_allocv
+0138  00010240  _ZSt18_Xinvalid_argumentPKc
+0139  000102A0  _ZSt14_Xlength_errorPKc
+013A  00010300  _ZSt14_Xout_of_rangePKc
+013B  00010360  _ZSt16_Xoverflow_errorPKc
+013C  000103C0  _ZSt15_Xruntime_errorPKc
+013D  00010420  _ZSt19_Xbad_function_callv
+013E  000104D0  _ZNSt9bad_allocD1Ev
+013F  000104E0  _ZNSt16invalid_argumentC1EPKc
+0140  00010570  _ZNSt16invalid_argumentD1Ev
+0141  000105E0  _ZNSt12length_errorC1EPKc
+0142  00010670  _ZNSt12length_errorD1Ev
+0143  000106E0  _ZNSt12out_of_rangeC1EPKc
+0144  00010770  _ZNSt12out_of_rangeD1Ev
+0145  000107E0  _ZNSt14overflow_errorC1EPKc
+0146  00010870  _ZNSt14overflow_errorD1Ev
+0147  000108E0  _ZNSt13runtime_errorC1EPKc
+0148  00010960  _ZNSt17bad_function_callD1Ev
+0149  00010970  _ZNSt9bad_allocD0Ev
+014A  00010990  _ZNSt16invalid_argumentD0Ev
+014B  00010A00  _ZNKSt11logic_error4whatEv
+014C  00010A20  _ZNSt11logic_errorD1Ev
+014D  00010A90  _ZNSt11logic_errorD0Ev
+014E  00010B00  _ZNSs5eraseEyy
+014F  00010BE0  _ZNSt12length_errorD0Ev
+0150  00010C50  _ZNSt12out_of_rangeD0Ev
+0151  00010CC0  _ZNSt14overflow_errorD0Ev
+0152  00010D30  _ZNSt17bad_function_callD0Ev
+0153  00010D50  _ZNKSt17bad_function_call4whatEv
+0154  00010D60  btowc
+0155  00010DB0  wcrtomb_cp
+0156  00010DD0  _ZSt13_Syserror_mapi
+0157  00010EC0  DefaultRegisterAndUnregisterExpectedMemoryLeak
+0158  00010ED0  DefaultAllocMem
+0159  00010F00  __CRTL_MEM_GetBorMemPtrs
+015A  00011060  __CRTL_MEM_CheckBorMem
+015B  00011070  calloc
+015C  00011080  malloc
+015D  00011090  free
+015E  000110A0  realloc
+015F  000110B0  __CRTL_MEM_Revector
+0160  00011120  _free_init
+0161  000111A0  _malloc_init
+0162  00011220  _allocmem_init
+0163  000112A0  _realloc_init
+0164  00011330  _terminate_default
+0165  00011340  set_releaseHeap
+0166  00011350  _free_heaps
+0167  00011370  __CRTL_MEM_UseBorMM
+0168  00011380  __dlmalloc
+0169  00012AD0  __dlfree
+016A  00013A50  __dlcalloc
+016B  00013AC0  __dlrealloc
+016C  00013F60  dlrealloc_in_place
+016D  00013FB0  dlmemalign
+016E  00014130  dlposix_memalign
+016F  000141C0  dlvalloc
+0170  00014270  dlpvalloc
+0171  00014330  dlindependent_calloc
+0172  000149E0  dlindependent_comalloc
+0173  000149F0  dlbulk_free
+0174  00014AD0  dlmalloc_trim
+0175  00014B70  dlmalloc_footprint
+0176  00014B80  dlmalloc_max_footprint
+0177  00014B90  dlmalloc_footprint_limit
+0178  00014BB0  dlmalloc_set_footprint_limit
+0179  00014BE0  dlmallinfo
+017A  00014D90  dlmallopt
+017B  00014E70  dlmalloc_usable_size
+017C  00015660  _internal_free
+017D  00015670  _internal_malloc
+017E  00015680  _internal_allocmem
+017F  000156A0  _internal_free_heaps
+0180  000156B0  _internal_realloc
+0181  000156F0  __CRTL_VCL_Init
+0182  00015700  __CRTL_VCLLIB_Linkage
+0183  00015710  strdup
+0184  00015750  strncpy
+0185  000157B0  strstr
+0186  00015860  wcscpy
+0187  00015A40  wcslen
+0188  00015A60  memcpy
+0189  00015A80  memmove
+018A  00015D30  memset
+018B  00015F60  strncat
+018C  00015FD0  strncmp
+018D  00016020  wmemcpy
+018E  00016030  wmemmove
+018F  00016300  wmemset
+0190  00016430  strlen
+0191  00016450  _stpcpy
+0192  00016480  stpcpy
+0193  000164B0  strcat
+0194  00016500  strcpy
+0195  00016540  strcmp
+0196  00016590  memcmp
+0197  000165D0  strchr
+0198  00016600  memchr
+0199  00016630  __access
+019A  00016670  __close
+019B  000166E0  __eof
+019C  00016780  __ftruncate
+019D  000168F0  __isatty
+019E  00016920  __isatty_osfhandle
+019F  00016940  __lseek
+01A0  000169B0  __open
+01A1  00016B70  __read
+01A2  00016D90  __wopen
+01A3  00016F50  __wread
+01A4  000171C0  __write
+01A5  000172F0  _rtl_close
+01A6  00017300  _close
+01A7  00017310  _fdopen
+01A8  00017370  _flushall
+01A9  000173C0  _fputc
+01AA  000173D0  _rtl_read
+01AB  00017430  _read
+01AC  00017440  _umask
+01AD  00017460  _rtl_write
+01AE  000174B0  _write
+01AF  000174C0  _allocbuf
+01B0  00017570  _fcloseall
+01B1  000175E0  fclose
+01B2  00017670  fflush
+01B3  00017710  _fgetchar
+01B4  00017720  fgetpos
+01B5  00017740  _flushout
+01B6  000177C0  _initfmode
+01B7  000177D0  _initfileinfo
+01B8  000177E0  __openfp
+01B9  00017980  __getfp
+01BA  000179C0  __fopen_helper
+01BB  00017A20  fopen
+01BC  00017A80  _fputchar
+01BD  00017A90  __fputn
+01BE  00017B60  fseek
+01BF  00017CA0  ftell
+01C0  00017FE0  fsetpos
+01C1  00017FF0  fwrite
+01C2  00018020  _getw
+01C3  00018100  _get_handle
+01C4  00018160  _dup_handle
+01C5  000181E0  _free_handle
+01C6  00018200  _init_handles
+01C7  000189C0  __IOerror
+01C8  00018A20  __DOSerror
+01C9  00018A60  __NTerror
+01CA  00018AA0  getc
+01CB  00018AB0  getchar
+01CC  00018AF0  putc
+01CD  00018B00  putchar
+01CE  00018B40  feof
+01CF  00018B50  ferror
+01D0  00018B60  _fileno
+01D1  00018B70  _fgetc
+01D2  00018B80  fgetc
+01D3  00018D20  _fgetwc
+01D4  00018D30  fgetwc
+01D5  00018EE0  fputc
+01D6  00018FD0  fputwc
+01D7  00019110  _mkdir
+01D8  00019130  __mkname
+01D9  00019190  __tmpnam
+01DA  00019230  _mktemp
+01DB  00019320  _get_osfhandle
+01DC  00019360  _open_osfhandle
+01DD  00019390  _rmdir
+01DE  000193B0  _rmtmp
+01DF  00019410  setvbuf
+01E0  00019480  _sopen
+01E1  000194C0  _fnsplit
+01E2  00019900  _splitpath
+01E3  00019910  _init_streams
+01E4  00019AA0  _exit_streams
+01E5  00019B10  _tempnam
+01E6  00019CC0  ungetc
+01E7  00019D20  ungetwc
+01E8  00019D80  _unlink
+01E9  00019DA0  unixtofile
+01EA  0001A020  _futime
+01EB  0001A0C0  _utime
+01EC  0001A100  vfprintf
+01ED  0001A130  __vprinter
+01EE  0001B540  _xfclose
+01EF  0001B590  _xfflush
+01F0  0001B5E0  open
+01F1  0001B5F0  access
+01F2  0001B600  fcloseall
+01F3  0001B610  fgetchar
+01F4  0001B620  fileno
+01F5  0001B630  fputchar
+01F6  0001B640  getw
+01F7  0001B650  mkdir
+01F8  0001B660  mktemp
+01F9  0001B670  rmdir
+01FA  0001B680  rmtmp
+01FB  0001B690  sopen
+01FC  0001B6A0  tempnam
+01FD  0001B6B0  utime
+01FE  0001B6C0  chsize
+01FF  0001B6D0  fdopen
+0200  0001B6E0  flushall
+0201  0001B6F0  fnsplit
+0202  0001B700  _ftruncate
+0203  0001B710  lseek
+0204  0001B720  _lseek
+0205  0001B730  _open
+0206  0001B740  umask
+0207  0001B750  wopen
+0208  0001B760  _wopen
+0209  0001B770  localeconv
+020A  0001B780  _win32DateTimeToPOSIX
+020B  0001BC60  _getLocaleNumericInfo
+020C  0001BCE0  isalnum
+020D  0001BCF0  isascii
+020E  0001BD00  isalpha
+020F  0001BD10  isblank
+0210  0001BD20  iscntrl
+0211  0001BD30  isdigit
+0212  0001BD40  isgraph
+0213  0001BD50  islower
+0214  0001BD60  isprint
+0215  0001BD70  ispunct
+0216  0001BD80  isspace
+0217  0001BD90  isupper
+0218  0001BDA0  isxdigit
+0219  0001BDB0  iswalnum
+021A  0001BDC0  iswascii
+021B  0001BDD0  iswalpha
+021C  0001BDE0  iswblank
+021D  0001BDF0  iswcntrl
+021E  0001BE00  iswdigit
+021F  0001BE10  iswgraph
+0220  0001BE20  iswlower
+0221  0001BE30  iswprint
+0222  0001BE50  iswpunct
+0223  0001BE60  iswspace
+0224  0001BE70  iswupper
+0225  0001BE80  iswxdigit
+0226  0001BE90  __isctype
+0227  0001BEE0  __isctypeEx
+0228  0001BF40  __iswctype
+0229  0001BFB0  __iswctypeEx
+022A  0001C030  _setLocale32W
+022B  0001C0E0  _setLocale32A
+022C  0001D160  _lockLocale
+022D  0001D170  _unlockLocale
+022E  0001D180  _initLocale
+022F  0001D190  _cleanLocale
+0230  0001D210  _allocAndGetValue
+0231  0001D280  _getShortValue
+0232  0001D300  _setCType
+0233  0001D4D0  _setMonetary
+0234  0001DA80  _setTime
+0235  0001EA40  _setNumeric
+0236  0001EC20  _setCollate
+0237  0001EC30  _llocaleconv
+0238  0001ED70  _lstrlwr
+0239  0001EDA0  _ltolower
+023A  0001EE20  _ltolower_lcid
+023B  0001EE90  _ltoupper
+023C  0001EF10  _ltoupper_lcid
+023D  0001EF80  mblen
+023E  0001F030  mbtowc
+023F  0001F120  mbtowc_cp
+0240  0001F200  _wctomb_quiet
+0241  0001F280  wctomb
+0242  0001F320  wctomb_cp
+0243  0001F3B0  mbstowcs
+0244  0001F510  wcstombs
+0245  0001F710  mbrtowc
+0246  0001F860  mbrtowc_cp
+0247  0001F9B0  _lsetlocale
+0248  0001F9C0  _fpclass
+0249  0001FA20  _fpclassl
+024A  0001FA80  _pow10
+024B  0001FB50  atoll
+024C  0001FBD0  atol
+024D  0001FC50  atoi
+024E  0001FD10  __int64toa
+024F  0001FFB0  __longtoa
+0250  00020250  __utoa
+0251  000204D0  itoa
+0252  00020500  ultoa
+0253  00020520  _ltoa
+0254  00020550  _realcvt
+0255  00020980  _cvt_init
+0256  000209B0  _realcvtw
+0257  00020E70  _cvt_initw
+0258  00020EA0  _scan_init
+0259  00021470  _scan_initw
+025A  00021A50  __xcvt
+025B  00021E50  __xcvtw
+025C  00022250  _mbbtype
+025D  000222C0  _setmbcp
+025E  00022760  _getmbcp
+025F  00022770  _initMBCSTable
+0260  00022790  _ismbcalpha
+0261  000227D0  _ismbcdigit
+0262  000227F0  _ismbcspace
+0263  00022800  _mbsbtype
+0264  00022850  _mbscmp
+0265  000228E0  _mbsnbcpy
+0266  00022960  _mbsnbicmp
+0267  00022A50  _mbsrchr
+0268  00022AB0  _assert
+0269  00022BA0  _ErrorMessageHelper
+026A  00022CA0  __errno
+026B  00022CB0  _ErrorMessage
+026C  00022E50  __ErrorMessage
+026D  00022E60  _ErrorExit
+026E  00022E90  __backpatch_data_references
+026F  00022F40  __dbkFCallArgs
+0270  00023140  _internal_dbk_fcall_wrapper
+0271  00023160  _dbk_fcall_wrapper
+0272  00023180  _dbk_fcall_wrapper_init
+0273  00023190  _abort_notify
+0274  000231A0  _do_abort
+0275  000231C0  _abort
+0276  00023240  abort
+0277  00023260  __atexit
+0278  000232A0  __call_atexit_procs
+0279  000233F0  atexit
+027A  00023410  __exit
+027B  00023470  exit
+027C  00023490  _exit
+027D  000234B0  _Exit
+027E  000234D0  _cexit
+027F  000234F0  _c_exit
+0280  00023510  _getenv_nolock
+0281  00023590  getenv
+0282  00023610  _argv_default_expand
+0283  00023620  _wargv_default_expand
+0284  00023630  _handle_setargv
+0285  00023A00  _handle_exitargv
+0286  00023A30  _handle_wsetargv
+0287  00023FD0  _handle_wexitargv
+0288  00024000  _extenvp
+0289  00024050  _expandblock
+028A  00024230  _setenvp
+028B  00024260  _getpid
+028C  00024290  signal
+028D  00024350  raise
+028E  00024540  longjmp
+028F  000245F0  _terminate
+0290  00024600  _init_exit_proc
+0291  00024700  _cleanup
+0292  00024830  __CRTL_DLLEntryPointWrapper
+0293  00024840  _wstartupd
+0294  00024900  __tls_size
+0295  00024940  ___CRTL_TLS_Alloc
+0296  00024950  ___CRTL_TLS_Free
+0297  00024960  ___CRTL_TLS_GetValue
+0298  00024970  ___CRTL_TLS_SetValue
+0299  00024980  ___CRTL_TLS_InitThread
+029A  00024990  ___CRTL_TLS_ExitThread
+029B  000249A0  __CRTL_TLS_GetInfo
+029C  000249B0  __init_tls_data
+029D  000249F0  __exit_tls_data
+029E  00024A40  __init_tls_index
+029F  00024AA0  __tls_get_addr
+02A0  00024B20  _isDSTx
+02A1  00024CA0  __isDST_hook
+02A2  00024CB0  _isDST
+02A3  00024CD0  _totalsec
+02A4  00024ED0  initTZ
+02A5  00024EE0  _tzsetx
+02A6  000250F0  ___set_tzset_hook
+02A7  00025100  _tzset
+02A8  00025120  tzset
+02A9  00025130  abort_message
+02AA  00025180  __cxa_pure_virtual
+02AB  000251A0  __cxa_deleted_virtual
+02AC  000251C0  _ZN10__cxxabiv116__shim_type_infoD2Ev
+02AD  000251D0  _ZN10__cxxabiv116__shim_type_infoD1Ev
+02AE  000251E0  _ZN10__cxxabiv116__shim_type_infoD0Ev
+02AF  000251F0  _ZNK10__cxxabiv116__shim_type_info5noop1Ev
+02B0  00025200  _ZNK10__cxxabiv116__shim_type_info5noop2Ev
+02B1  00025210  _ZNK10__cxxabiv116__shim_type_info6equalsERKS0_
+02B2  00025250  _ZN10__cxxabiv123__fundamental_type_infoD2Ev
+02B3  00025260  _ZN10__cxxabiv123__fundamental_type_infoD1Ev
+02B4  00025270  _ZN10__cxxabiv123__fundamental_type_infoD0Ev
+02B5  00025290  _ZN10__cxxabiv117__array_type_infoD2Ev
+02B6  000252A0  _ZN10__cxxabiv117__array_type_infoD1Ev
+02B7  000252B0  _ZN10__cxxabiv117__array_type_infoD0Ev
+02B8  000252D0  _ZN10__cxxabiv120__function_type_infoD2Ev
+02B9  000252E0  _ZN10__cxxabiv120__function_type_infoD1Ev
+02BA  000252F0  _ZN10__cxxabiv120__function_type_infoD0Ev
+02BB  00025310  _ZN10__cxxabiv116__enum_type_infoD2Ev
+02BC  00025320  _ZN10__cxxabiv116__enum_type_infoD1Ev
+02BD  00025330  _ZN10__cxxabiv116__enum_type_infoD0Ev
+02BE  00025350  _ZN10__cxxabiv117__class_type_infoD2Ev
+02BF  00025360  _ZN10__cxxabiv117__class_type_infoD1Ev
+02C0  00025370  _ZN10__cxxabiv117__class_type_infoD0Ev
+02C1  00025390  _ZN10__cxxabiv120__si_class_type_infoD2Ev
+02C2  000253A0  _ZN10__cxxabiv120__si_class_type_infoD1Ev
+02C3  000253B0  _ZN10__cxxabiv120__si_class_type_infoD0Ev
+02C4  000253D0  _ZNK10__cxxabiv120__si_class_type_info6equalsERKNS_16__shim_type_infoE
+02C5  00025480  _ZN10__cxxabiv121__vmi_class_type_infoD2Ev
+02C6  00025490  _ZN10__cxxabiv121__vmi_class_type_infoD1Ev
+02C7  000254A0  _ZN10__cxxabiv121__vmi_class_type_infoD0Ev
+02C8  000254C0  _ZNK10__cxxabiv121__vmi_class_type_info6equalsERKNS_16__shim_type_infoE
+02C9  00025580  _ZN10__cxxabiv117__pbase_type_infoD2Ev
+02CA  00025590  _ZN10__cxxabiv117__pbase_type_infoD1Ev
+02CB  000255A0  _ZN10__cxxabiv117__pbase_type_infoD0Ev
+02CC  000255C0  _ZN10__cxxabiv119__pointer_type_infoD2Ev
+02CD  000255D0  _ZN10__cxxabiv119__pointer_type_infoD1Ev
+02CE  000255E0  _ZN10__cxxabiv119__pointer_type_infoD0Ev
+02CF  00025600  _ZN10__cxxabiv129__pointer_to_member_type_infoD2Ev
+02D0  00025610  _ZN10__cxxabiv129__pointer_to_member_type_infoD1Ev
+02D1  00025620  _ZN10__cxxabiv129__pointer_to_member_type_infoD0Ev
+02D2  00025640  _ZNK10__cxxabiv123__fundamental_type_info9can_catchEPKNS_16__shim_type_infoERPv
+02D3  00025660  _ZNK10__cxxabiv117__array_type_info9can_catchEPKNS_16__shim_type_infoERPv
+02D4  00025670  _ZNK10__cxxabiv120__function_type_info9can_catchEPKNS_16__shim_type_infoERPv
+02D5  00025680  _ZNK10__cxxabiv116__enum_type_info9can_catchEPKNS_16__shim_type_infoERPv
+02D6  000256A0  _ZNK10__cxxabiv117__class_type_info9can_catchEPKNS_16__shim_type_infoERPv
+02D7  00025770  _ZNK10__cxxabiv117__class_type_info24process_found_base_classEPNS_19__dynamic_cast_infoEPvi
+02D8  000257B0  _ZNK10__cxxabiv117__class_type_info27has_unambiguous_public_baseEPNS_19__dynamic_cast_infoEPvi
+02D9  00025820  _ZNK10__cxxabiv120__si_class_type_info27has_unambiguous_public_baseEPNS_19__dynamic_cast_infoEPvi
+02DA  000258B0  _ZNK10__cxxabiv122__base_class_type_info27has_unambiguous_public_baseEPNS_19__dynamic_cast_infoEPvi
+02DB  000258F0  _ZNK10__cxxabiv121__vmi_class_type_info27has_unambiguous_public_baseEPNS_19__dynamic_cast_infoEPvi
+02DC  00025A10  _ZNK10__cxxabiv117__pbase_type_info9can_catchEPKNS_16__shim_type_infoERPv
+02DD  00025A70  _ZNK10__cxxabiv119__pointer_type_info9can_catchEPKNS_16__shim_type_infoERPv
+02DE  00025C10  __dynamic_cast
+02DF  00025D10  _ZNK10__cxxabiv117__class_type_info29process_static_type_above_dstEPNS_19__dynamic_cast_infoEPKvS4_i
+02E0  00025D70  _ZNK10__cxxabiv117__class_type_info29process_static_type_below_dstEPNS_19__dynamic_cast_infoEPKvi
+02E1  00025D90  _ZNK10__cxxabiv121__vmi_class_type_info16search_below_dstEPNS_19__dynamic_cast_infoEPKvi
+02E2  000260A0  _ZNK10__cxxabiv122__base_class_type_info16search_above_dstEPNS_19__dynamic_cast_infoEPKvS4_i
+02E3  000260F0  _ZNK10__cxxabiv122__base_class_type_info16search_below_dstEPNS_19__dynamic_cast_infoEPKvi
+02E4  00026130  _ZNK10__cxxabiv120__si_class_type_info16search_below_dstEPNS_19__dynamic_cast_infoEPKvi
+02E5  00026240  _ZNK10__cxxabiv117__class_type_info16search_below_dstEPNS_19__dynamic_cast_infoEPKvi
+02E6  000262E0  _ZNK10__cxxabiv121__vmi_class_type_info16search_above_dstEPNS_19__dynamic_cast_infoEPKvS4_i
+02E7  000264A0  _ZNK10__cxxabiv120__si_class_type_info16search_above_dstEPNS_19__dynamic_cast_infoEPKvS4_i
+02E8  00026560  _ZNK10__cxxabiv117__class_type_info16search_above_dstEPNS_19__dynamic_cast_infoEPKvS4_i
+02E9  000265F0  _ZNSt9type_infoD2Ev
+02EA  00026600  _ZNSt9type_infoD1Ev
+02EB  00026610  _ZNSt9type_infoD0Ev
+02EC  00026620  _ZNKSt9type_info4nameEv
+02ED  00026630  _ZNKSt9type_infoeqERKS_
+02EE  00026690  _ZNKSt9type_infoneERKS_
+02EF  000266F0  _ZNKSt9type_info6beforeERKS_
+02F0  00026710  _ZNSt8bad_castC2Ev
+02F1  00026720  _ZNSt8bad_castC1Ev
+02F2  00026730  _ZNSt8bad_castD2Ev
+02F3  00026740  _ZNSt8bad_castD1Ev
+02F4  00026750  _ZNSt8bad_castD0Ev
+02F5  00026770  _ZNKSt8bad_cast4whatEv
+02F6  00026780  _ZNSt10bad_typeidC2Ev
+02F7  00026790  _ZNSt10bad_typeidC1Ev
+02F8  000267A0  _ZNSt10bad_typeidD2Ev
+02F9  000267B0  _ZNSt10bad_typeidD1Ev
+02FA  000267C0  _ZNSt10bad_typeidD0Ev
+02FB  000267E0  _ZNKSt10bad_typeid4whatEv
+02FC  000267F0  _ZN10__cxxabiv114is_initializedEPy
+02FD  00026800  _ZN10__cxxabiv115set_initializedEPy
+02FE  00026810  _ZN10__cxxabiv18get_lockEy
+02FF  00026820  __cxa_guard_acquire
+0300  00026840  __cxa_guard_release
+0301  00026850  __cxa_guard_abort
+0302  00026860  _ZN10__cxxabiv111_guard_initEv
+0303  00026870  __cpp_terminate
+0304  00026880  _Z34__cxa_increment_exception_refcountPv
+0305  000268A0  _Z34__cxa_decrement_exception_refcountPv
+0306  00026910  __cxa_free_exception
+0307  00026950  _Z33__cpp_unwind_exception_cleanup_fn19_Unwind_Reason_CodeP17_Unwind_Exception
+0308  000269D0  __cxa_get_globals
+0309  000269E0  __cxa_get_globals_fast
+030A  000269F0  __cxa_allocate_exception
+030B  00026A50  _Z22__initialize_exceptionPvPSt9type_infoPFvS_Ei
+030C  00026AC0  __cxa_throw
+030D  00026AD0  __cxa_throw2
+030E  00026BC0  __cxa_get_exception_ptr
+030F  00026BD0  __cxa_begin_catch
+0310  00026C30  __cxa_end_catch
+0311  00026D10  __cxa_free_dependent_exception
+0312  00026D40  __cxa_rethrow
+0313  00026DC0  __cxa_call_unexpected
+0314  00026DD0  _ZSt18uncaught_exceptionv
+0315  00026DF0  _Z31__cxa_current_primary_exceptionv
+0316  00026E50  _Z31__cxa_rethrow_primary_exceptionPv
+0317  00026F70  __cxa_allocate_dependent_exception
+0318  000270F0  _Z18__initCPPdebugHookv
+0319  00027130  _Z13__notifyThrowPvPSt9type_info
+031A  000271D0  _Z13__notifyCatchPvPPSt9type_infoS_
+031B  00027290  _Z22__notifyCatchTerminatev
+031C  000272A0  _Z27get_delphi_type_from_objectPKv
+031D  000272B0  _Z14is_delphi_typePKv
+031E  000272C0  _Z20compare_delphi_typesPKvS0_
+031F  000272F0  __throw_as_delphi
+0320  00027340  _Z24destroy_delphi_exceptionPv
+0321  00027360  _ZN13__cxx_runtime6detail15is_fallback_ptrEPv
+0322  00027380  _ZN13__cxx_runtime6detail15fallback_mallocEy
+0323  00027440  _ZN13__cxx_runtime6detail13fallback_freeEPv
+0324  00027500  __seh_cxx_personality_v0
+0325  00027770  __gxx_personality_sj0
+0326  00027780  __seh_personality_v0
+0327  00027790  __seh_end_filter
+0328  000277F0  __exception_code
+0329  00027810  __exception_info
+032A  00027F40  _LLVM_specific_handler
+032B  00027FC0  _ZN6ms_api6detail17exception_handler5startEv
+032C  00028190  _ZN6ms_api6detail17exception_handler13cleanup_phaseEv
+032D  00028230  _ZN6ms_api6detail17exception_handler12search_phaseEv
+032E  000282D0  __invoke_filter_function
+032F  000282F0  _Z23__init_unwind_exceptionR17_Unwind_Exception
+0330  00028310  _Unwind_RaiseException
+0331  00028340  _Unwind_DeleteException
+0332  00028360  _Unwind_Resume
+0333  000283C0  _Unwind_GetGR
+0334  00028560  _Unwind_SetGR
+0335  00028700  _Unwind_GetIP
+0336  00028710  _Unwind_SetIP
+0337  00028720  _Unwind_GetLanguageSpecificData
+0338  00028730  _Unwind_GetRegionStart
+0339  00000090  _hInstance
+033A  000000A4  __isDLL
+033B  000000A5  __isGUI
+033C  000000A6  __isVCLPackage
+033D  000011E0  _ZTISt14error_category
+033E  000011F0  _ZTVNSt3pmr17_New_del_resourceE
+033F  00001230  _ZTINSt3pmr15memory_resourceE
+0340  00001240  _ZTINSt3pmr17_New_del_resourceE
+0341  00001260  _ZTVSt5ctypeIcE
+0342  000012D0  _ZTISt11_Facet_base
+0343  000012E0  _ZTINSt6locale5facetE
+0344  00001300  _ZTISt10ctype_base
+0345  00001320  _ZTISt5ctypeIcE
+0346  00001340  _ZTISt13runtime_error
+0347  00001360  _ZTISt13_System_error
+0348  00001380  _ZTISt12system_error
+0349  000013A0  _ZTINSt8ios_base7failureE
+034A  000013C0  _ZTVSt24_Iostream_error_category
+034B  00001410  _ZTISt23_Generic_error_category
+034C  00001430  _ZTISt24_Iostream_error_category
+034D  00001450  _ZTVNSt8ios_base7failureE
+034E  00001480  _ZTVSt12system_error
+034F  000014B0  _ZTVSt13_System_error
+0350  000014E0  _ZTVSt13runtime_error
+0351  00001510  _ZTVSt19basic_ostringstreamIwSt11char_traitsIwESaIwEE
+0352  00001560  _ZTCSt19basic_ostringstreamIwSt11char_traitsIwESaIwEE0_St13basic_ostreamIwS1_E
+0353  000015B0  _ZTISt9basic_iosIwSt11char_traitsIwEE
+0354  000015D0  _ZTISt13basic_ostreamIwSt11char_traitsIwEE
+0355  00001600  _ZTISt19basic_ostringstreamIwSt11char_traitsIwESaIwEE
+0356  00001620  _ZTVSt15basic_stringbufIwSt11char_traitsIwESaIwEE
+0357  000016B0  _ZTISt15basic_streambufIwSt11char_traitsIwEE
+0358  000016C0  _ZTISt15basic_stringbufIwSt11char_traitsIwESaIwEE
+0359  000016E0  _ZTVSt15basic_streambufIwSt11char_traitsIwEE
+035A  00001770  _ZTVSt5ctypeIwE
+035B  00001800  _ZTISt5ctypeIwE
+035C  00001820  _ZTVSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE
+035D  00001870  _ZTCSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE0_So
+035E  000018C0  _ZTISt9basic_iosIcSt11char_traitsIcEE
+035F  000018E0  _ZTISo
+0360  00001910  _ZTISt19basic_ostringstreamIcSt11char_traitsIcESaIcEE
+0361  00001930  _ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE
+0362  000019C0  _ZTISt15basic_streambufIcSt11char_traitsIcEE
+0363  000019D0  _ZTISt15basic_stringbufIcSt11char_traitsIcESaIcEE
+0364  000019F0  _ZTVSt15basic_streambufIcSt11char_traitsIcEE
+0365  00001A80  _ZTVSt14basic_ifstreamIcSt11char_traitsIcEE
+0366  00001AD0  _ZTCSt14basic_ifstreamIcSt11char_traitsIcEE0_Si
+0367  00001B20  _ZTISi
+0368  00001B50  _ZTISt14basic_ifstreamIcSt11char_traitsIcEE
+0369  00001B70  _ZTVSt13basic_filebufIcSt11char_traitsIcEE
+036A  00001C00  _ZTISt13basic_filebufIcSt11char_traitsIcEE
+036B  00001C20  _ZTVSt7codecvtIcciE
+036C  00001C90  _ZTISt12codecvt_base
+036D  00001CB0  _ZTISt7codecvtIcciE
+036E  00001DD0  _ZTVSt9exception
+036F  00001DF8  _ZTISt9exception
+0370  00001E70  _ZNSt8ios_base5_SyncE
+0371  00001E80  _ZTVSt8ios_base
+0372  00001EA0  _ZTISt8ios_base
+0373  00001EC0  _ZTISt5_IosbIiE
+0374  000025F0  _ZNSt8ios_base4Init9_Init_cntE
+0375  00002600  _PJP_CPP_Copyright
+0376  00002660  _ZTVSi
+0377  000026B0  _ZTVSo
+0378  00002920  _ZTVNSt6locale7_LocimpE
+0379  00002950  _ZTINSt6locale7_LocimpE
+037A  000030B0  _ZNSt6_Winit9_Init_cntE
+037B  000030C0  _ZTVSt13basic_filebufIwSt11char_traitsIwEE
+037C  00003150  _ZTISt13basic_filebufIwSt11char_traitsIwEE
+037D  00003170  _ZTVSt7codecvtIwciE
+037E  000031E0  _ZTISt7codecvtIwciE
+037F  00003200  _ZTVSt13basic_istreamIwSt11char_traitsIwEE
+0380  00003250  _ZTISt13basic_istreamIwSt11char_traitsIwEE
+0381  00003280  _ZTVSt13basic_ostreamIwSt11char_traitsIwEE
+0382  00003680  _ZTISt9bad_alloc
+0383  000036A0  _ZTISt11logic_error
+0384  000036C0  _ZTISt16invalid_argument
+0385  000036E0  _ZTISt12length_error
+0386  00003700  _ZTISt12out_of_range
+0387  00003720  _ZTISt14overflow_error
+0388  00003740  _ZTISt17bad_function_call
+0389  00003760  _ZTVSt9bad_alloc
+038A  00003790  _ZTVSt16invalid_argument
+038B  000037C0  _ZTVSt11logic_error
+038C  000037F0  _ZTVSt12length_error
+038D  00003820  _ZTVSt12out_of_range
+038E  00003850  _ZTVSt14overflow_error
+038F  00003880  _ZTVSt17bad_function_call
+0390  00003DB0  _heap_redirector
+0391  00003DF0  _cfinfo_get
+0392  00003E00  _notUmask
+0393  00003E10  _streams
+0394  00007E10  _nfile
+0395  00007E20  _openfd
+0396  00008620  _fmode
+0397  00008630  _fmodeptr
+0398  00008640  _dosErrorToSV
+0399  00008770  _sys_errlist
+039A  00008900  _sys_nerr
+039B  00008910  _chartype
+039C  00008B20  _localeconvention
+039D  00008B78  __force
+039E  00008B80  _lower
+039F  00008C80  _upper
+03A0  00008D80  __mb_cur_max
+03A1  00008D90  CMonetary
+03A2  00008DE4  CNumeric
+03A3  00008E0E  CTimeDate
+03A4  00008F88  CLOCALE
+03A5  00008FD0  __locale
+03A6  00009060  _realcvtptr
+03A7  00009068  _nextrealptr
+03A8  00009070  _scantodptr
+03A9  00009078  _scanrsltptr
+03AA  00009080  _realcvtwptr
+03AB  00009088  _nextrealwptr
+03AC  00009090  _scanwtodptr
+03AD  00009098  _scanwrsltptr
+03AE  000090A0  _kalpha
+03AF  000090A2  _kpunct
+03B0  000090B0  __embt_backpatch_data
+03B1  000090B4  __embt_backpatch_data_end
+03B2  00009130  _exitbuf
+03B3  00009138  _exitfopen
+03B4  00009140  _exitopen
+03B5  00009150  _argv_expand_ptr
+03B6  00009160  _wargv_expand_ptr
+03B7  00009170  _isWindows
+03B8  00009190  _SWeekday
+03B9  000091D0  _LWeekday
+03BA  00009210  _SMonth
+03BB  00009270  _LMonth
+03BC  000092D0  _AmPm
+03BD  000092E0  _Days
+03BE  000092F0  _YDays
+03BF  00009330  _PREFER_END_STANDARD_TIME
+03C0  00009331  _PREFER_START_DAYLIGHT_TIME
+03C1  00009340  _timezone
+03C2  00009344  _daylight
+03C3  00009350  _tzname
+03C4  00009370  _ZTIN10__cxxabiv116__shim_type_infoE
+03C5  00009390  _ZTIN10__cxxabiv117__class_type_infoE
+03C6  000093B0  _ZTIN10__cxxabiv120__si_class_type_infoE
+03C7  000093D0  _ZTIN10__cxxabiv121__vmi_class_type_infoE
+03C8  000093F0  _ZTIN10__cxxabiv117__pbase_type_infoE
+03C9  00009410  _ZTIN10__cxxabiv119__pointer_type_infoE
+03CA  00009428  _ZTVN10__cxxabiv116__shim_type_infoE
+03CB  00009468  _ZTVN10__cxxabiv123__fundamental_type_infoE
+03CC  000094B0  _ZTIN10__cxxabiv123__fundamental_type_infoE
+03CD  000094C8  _ZTIv
+03CE  000094E0  _ZTIPv
+03CF  00009500  _ZTIPKv
+03D0  00009520  _ZTIDn
+03D1  00009530  _ZTIPDn
+03D2  00009550  _ZTIPKDn
+03D3  00009570  _ZTIb
+03D4  00009580  _ZTIPb
+03D5  000095A0  _ZTIPKb
+03D6  000095C0  _ZTIw
+03D7  000095D0  _ZTIPw
+03D8  000095F0  _ZTIPKw
+03D9  00009610  _ZTIc
+03DA  00009620  _ZTIPc
+03DB  00009640  _ZTIPKc
+03DC  00009660  _ZTIh
+03DD  00009670  _ZTIPh
+03DE  00009690  _ZTIPKh
+03DF  000096B0  _ZTIa
+03E0  000096C0  _ZTIPa
+03E1  000096E0  _ZTIPKa
+03E2  00009700  _ZTIs
+03E3  00009710  _ZTIPs
+03E4  00009730  _ZTIPKs
+03E5  00009750  _ZTIt
+03E6  00009760  _ZTIPt
+03E7  00009780  _ZTIPKt
+03E8  000097A0  _ZTIi
+03E9  000097B0  _ZTIPi
+03EA  000097D0  _ZTIPKi
+03EB  000097F0  _ZTIj
+03EC  00009800  _ZTIPj
+03ED  00009820  _ZTIPKj
+03EE  00009840  _ZTIl
+03EF  00009850  _ZTIPl
+03F0  00009870  _ZTIPKl
+03F1  00009890  _ZTIm
+03F2  000098A0  _ZTIPm
+03F3  000098C0  _ZTIPKm
+03F4  000098E0  _ZTIx
+03F5  000098F0  _ZTIPx
+03F6  00009910  _ZTIPKx
+03F7  00009930  _ZTIy
+03F8  00009940  _ZTIPy
+03F9  00009960  _ZTIPKy
+03FA  00009980  _ZTIn
+03FB  00009990  _ZTIPn
+03FC  000099B0  _ZTIPKn
+03FD  000099D0  _ZTIo
+03FE  000099E0  _ZTIPo
+03FF  00009A00  _ZTIPKo
+0400  00009A20  _ZTIDh
+0401  00009A30  _ZTIPDh
+0402  00009A50  _ZTIPKDh
+0403  00009A70  _ZTIf
+0404  00009A80  _ZTIPf
+0405  00009AA0  _ZTIPKf
+0406  00009AC0  _ZTId
+0407  00009AD0  _ZTIPd
+0408  00009AF0  _ZTIPKd
+0409  00009B10  _ZTIe
+040A  00009B20  _ZTIPe
+040B  00009B40  _ZTIPKe
+040C  00009B60  _ZTIg
+040D  00009B70  _ZTIPg
+040E  00009B90  _ZTIPKg
+040F  00009BB0  _ZTIDs
+0410  00009BC0  _ZTIPDs
+0411  00009BE0  _ZTIPKDs
+0412  00009C00  _ZTIDi
+0413  00009C10  _ZTIPDi
+0414  00009C30  _ZTIPKDi
+0415  00009C50  _ZTVN10__cxxabiv117__array_type_infoE
+0416  00009C90  _ZTIN10__cxxabiv117__array_type_infoE
+0417  00009CA8  _ZTVN10__cxxabiv120__function_type_infoE
+0418  00009CF0  _ZTIN10__cxxabiv120__function_type_infoE
+0419  00009D08  _ZTVN10__cxxabiv116__enum_type_infoE
+041A  00009D50  _ZTIN10__cxxabiv116__enum_type_infoE
+041B  00009D68  _ZTVN10__cxxabiv117__class_type_infoE
+041C  00009DC0  _ZTVN10__cxxabiv120__si_class_type_infoE
+041D  00009E18  _ZTVN10__cxxabiv121__vmi_class_type_infoE
+041E  00009E70  _ZTVN10__cxxabiv117__pbase_type_infoE
+041F  00009EB0  _ZTVN10__cxxabiv119__pointer_type_infoE
+0420  00009EF0  _ZTVN10__cxxabiv129__pointer_to_member_type_infoE
+0421  00009F30  _ZTIN10__cxxabiv129__pointer_to_member_type_infoE
+0422  00009F50  _ZTISt9type_info
+0423  00009F60  _ZTVSt8bad_cast
+0424  00009F88  _ZTVSt10bad_typeid
+0425  00009FB0  _ZTVSt9type_info
+0426  00009FD0  _ZTISt8bad_cast
+0427  00009FF0  _ZTISt10bad_typeid
+0428  0000A130  __pCPPdebugHook
+0429  00000010  _ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE
+042A  00000020  _ZGVNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE
+042B  00000030  _ZNSt8numpunctIcE2idE
+042C  00000040  _ZGVNSt8numpunctIcE2idE
+042D  00000050  _ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE
+042E  00000060  _ZGVNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE
+042F  00000070  _ZNSt7codecvtIcciE2idE
+0430  00000080  _ZGVNSt7codecvtIcciE2idE
+0431  00000090  _ZZNSt3pmr19new_delete_resourceEvE11_Myresource
+0432  000000A0  _ZGVZNSt3pmr19new_delete_resourceEvE11_Myresource
+0433  000000B0  _ZNSt9_FacetptrISt5ctypeIcEE6_PsaveE
+0434  000000C0  _ZZSt12_ImmortalizeISt24_Iostream_error_categoryERT_vE7_Static
+0435  000000D0  _ZGVZSt12_ImmortalizeISt24_Iostream_error_categoryERT_vE7_Static
+0436  000000E0  _ZNSt9_FacetptrISt5ctypeIwEE6_PsaveE
+0437  000000F0  _ZZNSt13basic_filebufIcSt11char_traitsIcEE5_InitEPSt4FILENS2_7_InitflEE7_Stinit
+0438  00000100  _ZNSt9_FacetptrISt7codecvtIcciEE6_PsaveE
+0439  00000128  _ZNSt8ios_base6_IndexE
+043A  0000012C  _ZSt4_Fpz
+043B  000002C8  _ZSt3cin
+043C  00000338  _ZSt4cout
+043D  00000438  _ZSt4cerr
+043E  000004A0  _ZSt4clog
+043F  00000538  _ZNSt6locale7_Locimp8_ClocptrE
+0440  00000540  _ZNSt6locale2id7_Id_cntE
+0441  00000548  _ZNSt5ctypeIcE2idE
+0442  00000550  _ZNSt5ctypeIwE2idE
+0443  00000558  _ZNSt7codecvtIwciE2idE
+0444  00000560  _ZNSt7codecvtIDsciE2idE
+0445  00000568  _ZNSt7codecvtIDiciE2idE
+0446  00000580  _ZSt14_Raise_handler
+0447  00000768  _ZSt4wcin
+0448  000007D8  _ZSt5wcout
+0449  00000840  _ZSt5wcerr
+044A  000008A8  _ZSt5wclog
+044B  00000910  _ZZNSt13basic_filebufIwSt11char_traitsIwEE5_InitEPSt4FILENS2_7_InitflEE7_Stinit
+044C  00000920  _ZNSt9_FacetptrISt7codecvtIwciEE6_PsaveE
+044D  000009B0  _borlndmm_GetMem
+044E  000009B8  _bormm_pfn_GetMem
+044F  000009C0  _bormm_pfn_FreeMem
+0450  000009C8  _bormm_pfn_ReallocMem
+0451  000009D0  _bormm_pfn_AllocMem
+0452  000009D8  _bormm_pfn_HeapAddRef
+0453  000009E0  _bormm_pfn_HeapRelease
+0454  000009F0  releaseHeap
+0455  00000DE0  _ZN6System13ExceptObjProcE
+0456  00000DF0  _fileinfo
+0457  00000E00  _pidtab
+0458  00001600  _handles
+0459  00001E00  _doserrno
+045A  00001E3E  _tmpnum
+045B  00001E40  __localeLock
+045C  00001E50  _turboFloat
+045D  00001E54  _floatconvert
+045E  00001E60  _mbctype
+045F  00001F64  _mbcsCodePage
+0460  00002090  errno
+0461  000020A0  _messagefunc
+0462  000020A8  _messagefile
+0463  000020B0  _dbk_fcall_wrapper_addr
+0464  0000A0D0  _cmdline_escapes
+0465  0000A0F0  _setenvp__
+0466  0000A100  _environ
+0467  0000A108  _envsize
+0468  0000A110  _env_lock
+0469  0000A120  __Handler
+046A  0000A180  _osenv
+046B  0000A188  _wosenv
+046C  0000A190  _oscmd
+046D  0000A198  _woscmd
+046E  0000A1A0  _argc
+046F  0000A1A4  _C0argc
+0470  0000A1A8  _C0argv
+0471  0000A1B0  _C0environ
+0472  0000A1B8  _wC0argv
+0473  0000A1C0  _wC0environ
+0474  0000A1C8  _dll_table
+0475  0000A1D8  _exe_table
+0476  0000A1E8  _stkbase
+0477  0000A210  __TLS_index
+0478  0000A270  __CPPdebugHook
+0479  0000A598  __seh_filter
+047A  0000A5A0  __seh_handler
+047B  0000A5B0  _ZZN6ms_api6detail17exception_handler5startEvE26current_inflight_exception
+
+

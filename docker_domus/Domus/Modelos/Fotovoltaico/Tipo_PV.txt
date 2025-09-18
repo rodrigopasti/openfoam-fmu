@@ -1,0 +1,21 @@
+[Numero de Tipos = 5]
+
+{[Mono-Si]
+[NOCT = 45]
+[Beta = 0.40]}
+
+{[Poly-Si]
+[NOCT = 45]
+[Beta = 0.40]}
+
+{[a-Si]
+[NOCT = 50]
+[Beta = 0.11]}
+
+{[CdTe]
+[NOCT = 46]
+[Beta = 0.24]}
+
+{[CIS]
+[NOCT = 47]
+[Beta = 0.46]}

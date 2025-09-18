@@ -1,0 +1,333 @@
+[Cidades Classificadas Conforme Zona Bioclimática][Num_Reg = 331]
+[Estado	Cidade	Metodo	Zona]
+AC	[Cruzeiro do Sul]	FJK	8
+AC	[Rio Branco]	FIJK	8
+AC	[Tarauacá]	FJK	8
+AL	[Água Branca]	CFI	5
+AL	[Anadia]	FIJ	8
+AL	[Coruripe]	FIJ	8
+AL	[Maceió]	FI	8
+AL	[Palmeira dos Índios]	FIJ	8
+AL	[Pão de Açucar]	FIJK	8
+AL	[Pilar]	FIJ	8
+AL	[Porto de Pedras]	FIJ	8
+AM	[Barcelos]	FJK	8
+AM	[Coari]	FJK	8
+AM	[Fonte Boa]	FJK	8
+AM	[Humaitá]	FIJK	8
+AM	[Iaurete]	FJK	8
+AM	[Itacoatiara]	FJK	8
+AM	[Manaus]	FJK	8
+AM	[Parintins]	JK	8
+AM	[Taracua]	FJK	8
+AM	[Tefé]	FJK	8
+AM	[Uaupes]	FJK	8
+AP	[Macapá]	FJK	8
+BA	[Alagoinhas]	FIJ	8
+BA	[Barra do Rio Grande]	CDFHI	6
+BA	[Barreiras]	DFHIJ	7
+BA	[Bom Jesus da Lapa]	CDFHI	6
+BA	[Caetité]	CDFI	6
+BA	[Camaçari]	FIJ	8
+BA	[Canavieiras]	FIJ	8
+BA	[Caravelas]	FIJ	8
+BA	[Carinhanha]	CDFHI	6
+BA	[Cipó]	FIJK	8
+BA	[Correntina]	CFHIJ	6
+BA	[Guaratinga]	FIJ	8
+BA	[Ibipetuba]	CFHIJ	6
+BA	[Ilhéus]	FIJ	8
+BA	[Irecê]	CDFHI	6
+BA	[Itaberaba]	FI	8
+BA	[Itiruçu]	CFI	5
+BA	[Ituaçu]	CDFHI	6
+BA	[Jacobina]	FI	8
+BA	[Lençóis]	FIJ	8
+BA	[Monte Santo]	CFHI	6
+BA	[Morro do Chapéu]	CFI	5
+BA	[Paratinga]	FHIJK	7
+BA	[Paulo Afonso]	FHIJK	7
+BA	[Remanso]	DFHI	7
+BA	[Salvador (Ondina)]	FIJ	8
+BA	[Santa Rita de Cássia]	CFHIJ	6
+BA	[São Francisco Conde]	FIJ	8
+BA	[São Gonçalo dos Campos]	FIJ	8
+BA	[Senhor do Bonfim]	FHI	7
+BA	[Serrinha]	FIJ	8
+BA	[Vitória da Conquista]	CFI	5
+CE	[Barbalha]	DFHIJ	7
+CE	[Campos Sales]	DFHIJ	7
+CE	[Crateús]	DFHIJ	7
+CE	[Fortaleza]	FIJ	8
+CE	[Guaramiranga]	CFI	5
+CE	[Iguatu]	DFHIJ	7
+CE	[Jaguaruana]	FIJK	8
+CE	[Mondibim]	FIJ	8
+CE	[Morada Nova]	FHIJK	7
+CE	[Quixadá]	FHIJK	7
+CE	[Quixeramobim]	FHIJK	7
+CE	[Sobral]	FHIJK	7
+CE	[Tauá]	DFHIJ	7
+DF	[Brasília]	BCDFI	4
+ES	[Cachoeiro de Itapemirim]	FIJK	8
+ES	[Conceição da Barra]	FIJ	8
+ES	[Linhares]	FIJ	8
+ES	[São Mateus]	FIJ	8
+ES	[Vitória]	FIJ	8
+GO	[Aragarças]	CFHIJ	6
+GO	[Catalão]	CDFHI	6
+GO	[Formosa]	CDFHI	6
+GO	[Goiânia]	CDFHI	6
+GO	[Goiás]	FHIJ	7
+GO	[Ipamerí]	BCDFI	4
+GO	[Luziânia]	BCDFI	4
+GO	[Pirenópolis]	CDFHI	6
+GO	[Posse]	CDFHI	6
+GO	[Rio Verde]	CDFHI	6
+MA	[Barra do Corda]	FHIJK	7
+MA	[Carolina]	FHIJ	7
+MA	[Caxias]	FHIJK	7
+MA	[Coroatá]	FIJK	8
+MA	[Grajaú]	FHIJK	7
+MA	[Imperatriz]	FHIJK	7
+MA	[São Bento]	FIJK	8
+MA	[São Luiz]	JK	8
+MA	[Turiaçu]	FIJ	8
+MA	[Zé Doca]	FIJK	8
+MG	[Aimorés]	CFIJK	5
+MG	[Araçuai]	CFIJ	5
+MG	[Araxá]	BCFI	3
+MG	[Bambuí]	BCFIJ	3
+MG	[Barbacena]	BCFI	3
+MG	[Belo Horizonte]	BCFI	3
+MG	[Caparaó]	ABCFI	2
+MG	[Capinópolis]	CFIJ	5
+MG	[Caratinga]	BCFI	3
+MG	[Cataguases]	CFIJ	5
+MG	[Conceição do Mato Dentro]	BCFI	3
+MG	[Coronel Pacheco]	BCFIJ	3
+MG	[Curvelo]	BCFIJ	3
+MG	[Diamantina]	BCFI	3
+MG	[Espinosa]	CDFHI	6
+MG	[Frutal]	CFHIJ	6
+MG	[Governador Valadares]	CFIJ	5
+MG	[Grão Mogol]	BCFI	3
+MG	[Ibirité]	ABCFI	2
+MG	[Itabira]	BCFI	3
+MG	[Itajubá]	ABCFI	2
+MG	[Itamarandiba]	BCFI	3
+MG	[Januária]	CFHIJ	6
+MG	[João Pinheiro]	CDFHI	6
+MG	[Juiz de Fora]	BCFI	3
+MG	[Lavras]	BCFI	3
+MG	[Leopoldina]	CFIJ	5
+MG	[Machado]	ABCFI	2
+MG	[Monte Alegre de Minas]	BCFIJ	3
+MG	[Monte Azul]	DFHI	7
+MG	[Montes Claros]	CDFHI	6
+MG	[Muriaé]	BCFIJ	3
+MG	[Oliveira]	BCDFI	4
+MG	[Paracatu]	CFHIJ	6
+MG	[Passa Quatro]	ABCFI	2
+MG	[Patos de Minas]	BCDFI	4
+MG	[Pedra Azul]	CFI	5
+MG	[Pirapora]	BCFHI	4
+MG	[Pitangui]	BCFHI	4
+MG	[Poços de Calda]	ABCF	1
+MG	[Pompeu]	BCFIJ	3
+MG	[Santos Dumont]	BCFI	3
+MG	[São Francisco]	CFHIJ	6
+MG	[São João Del Rei]	ABCFI	2
+MG	[São João Evangelista]	BCFIJ	3
+MG	[São Lourenço]	ABCFI	2
+MG	[Sete Lagoas]	BCDFI	4
+MG	[Teófilo Otoni]	CFIJ	5
+MG	[Três Corações]	ABCFI	2
+MG	[Ubá]	BCFIJ	3
+MG	[Uberaba]	BCFIJ	3
+MG	[Viçosa]	BCFIJ	3
+MS	[Aquidauana]	CFIJK	5
+MS	[Campo Grande]	CFHIJ	6
+MS	[Corumbá]	FIJK	8
+MS	[Coxim]	CFHIJ	6
+MS	[Dourados]	BCFIJ	3
+MS	[Ivinhema]	CFIJK	5
+MS	[Paranaíba]	CFHIJ	6
+MS	[Ponta Porã]	BCFI	3
+MS	[Três Lagoas]	CFHIJ	6
+MT	[Cáceres]	FIJK	8
+MT	[Cidade Vera]	CFIJK	5
+MT	[Cuiabá]	FHIJK	7
+MT	[Diamantino]	FHIJK	7
+MT	[Meruri]	CFHIJ	6
+MT	[Presidente Murtinho]	BCFIJ	3
+PA	[Altamira]	FJK	8
+PA	[Alto Tapajós]	FJK	8
+PA	[Belém]	FJK	8
+PA	[Belterra]	FJK	8
+PA	[Breves]	FJK	8
+PA	[Conceição do Araguaia]	FIJK	8
+PA	[Itaituba]	FJK	8
+PA	[Marabá]	FJK	8
+PA	[Monte Alegre]	FIJ	8
+PA	[Óbidos]	FJK	8
+PA	[Porto de Moz]	FJK	8
+PA	[Santarém (Taperinha)]	FJK	8
+PA	[São Félix do Xingú]	FIJK	8
+PA	[Soure]	JK	8
+PA	[Tiriós]	FIJ	8
+PA	[Tracuateua]	FIJK	8
+PA	[Tucuruí]	FJK	8
+PB	[Areia]	FIJ	8
+PB	[Bananeiras]	FIJ	8
+PB	[Campina Grande]	FIJ	8
+PB	[Guarabira]	FIJK	8
+PB	[João Pessoa]	FIJ	8
+PB	[Monteiro]	CFHI	6
+PB	[São Gonçalo]	FHIJK	7
+PB	[Umbuzeiro]	FI	8
+PE	[Arco Verde]	FHI	7
+PE	[Barreiros]	FJK	8
+PE	[Cabrobó]	DFHI	7
+PE	[Correntes]	FIJ	8
+PE	[Fernando de Noronha]	FIJ	8
+PE	[Floresta]	FHIK	7
+PE	[Garanhuns]	CFI	5
+PE	[Goiana]	FIJ	8
+PE	[Nazaré da Mata]	FIJ	8
+PE	[Pesqueira]	FI	8
+PE	[Petrolina]	DFHI	7
+PE	[Recife]	FIJ	8
+PE	[São Caetano]	FIJ	8
+PE	[Surubim]	FIJ	8
+PE	[Tapera]	FIJ	8
+PE	[Triunfo]	CFHI	6
+PI	[Bom Jesus do Piauí]	DFHIJ	7
+PI	[Floriano]	FHIJK	7
+PI	[Parnaíba]	FIJ	8
+PI	[Paulistana]	DFHIJ	7
+PI	[Picos]	DFHIJ	7
+PI	[Teresina]	FHIJK	7
+PR	[Campo Mourão]	BCFI	3
+PR	[Castro]	ABCF	1
+PR	[Curitiba]	ABCF	1
+PR	[Foz do Iguaçu]	BCFIJ	3
+PR	[Guaíra]	BCFIJ	3
+PR	[Guarapuava]	ABCF	1
+PR	[Ivaí]	ABCFI	2
+PR	[Jacarezinho]	BCFIJ	3
+PR	[Jaguariaiva]	ABCFI	2
+PR	[Londrina]	BCFI	3
+PR	[Maringá]	ABCD	1
+PR	[Palmas]	ABCF	1
+PR	[Paranaguá]	BCFIJ	3
+PR	[Ponta Grossa]	ABCFI	2
+PR	[Rio Negro]	ABCFI	2
+RJ	[Angra dos Reis]	FIJ	8
+RJ	[Barra do Itabapoana]	CFIJ	5
+RJ	[Cabo Frio]	FIJ	8
+RJ	[Campos]	CFIJ	5
+RJ	[Carmo]	BCFIJ	3
+RJ	[Cordeiro]	BCFIJ	3
+RJ	[Escola Agrícola]	CFIJ	5
+RJ	[Ilha Guaíba]	FIJ	8
+RJ	[Itaperuna]	CFIJ	5
+RJ	[Macaé]	CFIJ	5
+RJ	[Niterói]	CFIJ	5
+RJ	[Nova Friburgo]	ABCFI	2
+RJ	[Petrópolis]	BCF	3
+RJ	[Piraí]	BCFIJ	3
+RJ	[Rezende]	BCFIJ	3
+RJ	[Rio de Janeiro]	FIJ	8
+RJ	[Rio Douro]	CFIJ	5
+RJ	[Teresópolis]	ABCFI	2
+RJ	[Vassouras]	BCFIJ	3
+RJ	[Xerém]	CFIJ	5
+RN	[Apodí]	FIJK	8
+RN	[Ceará Mirim]	FIJ	8
+RN	[Cruzeta]	FHIJK	7
+RN	[Florania]	FHIJ	7
+RN	[Macaiba]	FIJ	8
+RN	[Macau]	FIJ	8
+RN	[Mossoró]	FHIJK	7
+RN	[Natal]	FIJ	8
+RN	[Nova Cruz]	FIJ	8
+RO	[Porto Velho]	FIJK	8
+RS	[Alegrete]	ABCFI	2
+RS	[Bagé]	ABCFI	2
+RS	[Bom Jesus]	ABCF	1
+RS	[Caxias do Sul]	ABCF	1
+RS	[Cruz Alta]	ABCFI	2
+RS	[Encruzilhada do Sul]	ABCFI	2
+RS	[Iraí]	BCFIJ	3
+RS	[Passo Fundo]	ABCFI	2
+RS	[Pelotas]	ABCFI	2
+RS	[Porto Alegre]	BCFI	3
+RS	[Rio Grande]	BCFI	3
+RS	[Santa Maria]	ABCFI	2
+RS	[Santa Vitória do Palmar]	ABCFI	2
+RS	[São Francisco de Paula]	ABCF	1
+RS	[São Luiz Gonzaga]	ABCFI	2
+RS	[Torres]	BCFI	3
+RS	[Uruguaiana]	ABCFI	2
+SC	[Araranguá]	ABCFI	2
+SC	[Camboriu]	BCFIJ	3
+SC	[Chapecó]	BCFI	3
+SC	[Florianópolis]	BCFIJ	3
+SC	[Indaial]	BCFIJ	3
+SC	[Lages]	ABCF	1
+SC	[Laguna]	ABCFI	2
+SC	[Porto União]	ABCFI	2
+SC	[São Francisco do Sul]	CFIJ	5
+SC	[São Joaquim]	ABCF	1
+SC	[Urussanga]	ABCFI	2
+SC	[Valões]	ABCFI	2
+SC	[Xanxerê]	ABCFI	2
+SE	[Aracajú]	FIJ	8
+SE	[Itabaianinha]	FIJ	8
+SE	[Propriá]	FIJK	8
+SP	[Andradina]	CFHIJ	6
+SP	[Araçatuba]	CFIJK	5
+SP	[Avaré]	BCFIJ	3
+SP	[Bandeirantes]	BCFI	3
+SP	[Bariri]	BCFI	3
+SP	[Barra Bonita]	BCFI	3
+SP	[Campinas]	BCFI	3
+SP	[Campos do Jordão]	ABCF	1
+SP	[Casa Grande]	ABCFI	2
+SP	[Catanduva]	CFHIJ	6
+SP	[Franca]	BCDF	4
+SP	[Graminha]	BCFI	3
+SP	[Ibitinga]	BCFIJ	3
+SP	[Iguape]	CFIJ	5
+SP	[Itapeva]	ABCFI	2
+SP	[Jau]	BCDFI	4
+SP	[Juquiá]	CFIJ	5
+SP	[Jurumirim]	BCFI	3
+SP	[Limeira]	BCDFI	4
+SP	[Limoeiro]	BCDFI	4
+SP	[Mococa]	BCDFI	4
+SP	[Mogi Guaçu (Campininha)]	BCFIJ	3
+SP	[Paraguaçu Paulista]	CDFI	6
+SP	[Pindamonhangaba]	BCFIJ	3
+SP	[Pindorama]	CDFHI	6
+SP	[Piracicaba]	ABCFI	2
+SP	[Presidente Prudente]	CDFHI	6
+SP	[Ribeirão das Antas]	BCFI	3
+SP	[Ribeirão Preto]	BCDFI	4
+SP	[Salto Grande]	BCFIJ	3
+SP	[Santos]	CFIJ	5
+SP	[São Carlos]	BCDFI	4
+SP	[São Paulo]	BCFI	3
+SP	[São Simão]	BCDFI	4
+SP	[Sorocaba]	BCFI	3
+SP	[Tietê]	BCFI	3
+SP	[Tremembé]	BCFI	3
+SP	[Ubatuba]	BCFIJ	3
+SP	[Viracopos]	BCDFI	4
+SP	[Votuporanga]	CDFHI	6
+TO	[Paranã]	CFHIJ	6
+TO	[Peixe]	FHIJK	7
+TO	[Porto Nacional]	FHIJK	7
+TO	[Taguatinga]	DFHIJ	7
+SC	[SALVADOR]	TESTE	1

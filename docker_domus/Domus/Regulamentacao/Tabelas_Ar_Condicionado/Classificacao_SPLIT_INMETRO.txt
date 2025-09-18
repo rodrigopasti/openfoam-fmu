@@ -1,0 +1,7 @@
+[Num Linhas = 5]
+[{ACJ/Split}	{TIPO Cond.}	{COP MIN}	{COP MAX}	{AQUECIMENTO}	{NADA}		{CLASS}		{Proc. Teste}		{Fonte}]
+1		0		3.2		100		3		0		A		[INMETRO]		[INMETRO - 2/12/2010]
+1		0		3		3.2		3		0		B		[INMETRO]		[INMETRO - 2/12/2010]
+1		0		2.8		3		3		0		C		[INMETRO]		[INMETRO - 2/12/2010]
+1		0		2.6		2.8		3		0		D		[INMETRO]		[INMETRO - 2/12/2010]
+1		0		2.39		2.6		3		0		E		[INMETRO]		[INMETRO - 2/12/2010]

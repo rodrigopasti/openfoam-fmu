@@ -1,0 +1,53 @@
+*TODOS OS DADOS SEPARADOS POR APENAS UM TAB "/T"
+
+*Para a tabela 5.6 (Eficiencia_torres_e_condensadores.txt)
+[TIPO]	= TIPO DE EQUIPAMENTO
+  0 	- Torres de resfriamento com ventiladores helicoidais ou axiais de Circuito Aberto
+  1	- Torres de resfriamento com ventiladores centrífugos de Circuito Aberto
+  2	- Torres de resfriamento com ventiladores helicoidais ou axiais de Circuito Fechado
+  3	- Torres de resfriamento com ventiladores centrífugos de Circuito Fechado
+  4	- Condensadores resfriados a ar
+[AGUA NA ENTRADA] = Temperatura da água na entrada
+[AGUA NA SAIDA]   = Temperatura da água na saída
+[TBU AR ENTRADA]  = TBU do ar na entrada
+[DESEMPENHO]	  = Desempenho requirido
+
+**Nota que para o tipo 4.
+Este tem 5 dados diferentes...
+[AGUA NA ENTRADA]
+[AGUA NA SAIDA] 
+[TBU AR ENTRADA]
+Estes não fazem parte para este tipo, e sim:
+Temperatura de condensação
+Temperatura de entrada do gás
+Sub-resfriamento
+TBS na entrada
+
+*Para tabelas 5.4, 5.7 e 5.9 (Eficiencia_Split_unitario.txt)
+[Tipo Equipamento]
+0	= ACJ
+1	= SPLIT
+2	= ACJ/SPLIT
+
+[Tipo Condensador]
+0	= Condicionadores de ar resfriados a ar
+1	= Condicionadores de ar resfriados a água
+
+[Aquecimento] 
+0	= Nenhum
+1	= Outros
+2	= Resis. Elétrica
+3	= Todos
+
+
+*Para as tabelas 5.5, 5.8 (Resfriadores de Líquido)
+[Tipo]
+0 -Condensação a ar, com condensador
+1 -Condensação a ar, sem condensador
+2 -Condensação a água (compressor alternativo)
+3 -Condensação a água (compressor do tipo parafuso e scroll)
+4 -Condensação a água (compressor centrífugo)
+5 -Absorção a ar, de simples efeito
+6 -Absorção a água, de simples efeito
+7 -Absorção a água, de duplo efeito e acionamento indireto
+8 -Absorção a água, de duplo efeito e acionamento direto

@@ -1,0 +1,21 @@
+[Numero de Fabricantes = 3]
+
+{[BP Solar]
+[Numero de Modelos = 5]
+[AC Power Wall][10.4	220	1.120	1.890]
+[BP 3150 S][11.6	150	0.790	1.596]
+[BP 3160 S][12.7	160	0.790	1.596]
+[BP 340 J][11.44	40	0.537	0.655]
+[BP 350 J][11.10	50	0.537	0.839]
+}
+
+{[Canadian Solar]
+[Numero de Modelos = 2]
+[CS4A-150P][13.1	150	0.979	1.312]
+[CS4A-155P][13.5	155	0.979	1.312]
+}
+
+{[Evergreen Solar]
+[Numero de Modelos = 1]
+[E-28][6.9	28	0.353	1.143]
+}

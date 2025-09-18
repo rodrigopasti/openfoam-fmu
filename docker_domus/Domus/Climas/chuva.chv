@@ -1,0 +1,4 @@
+[Numero de Intervalos = 3]
+{[Data = 01/01][Hora_Ini = 08:00][Hora_Fim = 09:00][Intensidade = 1]}
+{[Data = 05/01][Hora_Ini = 13:22][Hora_Fim = 14:11][Intensidade = 2]}
+{[Data = 11/01][Hora_Ini = 18:05][Hora_Fim = 19:50][Intensidade = 1]}

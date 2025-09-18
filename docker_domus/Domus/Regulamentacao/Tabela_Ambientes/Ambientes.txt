@@ -1,0 +1,77 @@
+[Tipos de Ambiente = 74]
+
+[Nome	K_limite	DPI_A	DPI_B	DPI_C	DPI_D	RCR]
+[Armazém (material pequeno/leve)]	0.80	10.20	12.24	14.28	16.32	6
+[Armazém (médio/volumoso)]	01.20	06.20	07.44	08.86	09.92	4
+[Átrio (até 12.20 m de altura)]	0.00	0.3	0.36	0.42	13.6	0
+[Átrio (acima de 12.20 m de altura)]	0.0	0.2	0.24	0.28	14.08	0
+[Auditorio]	0.8	8.5	10.2	11.9	13.6	6.0
+[Centro de Conveções]	1.2	8.8	10.56	12.32	14.8	4.0
+[Cinema]	1.2	5.0	6.0	7.0	8.0	4.0
+[Teatro]	0.6	26.2	31.44	36.68	41.92	8.0
+[Banco/Escritorio - Área de atividades bancárias]	0.8	14.9	17.88	20.86	23.84	6.0
+[Banheiro]	0.6	5.0	6.0	7.0	8.0	8.0
+[Biblioteca (Área de arquivamento)]	1.2	7.8	9.36	10.92	12.48	4.0
+[Biblioteca (Área de leitura)]	1.2	10	12	14	16	4.0
+[Biblioteca (Área de estantes)]	1.2	18.4	22.08	25.76	29.44	4.0
+[Casa de máquinas]	0.8	6	7.2	8.4	9.6	6.0
+[Centro de convenções (espaço de exibição)]	1.2	15.6	18.72	21.84	24.96	6.0
+[Circulaçao]	2.4	7.1	8.52	9.94	11.36	2.4
+[Comércio (Área de vendas)]	0.8	18.1	21.72	25.34	28.96	6.0
+[Comércio (pátio de área comercial)]	1.2	11.8	14.16	16.52	18.88	4.0
+[Comércio (provador)]	0.6	10.20	12.24	14.28	16.32	8.0
+[Cozinhas]	0.8	10.7	12.84	14.98	17.12	6.0
+[Depósitos]	0.8	5.0	6.0	7.0	8.0	6.0
+[Dormitório - alojamentos]	0.6	4.1	4.92	5.74	6.56	8.0
+[Escadas]	0.6	7.4	8.8	10.36	11.84	10.0
+[Escritório]	0.6	11.9	14.28	16.66	19.04	8.0
+[Escritório - planta livre]	1.2	10.50	12.60	14.7	16.8	4.0
+[Garagem]	1.2	2	2.4	2.8	3.2	4.0
+[Ginásio/academia (área de ginástica)]	1.2	7.8	9.36	10.92	12.48	4.0
+[Ginásio/academia (arquibancada)]	1.2	7.5	9.0	10.50	13.0	4.0
+[Ginásio/academia (esportes de ringue)]	1.2	28.8	34.56	40.32	46.08	4.0
+[Ginásio/academia (quadra de esportes - classe 4)]	1.2	7.8	9.36	10.92	12.48	4.0
+[Ginásio/academia (quadra de esportes - classe 3)]	1.2	12.9	15.48	18.06	20.64	4.0
+[Ginásio/academia (quadra de esportes - classe 3)]	1.2	20.7	24.84	28.98	33.12	4.0
+[Ginásio/academia (quadra de esportes - classe 3)]	1.2	32.4	38.8	45.36	51.84	4.0
+[Hall de Entrada - Vestíbulo]	1.2	8.0	9.6	11.20	12.80	4.0
+[Hall de Entrada - cinemas]	1.2	8.0	9.6	11.20	12.80	4.0
+[Hall de Entrada - Hotel]	1.2	8.0	9.6	11.20	12.80	4.0
+[Hall de Entrada - Salas de Espetáculos]	0.8	8.0	9.6	11.20	12.80	6.0
+[Hospital (circulação)]	2.4	9.6	11.52	13.44	15.36	2.4
+[Hospital (emergência)]	0.8	24.3	29.16	34.02	38.88	6.0
+[Hospital (enfermaria)]	0.6	9.5	11.4	13.3	15.2	6.0
+[Hospital (exames/tratamento)]	0.8	17.9	21.48	25.06	28.64	8.0
+[Hospital (farmácia)]	0.8	12.3	14.76	17.22	19.68	6.0
+[Hospital (fisioterapia)]	0.8	9.8	11.76	13.72	15.68	6.0
+[Hospital (sala de espera. estar)]	0.8	11.5	13.8	16.1	18.4	6.0
+[Hospital (radiologia)]	0.8	14.2	17.04	19.88	22.72	6.0
+[Hospital (recuperação)]	0.8	12.4	14.88	17.36	19.84	6.0
+[Hospital (sala de enfermeiros)]	0.8	9.4	11.28	13.16	15.04	6.0
+[Hospital (sala de operação)]	0.8	20.3	24.36	28.42	32.48	6.0
+[Hospital (quarto de pacientes)]	0.8	6.7	8.04	9.38	10.72	6.0
+[Hospital (suprimentos médicos)]	0.8	13.7	16.44	19.18	21.92	6.0
+[Igreja. templo (assentos)]	1.2	16.5	19.8	23.1	26.4	4.0
+[Igreja. templo (coro)]	1.2	16.5	19.8	23.1	26.4	4.0
+[Igreja. templo (sala de comunhão - nave)]	1.2	6.9	8.28	9.66	11.04	4.0
+[Laboratórios (para salas de aula)]	0.8	10.20	12.24	14.28	16.32	6.0
+[Laboratórios (médico/industrial/pesquisa)]	0.8	19.5	23.4	27.3	31.2	6.0
+[Lavandeira]	1.2	6.5	7.8	9.1	10.4	4.0
+[Museu (restauração)]	0.8	11	13.2	15.4	17.6	6.0
+[Museu (sala de exibição)]	0.8	11.3	13.56	15.82	18.08	6.0
+[Oficina - seminário. cursos]	0.8	17.1	20.52	23.94	27.36	6.0
+[Oficina mecânica]	1.2	6.0	7.2	8.4	9.6	4.0
+[Quartos de Hotel]	0.8	7.5	9.0	10.5	13.0	6.0
+[Refeitório]	0.8	11.5	13.8	16.1	18.4	6.0
+[Restaurante - salão]	1.2	9.6	11.52	13.44	15.36	4.0
+[Restaurante (Hotel)]	1.2	8.8	10.56	12.32	14.08	4.0
+[Restaurante (Lanchonete/café)]	1.2	7	8.4	9.8	11.2	4.0
+[Restaurante (bar/lazer)]	1.2	14.1	16.92	19.74	22.56	4.0
+[Sala de aula. treinamento]	1.2	10.2	12.24	14.28	16.32	4.0
+[Sala de espera. convivência]	1.2	6.0	7.2	8.4	9.6	4.0
+[Sala de reuniões. conferência. multiuso]	0.8	11.9	14.28	16.66	19.04	6.0
+[Vestiário]	0.8	8.1	9.72	11.34	12.96
+[Transportes (área de bagagem)]	1.2	7.5	9.0	10.5	12.0	4.0
+[Transportes (aeroporto - pátio)]	1.2	3.9	4.68	5.46	6.24	4.0
+[Transportes (assentos - espera)]	1.2	5.8	6.96	8.12	9.28	4.0
+[Transportes (terminal - bilheteria)]	1.2	11.6	13.92	16.24	18.56	4.0

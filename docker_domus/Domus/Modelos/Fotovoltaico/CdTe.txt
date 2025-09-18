@@ -1,0 +1,11 @@
+[Numero de Fabricantes = 2]
+
+{[BP Solar]
+[Numero de Modelos = 1]
+[BP Apollo 980][8.6	80	0.783	1.549]
+}
+
+{[First Solar]
+[Numero de Modelos = 1]
+[One Product][6.9	50	0.600	1.2]
+}
